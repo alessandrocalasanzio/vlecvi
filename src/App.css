@@ -31,7 +31,7 @@
 }
 @media screen and (max-width: 600px) {
   .logoload {
-    margin-top: 20% !important;
+    margin-top: 50% !important;
     margin-right: auto !important;
     margin-left: auto !important;
     width: 250px !important;
@@ -209,7 +209,9 @@ body {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("./img/LogoVlecvi.png");
+  background-image: url("./img/LogoVlecviRifatto.png");
+  width: 80px;
+  height: 70px;
 }
 
 .navbar-toggler {

@@ -333,9 +333,21 @@ span {
   border-left: 2px solid black;
   cursor: pointer;
 }
+.bordoColonnaContattiimg {
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  cursor: pointer;
+}
+@media screen and (max-width: 650px){
+  .bordoColonnaContattiimg {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    cursor: pointer;
+  }
+}
 
 .bordoColonna:hover {
-
   background-color: black;
   color: white !important;
 }
@@ -875,6 +887,16 @@ h3:active.buttone {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 800;
   margin: 15px 50px 0px 50px !important;
+}
+.testoprogetti {
+  border-bottom: 2px solid black;
+  font-size: 1.2em;
+  text-align: center;
+  position: relative;
+  columns: black;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 800;
+  margin-top: 15px!important;
 }
 .testoBlog {
   font-size: 1.2em;

@@ -20,7 +20,7 @@ const Bio = () => {
 
       <Container fluid  className='noBarra no-gutters noOver'>
       <Row>
-       <Col  id="ColHover" className="bordoColonna" md={1}  >
+       <Col  id="ColHover" className="bordoColonnaContattiimg" md={1}  >
           <div>
        <img class="resizeImg" src={office}/>
           </div>

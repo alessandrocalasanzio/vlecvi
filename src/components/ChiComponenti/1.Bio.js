@@ -48,6 +48,12 @@ const Bio = () => {
 
 <p>Cosa dire di me? Sono un (ormai) trentenne con una, non ancora quantificata, passione per la matematica e l'informatica. Appassionato di numeri e tutto ciò che è "informatico" fin da giovane, tanto da conseguire sia il diploma in ragioneria sia quello in ambito informatico.</p>
 
+<p>Attualmente, la mia vita si articola in tre sfere distintive:</p>
+
+  <p>- Lavoro come contabile per uno noto studio di Milano</p>
+  <p>- Sono il social media manager dei vari ristoranti:<br/> "Da Giannino- L'Angolo d'Abruzzo".</p>
+  <p>- E nel mio tempo libero, studio e creo progetti in ambito informatico.(Principalemente progetti personali)</p>
+
 <p>Ma la mia vita non è solo codice e calcoli, e per fortuna, non tutto riguarda il lavoro. Sono un amante dell'arte digitale, che spazia tra film, serie TV, videogiochi e podcast. Tutto questo mi permette di vedere il mondo da prospettive diverse. Sul sito, troverete una vetrina dedicata alle liste, di ciò che ho guardato e di cosa invece vorrei guardare.</p>
 
 <p>Ci sarà uno spazio dedicato anche al blog, dove condividerò articoli e informazioni che ho raccolto durante il mio percorso, offrendo il mio contributo a chiunque desideri esplorare questi argomenti.</p>

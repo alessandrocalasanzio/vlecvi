@@ -31,8 +31,7 @@
 }
 @media screen and (max-width: 600px) {
   .logoload {
-    margin-top: auto !important;
-    margin-bottom: auto !important;
+    margin-top: 20% !important;
     margin-right: auto !important;
     margin-left: auto !important;
     width: 250px !important;
@@ -229,6 +228,7 @@ body {
   font-size: 5.0em;
   color: rgba(14, 172, 126, );
   /*TESTO AZZURRO DELLO SPAN*/
+  width: 500px;
 }
 
 .ml11-posizione {
@@ -248,7 +248,9 @@ span {
 
 @media screen and (max-width: 800px) {
   .ml11 {
-    font-size: 4em;
+    font-size: 3.5em;
+    width: 350px;
+    word-wrap: break-word;
 
   }
 
@@ -261,7 +263,9 @@ span {
 
 @media screen and (max-width: 600px) {
   .ml11 {
-    font-size: 3em;
+    font-size: 2.5em;
+    width: 275px;
+
   }
 
   span {
@@ -273,7 +277,9 @@ span {
 
 @media screen and (max-width: 305px) {
   .ml11 {
-    font-size: 2em;
+    font-size: 1.5em;
+    width: 200px;
+
   }
 
   span {

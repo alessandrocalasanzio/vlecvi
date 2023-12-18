@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fc750da.css",
-    "main.js": "/static/js/main.2c548a00.js",
+    "main.css": "/static/css/main.d4ef0dd7.css",
+    "main.js": "/static/js/main.e72f6452.js",
     "static/js/787.dfaf28dc.chunk.js": "/static/js/787.dfaf28dc.chunk.js",
     "static/media/Foresta.jpg": "/static/media/Foresta.d4ce27bd926c3ef7a37f.jpg",
     "static/media/AlberiForesta.jpg": "/static/media/AlberiForesta.b495e8645153f73b4861.jpg",
@@ -85,12 +85,12 @@
     "static/media/logo1.png": "/static/media/logo1.9c987e9169e882731bc0.png",
     "static/media/netflix.jpg": "/static/media/netflix.3653022d9096b4a6f62a.jpg",
     "index.html": "/index.html",
-    "main.4fc750da.css.map": "/static/css/main.4fc750da.css.map",
-    "main.2c548a00.js.map": "/static/js/main.2c548a00.js.map",
+    "main.d4ef0dd7.css.map": "/static/css/main.d4ef0dd7.css.map",
+    "main.e72f6452.js.map": "/static/js/main.e72f6452.js.map",
     "787.dfaf28dc.chunk.js.map": "/static/js/787.dfaf28dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fc750da.css",
-    "static/js/main.2c548a00.js"
+    "static/css/main.d4ef0dd7.css",
+    "static/js/main.e72f6452.js"
   ]
 }

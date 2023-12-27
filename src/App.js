@@ -35,6 +35,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import Cookies from 'js-cookie';
+import Musica from "./components/Musica.js";
 
 
 
@@ -90,6 +91,7 @@ function App() {
         <Route path="/portorecanati" element={<PortoRecanati />}></Route>
         <Route path="/weblist" element={<WebList />}></Route>
         <Route path="/excel" element={<Excel />}></Route>
+        <Route path="/musica" element={<Musica />}></Route>
 
 
 

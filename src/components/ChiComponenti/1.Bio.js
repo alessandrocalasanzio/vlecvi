@@ -54,9 +54,9 @@ const Bio = () => {
   <p>- Sono il social media manager dei vari ristoranti:<br/> "Da Giannino- L'Angolo d'Abruzzo".</p>
   <p>- E nel mio tempo libero, studio e creo progetti in ambito informatico.(Principalemente progetti personali)</p>
 
-<p>Ma la mia vita non è solo codice e calcoli, e per fortuna, non tutto riguarda il lavoro. Sono un amante dell'arte digitale, che spazia tra film, serie TV, videogiochi e podcast. Tutto questo mi permette di vedere il mondo da prospettive diverse. Sul sito, troverete una vetrina dedicata alle liste, di ciò che ho guardato e di cosa invece vorrei guardare.</p>
+<p>Ma la mia vita non è solo codice e calcoli, e per fortuna, non tutto riguarda il lavoro. Sono un amante dell'arte digitale, che spazia tra film, serie TV, videogiochi e podcast. Tutto questo mi permette di vedere il mondo da prospettive diverse. Sul sito, troverete una vetrina dedicata alle liste, di ciò che ho guardato e di cosa invece vorrei guardare/ascoltare.</p>
 
-<p>Ci sarà uno spazio dedicato anche al blog, dove condividerò articoli e informazioni che ho raccolto durante il mio percorso, offrendo il mio contributo a chiunque desideri esplorare questi argomenti.</p>
+<p>Ci sarà uno spazio dedicato anche al blog, dove condividerò articoli e informazioni che ho raccolto durante il mio percorso, offrendo il mio contributo a chiunque desideri esplorare determinati argomenti.</p>
 
 <p>Ma la vita è fatta anche di esperienze al di fuori dell'ambito digitale, ed è per questo che ho anche una passione per viaggi e mostre, che mi hanno permesso di scoprire nuovi luoghi e nuove prospettive, anche se, al momento, non sono ancora riuscito a dar loro il giusto peso che vorrei.</p>
 

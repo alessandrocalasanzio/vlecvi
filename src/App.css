@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
 
+ .spotify{
+  border-radius: 0px !important;
+  border-bottom: 2px solid black;
+  max-height: 80vh !important;
+
+}
+.spotify1 {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  border-radius: none !important;
+  border-bottom: 2px solid black;
+  /* max-height: 350px; Rimuovi questa riga */
+  position: relative;
+  height: 80vh; /* Aggiungi questa riga per occupare l'altezza massima disponibile */
+}
 
 .sfondoLoading {
   mask-image: radial-gradient(circle, rgb(227, 227, 227) 0%, rgba(255, 46, 46, 0) 100%);
@@ -89,6 +104,8 @@ body {
     margin-bottom: -10px !important;
   }
 
+  
+
   .container {
     margin-right: 0px !important;
     z-index: 999;
@@ -136,7 +153,7 @@ body {
     width: 100%;
      height: 500px; 
      border: 2px solid black; 
-     border-radius: 10px; 
+     border-radius: 0px; 
      padding: 0px !important;
      margin: 0px !important; 
     }
@@ -211,7 +228,15 @@ body {
 .navbar-light .navbar-toggler-icon {
   background-image: url("./img/LogoVlecviRifatto.png");
   width: 80px;
-  height: 70px;
+  height: 60px;
+}
+
+@media screen and (max-width: 300px) {
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("./img/LogoVlecviRifatto.png");
+    width: 50px;
+    height: 40px;
+  }
 }
 
 .navbar-toggler {
@@ -239,6 +264,7 @@ body {
   left: 5%;
   transform: translate(0%, 0%);
 }
+
 
 span {
   display: block;
@@ -279,9 +305,8 @@ span {
 
 @media screen and (max-width: 305px) {
   .ml11 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     width: 200px;
-
   }
 
   span {
@@ -310,9 +335,35 @@ span {
   cursor: pointer;
 }
 
+
 .vertical-rl:hover {
   background-color: black;
   color: white;
+}
+
+@media screen and (max-width: 355px){
+  .vertical-rl {
+    writing-mode: vertical-rl;
+    rotate: -180deg;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 2px;
+    position: sticky;
+    top: 110px !important;
+    margin-top: 0px !important;
+    font-weight: 600;
+    color: #000000;
+    overflow-x: hidden !important;
+    line-height: 1.3em;
+  }
+}
+
+@media screen and (max-width: 355px){
+.foldImg{
+  width: 100%;
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 0px !important
+}
 }
 
 .bordoColonnaExcel {
@@ -460,13 +511,27 @@ span {
 
   }
 }
-
-.thumb1 {
+.thumbSpotify {
   position: relative;
   display: inline-block;
   z-index: 999;
   border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
 }
+.thumbSpotify:hover   {
+  position: relative;
+  display: inline-block;
+  z-index: 999;
+  border-right: 2px solid black;
+  color: white !important;
+  background-color: black;
+}
+.thumbSpotify:hover h1{
+  color: white !important;
+  background-color: black;
+}
+
 .thumb2 {
   position: relative;
   display: inline-block;
@@ -486,6 +551,13 @@ span {
 .thumb2:hover h1{
   color: white !important;
   background-color: black;
+}
+
+.thumb1 {
+  position: relative;
+  display: inline-block;
+  z-index: 999;
+  border-right: 2px solid black;
 }
 
 .thumb1:hover   {
@@ -542,17 +614,12 @@ span {
 .imgBordi1 {
   border-bottom: 2px solid black !important;
   height: 950px !important;
-  -webkit-filter: grayscale(85%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(85%);
   background-position: left center !important;
   background-repeat: repeat !important;
   background-size: contain !important;
   object-fit: fill !important;
 }
-.imgBordi1:hover {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-}
+
 .vertical-rl1 {
   writing-mode: vertical-rl;
   position: sticky !important;
@@ -861,6 +928,12 @@ h3:active.buttone {
   }
 }
 
+@media only screen and (max-width: 700px) {
+.buttone{
+  font-size: 9px;
+}
+}
+
 /*------------------------------------------- FINE SEZIONE CONTATTI--------------------------------------*/
 
 
@@ -1144,6 +1217,16 @@ h3:active.buttone {
    white-space: nowrap;
    width: auto !important;
    font-size: 0.7em !important;
+ 
+  }
+ 
+ }
+ @media (max-width: 350px) {
+  .btnBlog{
+   margin-bottom: 30% !important;
+   white-space: nowrap;
+   width: auto !important;
+   font-size: 0.5em !important;
  
   }
  
@@ -1873,3 +1956,4 @@ height: 150px !important;
   border-left: 2px solid black;
   border-bottom: 2px solid black;
 }
+

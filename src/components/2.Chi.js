@@ -72,7 +72,7 @@ const Chi = ({ toRotate, period }) => {
         <Col className=' thumb'>
           <Fade right>
           <div>
-        <img src={w1}/>
+        <img class="foldImg" src={w1}/>
         <div className='ml11 ml11-posizione'>
       {elements.map((el, index) => (
         <Chi key={index} toRotate={el.toRotate} period={el.period} />

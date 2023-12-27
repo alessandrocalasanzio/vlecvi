@@ -12,6 +12,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import Mappa from './Bio/Mappa.js';
 import Leo from './Leo.js';
 
+import Musica from './Musica.js';
 
 
 const ChiFiltro = () => {
@@ -51,6 +52,8 @@ const ChiFiltro = () => {
     { title: 'Lista: Film', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-FILM-d490a4b526ff4f79ba3bec763527e78e?pvs=4" },
     { title: 'Lista Libri', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-LIBRI-f6f8f1ac06ed4684aa67cb8a449408c5?pvs=4" },
     { title: 'Lista: Podcast', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-PODCAST-AUDIOLIBRI-3359a04b8393439d9c9d78a32a50feae?pvs=4"},
+    { title: 'Lista: Musica', category: 'Liste', link: '/musica' },
+
     // Aggiungi più elementi con le categorie necessarie
   ];
 

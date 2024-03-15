@@ -48,10 +48,10 @@ const ChiFiltro = () => {
 
     { title: 'Mostra Costruzioni L. Da Vinci', category: 'Mostra', link:'/leo',titolo: 'Mostre Visitate' },
 
-    { title: 'Lista: Serie Tv', category: 'Liste',titolo: 'Liste Personali',link:"https://vlecvi.notion.site/LISTA-SERIE-TV-e56276f2e15546a5ba565d2987d81cdf?pvs=4"  },
-    { title: 'Lista: Film', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-FILM-d490a4b526ff4f79ba3bec763527e78e?pvs=4" },
-    { title: 'Lista Libri', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-LIBRI-f6f8f1ac06ed4684aa67cb8a449408c5?pvs=4" },
-    { title: 'Lista: Podcast', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-PODCAST-AUDIOLIBRI-3359a04b8393439d9c9d78a32a50feae?pvs=4"},
+    { title: 'Lista: Serie Tv', category: 'Liste',titolo: 'Liste Personali',link:"https://vlecvi.notion.site/LISTA-SERIE-TV-25e2137def5540c6a7a2c672e22d9a54?pvs=4"  },
+    { title: 'Lista: Film', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-FILM-6d08d2d0815f4bcfb9d56f46991ece21?pvs=4" },
+    { title: 'Lista Libri', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-LIBRI-eb86edea95384f92ba0bdfde4cc86fcb?pvs=4" },
+    { title: 'Lista: Podcast', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-PODCAST-AUDIOLIBRI-31339dfc05ca49dd9bbb04f9d33580ed?pvs=4"},
     { title: 'Lista: Musica', category: 'Liste', link: '/musica' },
 
     // Aggiungi più elementi con le categorie necessarie

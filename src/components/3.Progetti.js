@@ -49,11 +49,11 @@ const Progetti = () => {
             <Card className='marginiCard' style={{ textAlign: "center" }}>
               <Card.Img variant="top" src={angolo} className='imgBordi1' />
               <Card.Body className='posizioneTesto'>
-                <Card.Title>SITO WEB - "DA GIANNINO"</Card.Title>
+                <Card.Title>Sito Web - "Da Giannino L'Angolo D'Abruzzo"</Card.Title>
                 <Card.Text>
-                  In costruzione il sito ufficiale dell'Angolo d'Abruzzo.
+                  Ideazione e creazione del Sito Web del ristorante Da Giannino l'Angolo d'Abruzzo.
                 </Card.Text>
-                <Button className='buttonRadius' variant="btn btn-dark">Coming Soon..</Button>
+                <a className='buttonRadius btn btn-dark' href='http://www.da-giannino-langolo-dabruzzo.it' target="_blank">Apri il Progetto</a>
               </Card.Body>
             </Card>
             </Fade>

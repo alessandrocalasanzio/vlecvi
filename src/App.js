@@ -66,6 +66,7 @@ function App() {
       }
     }, 9100);
 
+    
     // Set the isFirstVisit cookie to prevent further preloads
     Cookies.set('isFirstVisit', 'true', { expires: 30 }); // This will expire after 30 days
   }, []);
@@ -73,6 +74,7 @@ function App() {
   useEffect(() => {
     AOS.init();
   }, []);
+
 
   return (
     <Router basename={window.location.pathname || ''}>

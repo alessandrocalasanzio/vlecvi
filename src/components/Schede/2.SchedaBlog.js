@@ -12,7 +12,7 @@ class SchedaBlog extends Component {
         <div className='testoprogetti'>
         
         <h1><em>"Sezione Blog"</em></h1>
-        <p>Questo spazio sarà dedicato alla pubblicazione di tutti i miei progetti, indipendentemente che siano di natura personale o lavorativa.</p>
+        <p>"Questa sezione sarà riservata agli articoli del  blog, con l'intento di condividere gratuitamente informazioni utili per il beneficio di tutti."</p>
                 </div>
           <BlogFiltro/>
       </div>

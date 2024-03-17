@@ -19,7 +19,7 @@
 
 .sfondoLoading {
   mask-image: radial-gradient(circle, rgb(227, 227, 227) 0%, rgba(255, 46, 46, 0) 100%);
-  background-image: url("./img/load.jpg");
+  background-image: url("./img/museoload.jpg");
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: repeat !important;
@@ -38,7 +38,7 @@
   margin-right: auto !important;
   margin-left: auto !important;
   width: 250px !important;
-  height: 250px !important;
+  height: 270px !important;
   position: relative;
   top: 50% !important;
   z-index: 9991;
@@ -61,7 +61,7 @@
   font-size: 5.5em;
   font-family: 'Space Grotesk', sans-serif;
   filter: none !important; /* Explicitly disable filter effects */
-  color: white;
+  color: rgb(19, 16, 16);
 }
 
 

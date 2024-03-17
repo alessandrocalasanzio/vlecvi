@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.82e1814d.css",
-    "main.js": "/static/js/main.ecb4e143.js",
+    "main.css": "/static/css/main.981c333c.css",
+    "main.js": "/static/js/main.e92bd094.js",
     "static/js/787.dfaf28dc.chunk.js": "/static/js/787.dfaf28dc.chunk.js",
     "static/media/Foresta.jpg": "/static/media/Foresta.d4ce27bd926c3ef7a37f.jpg",
     "static/media/AlberiForesta.jpg": "/static/media/AlberiForesta.b495e8645153f73b4861.jpg",
@@ -12,6 +12,7 @@
     "static/media/CasaRustica3.jpg": "/static/media/CasaRustica3.26a242fe2c6a36172684.jpg",
     "static/media/cena.jpg": "/static/media/cena.f9d69e5ff4b7e172f357.jpg",
     "static/media/CasaRusticaProfilo.jpg": "/static/media/CasaRusticaProfilo.2837d821a8023fdaab9d.jpg",
+    "static/media/museoload.jpg": "/static/media/museoload.c414f7f588c9528dfe23.jpg",
     "static/media/piovra.jpg": "/static/media/piovra.3bcde93d7ce3cd789cf0.jpg",
     "static/media/cannone1.jpg": "/static/media/cannone1.28b425750c08c6c3e0c4.jpg",
     "static/media/deltaplano.jpg": "/static/media/deltaplano.77380289d54fb0146928.jpg",
@@ -85,12 +86,12 @@
     "static/media/logo1.png": "/static/media/logo1.9c987e9169e882731bc0.png",
     "static/media/netflix.jpg": "/static/media/netflix.3653022d9096b4a6f62a.jpg",
     "index.html": "/index.html",
-    "main.82e1814d.css.map": "/static/css/main.82e1814d.css.map",
-    "main.ecb4e143.js.map": "/static/js/main.ecb4e143.js.map",
+    "main.981c333c.css.map": "/static/css/main.981c333c.css.map",
+    "main.e92bd094.js.map": "/static/js/main.e92bd094.js.map",
     "787.dfaf28dc.chunk.js.map": "/static/js/787.dfaf28dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82e1814d.css",
-    "static/js/main.ecb4e143.js"
+    "static/css/main.981c333c.css",
+    "static/js/main.e92bd094.js"
   ]
 }

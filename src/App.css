@@ -1675,6 +1675,10 @@ span{
   grid-row: auto/span 2;
   grid-column: auto/span 2;
 }
+.cardt--full {
+  grid-row: auto/span 4;
+  grid-column: auto/span 4;
+}
 .cardt--vertical {
   grid-row: auto/span 2;
 }

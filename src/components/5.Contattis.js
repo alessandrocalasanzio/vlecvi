@@ -3,7 +3,7 @@ import '../App.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import './Scriptscritta.js';
+import './7.Scriptscritta.js';
 import white from '../img/white.jpg';
 import { Link } from 'react-router-dom';
 

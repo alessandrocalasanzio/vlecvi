@@ -16,26 +16,32 @@ import SchedaChi from './components/Schede/1.SchedaChi.js';
 import SchedaBlog from './components/Schede/2.SchedaBlog.js';
 import SchedaProgetti from './components/Schede/3.SchedaProgetti.js';
 import SchedaContatti from './components/Schede/4.SchedaContatti.js';
-import Home from './components/Home.js';
-import Articolo from './components/BlogComponenti/1.Articolo';
-import Leo from './components/Leo';
-import Parigi from './components/Parigi';
-import Barcellona from './components/Barcellona';
-import Portogallo from './components/Portogallo';
-import Cassiglio from './components/Brescia';
-import Brescia from './components/Brescia';
-import Franciacorta from './components/Fuipiano';
-import Fuipiano from './components/Fuipiano';
-import PortoRecanati from './components/PortoRecanati';
-import WebList from './components/WebList.js';
-import Excel from './components/Excel.js';
+import Home from './components/6.Home.js';
+import Leo from './components/ChiComponenti/Musei/Leo.js';
+import Parigi from './components/ChiComponenti/Luoghi/Parigi';
+import Barcellona from './components/ChiComponenti/Luoghi/Barcellona.js';
+import Portogallo from './components/ChiComponenti/Luoghi/Portogallo.js';
+import Cassiglio from './components/ChiComponenti/Luoghi/Cassiglio.js';
+import Traves from './components/ChiComponenti/Luoghi/Traves.js';
+import Brescia from './components/ChiComponenti/Luoghi/Brescia.js';
+import LagoGarda from "./components/ChiComponenti/Luoghi/LagoGarda.js";
+import Piemonte from "./components/ChiComponenti/Luoghi/Piemonte.js";
+import Franciacorta from './components/ChiComponenti/Luoghi/Franciacorta.js';
+import Fuipiano from './components/ChiComponenti/Luoghi/Fuipiano.js';
+import PortoRecanati from './components/ChiComponenti/Luoghi/PortoRecanati.js';
+import Varenna from './components/ChiComponenti/Luoghi/Varenna.js';
+import Trezzo from './components/ChiComponenti/Luoghi/Trezzo.js';
 
-import Loading from './components/Loading.js';
+import WebList from './components/BlogComponenti/Articoli/WebList.js';
+import Excel from './components/BlogComponenti/Articoli/Excel.js';
+
+import Loading from './components/0.Loading.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import Cookies from 'js-cookie';
-import Musica from "./components/Musica.js";
+import Musica from "./components/ChiComponenti/Musica.js";
+import LavoroLista from "./components/BlogComponenti/Articoli/LavoroLista.js";
 
 
 
@@ -83,16 +89,25 @@ function App() {
         <Route path="/blog" element={<SchedaBlog />}></Route>
         <Route path="/progetti" element={<SchedaProgetti />}></Route>
         <Route path="/contatti" element={<SchedaContatti />}></Route>
-        <Route path="/articolo" element={<Articolo />}></Route>
         <Route path="/leo" element={<Leo />}></Route>
         <Route path="/parigi" element={<Parigi />}></Route>
         <Route path="/barcellona" element={<Barcellona />}></Route>
         <Route path="/portogallo" element={<Portogallo />}></Route>
         <Route path="/brescia" element={<Brescia />}></Route>
+        <Route path="/franciacorta" element={<Franciacorta />}></Route>
+        <Route path="/traves" element={<Traves />}></Route>
+        <Route path="/varenna" element={<Varenna />}></Route>
+        <Route path="/garda" element={<LagoGarda />}></Route>
+        <Route path="/erna" element={<Piemonte />}></Route>
+        <Route path="/trezzo" element={<Trezzo />}></Route>
+
         <Route path="/fuipiano" element={<Fuipiano />}></Route>
         <Route path="/portorecanati" element={<PortoRecanati />}></Route>
+        <Route path="/cassiglio" element={<Cassiglio />}></Route>
+
         <Route path="/weblist" element={<WebList />}></Route>
         <Route path="/excel" element={<Excel />}></Route>
+        <Route path="/lavoro" element={<LavoroLista />}> </Route>
         <Route path="/musica" element={<Musica />}></Route>
 
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Navbar from '../1.Navbar';
-import Blog from '../4.Blog.js';
-import BlogFiltro from '../BlogFiltro';
+import Navbar from '../1.Navbar.js';
+import BlogFiltro from '../BlogComponenti/BlogFiltro.js';
 class SchedaBlog extends Component {
 
 

@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 
 import w1 from '../img/w1.jpg';
 
-import './Scriptscritta.js';
+import './7.Scriptscritta.js';
 
 import Fade from 'react-reveal/Fade';
 
@@ -48,7 +48,7 @@ const Chi = ({ toRotate, period }) => {
     
     const ChiContainer = () => {
       const elements = [
-        { toRotate: ["Accountant for Studio Bertoluzzi", "Computer Science Student", "SMM for Angolo D'Abruzzo"], period: 300 },
+        { toRotate: ["Accountant for Leaf Services", "Computer Science Student", "SMM for Angolo D'Abruzzo"], period: 300 },
         // Add more elements if necessary
       ];
 

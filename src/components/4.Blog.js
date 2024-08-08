@@ -7,9 +7,9 @@ import LogoVlecvi from '../img/LogoVlecvi.png';
 import me from '../img/me.jpg';
 import ny from '../img/ny.jpg';
 import me1 from '../img/me1.webp';
-import './Scriptscritta.js';
+import './7.Scriptscritta.js';
 import {Link} from 'react-router-dom';
-import BlogFiltro from './BlogFiltro.js';
+import BlogFiltro from './BlogComponenti/BlogFiltro.js';
 
 import { Fade } from 'react-reveal';
 

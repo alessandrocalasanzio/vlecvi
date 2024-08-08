@@ -10,8 +10,6 @@ import me from '../../img/me.jpg';
 import office from '../../img/office.jpg';
 
 import Slider from "react-slick";
-import CaroselloBio from '../Bio/CaroselloBio.js';
-import Mappa from '../Bio/Mappa.js';
 
 const Bio = () => {
 

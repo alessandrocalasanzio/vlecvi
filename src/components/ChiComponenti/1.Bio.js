@@ -10,9 +10,6 @@ import me from '../../img/me.jpg';
 import { Link } from 'react-router-dom';
 
 import Slider from "react-slick";
-import CaroselloBio from '../Bio/CaroselloBio.js';
-import Mappa from '../Bio/Mappa.js';
-import Musei from '../Bio/Musei.js';
 
 const Bio = () => {
 

@@ -3,11 +3,15 @@ import '../App.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Carousel, Card, Button } from 'react-bootstrap';
+
 import { Link } from 'react-router-dom';
 import angolo from '../img/angolo2.jpg'; // Imposta il percorso corretto per l'immagine originale
 import angoloGrigio from '../img/angoloGrigio.png';
+import excel4 from '../img/excel4.jpg';
+
+
+
 
 import Fade from 'react-reveal/Fade';
 
@@ -46,6 +50,10 @@ const Progetti = () => {
           <Col className=" ProgettiColonna">
           <Fade left>
 
+          <Carousel className="hideCarouselControls" interval={4000} pause={false} >
+      
+      
+      <Carousel.Item>
             <Card className='marginiCard' style={{ textAlign: "center" }}>
               <Card.Img variant="top" src={angolo} className='imgBordi1' />
               <Card.Body className='posizioneTesto'>
@@ -56,8 +64,31 @@ const Progetti = () => {
                 <a className='buttonRadius btn btn-dark' href='http://www.da-giannino-langolo-dabruzzo.it' target="_blank">Apri il Progetto</a>
               </Card.Body>
             </Card>
+            </Carousel.Item>
+
+            <Carousel.Item>
+        <Card className='marginiCard' style={{ textAlign: "center" }}>
+          <Card.Img variant="top" src={excel4} className='imgBordi1' />
+          <Card.Body className='posizioneTesto'>
+            <Card.Title>Excel Expense Tracking</Card.Title>
+            <Card.Text>
+           Mini-Progetto in Excel che permette di tenere traccia delle proprie entrate e uscite.</Card.Text>
+           <Link to="/excel">
+            <a className='buttonRadius btn btn-dark buttonSpacing' href='#' target="_blank">Scopri come funziona</a>
+           </Link>
+           <a className="buttonRadius btn btn-dark" href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods">Scarica il progetto</a>
+
+
+          </Card.Body>
+        </Card>
+      </Carousel.Item>
+
+
+            </Carousel>
             </Fade>
             
+
+
           </Col>
          
           <Col id="ColHover" className=' thumb1 colRight ' md={2}>

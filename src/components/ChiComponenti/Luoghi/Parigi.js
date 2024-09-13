@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../1.1Navbar1.js";
+import Navbar from "../../1.Navbar.js";
 
 import '../../../App.js';
 import '../../../App.css';
@@ -29,7 +29,7 @@ const Parigi = () => {
 
         <Row>
 
-        <Col   className="bordoColonna" md={2} >
+        <Col className="bordoColonna" md={2} >
           <div className='sticky-top'>
         
          <h1 className='vertical-rl sticky-top '>Parigi</h1>

@@ -46,13 +46,14 @@ const Blog = () => {
    
   </a>
   </Link>
+  <Link to="/lavoro">
   <a href="#" class="list-group-item list-group-item-action hoverBlog">
     <div class="d-flex1 w-100 justify-content-between">
-      <h5 class="mb-1">Cosa e come funziona Notion - Coming Soon...</h5>
-      <small class="text-muted1">Crescita Personale</small>
+      <h5 class="mb-1">I migliori siti per trovare lavoro</h5>
+      <small class="text-muted1">Liste</small>
     </div>
   </a>
-
+  </Link>
   <Link to="/weblist">
   <a href="#" class="list-group-item list-group-item-action hoverBlog">
     <div class="d-flex1 w-100 justify-content-between ">

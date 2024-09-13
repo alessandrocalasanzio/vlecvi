@@ -130,7 +130,7 @@ function App() {
                 <Progetti />
                 <Blog />
                 <Contattis />
-
+                <footer>Vlecvi© - Tutti i diritti Riservati.</footer>
 
 
               </div>

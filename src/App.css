@@ -226,14 +226,14 @@ body {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("./img/LogoVlecviRifatto.png");
-  width: 80px;
-  height: 60px;
+  background-image: url("./img/LogoVlecviRifatto2.png");
+  width: 85px;
+  height: 70px;
 }
 
 @media screen and (max-width: 300px) {
   .navbar-light .navbar-toggler-icon {
-    background-image: url("./img/LogoVlecviRifatto.png");
+    background-image: url("./img/LogoVlecviRifatto2.png");
     width: 50px;
     height: 40px;
   }
@@ -1961,3 +1961,26 @@ height: 150px !important;
   border-bottom: 2px solid black;
 }
 
+.hideCarouselControls .carousel-control-prev,
+.hideCarouselControls .carousel-control-next {
+  display: none;
+}
+
+.buttonSpacing {
+  margin-right: 10px; /* Aggiunge uno spazio a destra del primo bottone */
+}
+
+@media (max-width: 620px) {
+  .buttonSpacing {
+    margin-top: 10px !important; /* Aggiunge uno spazio a destra del primo bottone */
+    margin-bottom: 10px !important;
+  }
+}
+
+footer {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  font-size: 12px; /* Testo piccolo */
+  text-align: center; /* Testo centrato */
+  padding: 2px 0;
+}

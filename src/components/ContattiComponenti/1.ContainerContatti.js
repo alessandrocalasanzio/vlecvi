@@ -37,16 +37,12 @@ const Bio = () => {
        <div className='testoBio'>
        <h1><em>“Benvenuto nella sezione Contatti!”</em></h1>
        <p> Qui troverai vari modi per raggiungermi, sia per scambiare quattro chiacchiere che per discutere di opportunità lavorative. La tua opinione e il tuo interesse sono importanti per me, e sono sempre aperto a nuove esperienze e connessioni professionali.</p>
-<p>Puoi trovare il mio background professionale su Linkedin.</p> 
-<p>Se ti interessa il mio Cv digitale ,invece, non esitare a chidemelo.</p>
+<p>Puoi trovare il mio background professionale e il mio CV Digitale direttamente su <a href="https://www.linkedin.com/in/alessandro-calasanzio/" target="_blank" className="content-link">Linkedin.</a> </p> 
 
        <h1><em>“Perché Contattarmi?”</em></h1>
       
 
-       <p>Sono sempre entusiasta di ascoltare nuove idee, condividere esperienze e stabilire connessioni professionali. Che tu stia cercando collaborazioni, consigli o semplicemente una conversazione informale.</p>
-
-
-<p>Sarà un piacere sentirti! Non esitare a prendere contatto e a lasciarmi sapere come posso aiutarti.</p>
+       <p>Sono sempre entusiasta di ascoltare nuove idee, condividere esperienze e stabilire nuove connessioni. Che tu stia cercando collaborazioni o semplicemente una conversazione informale.</p>
 
 
 <p><br/>Alessandro</p>

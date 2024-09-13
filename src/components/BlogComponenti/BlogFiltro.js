@@ -28,8 +28,9 @@ const BlogFiltro = () => {
   const blogItems = [
     { title: 'WebList', category: 'Liste', link:'/weblist' ,titolo: 'Liste'  },
     { title: 'Tenere Traccia delle spese con un File Excel', category: 'Finanze',link:'/excel',titolo: 'Finanza' },
+    { title: 'I migliori siti per trovare lavoro', category:'Liste', link:'/lavoro'},
     { title: 'Cosa e come funziona Notion- Coming Soon...', category: 'Crescita Personale',titolo: 'CrescitaPersonale' },
-    { title: 'I migliori siti per trovare lavoro', category:'Liste', link:'/lavoro'}
+
     // Aggiungi più elementi con le categorie necessarie
   ];
 

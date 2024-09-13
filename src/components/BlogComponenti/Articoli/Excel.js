@@ -66,7 +66,7 @@ const Excel = () => {
             <p>Prima di procedere con la breve guida, che ti mostra le varie schermate(giusto per farti capire come usare al meglio il file) è importante scaricare il file😂. </p>
 
             <p>Ecco a te :</p>
-            <Button className='buttonRadius' variant="btn btn-dark"><a href="https://drive.google.com/uc?export=download&id=1WuZbEMZH65EtR-g1z3njr-uenM7MZslc" download="SOLDI TABELLA.ods" className='buttonRadius' variant="btn btn-dark"> Tabella Soldi</a></Button>
+            <Button className='buttonRadius' variant="btn btn-dark"><a href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods" className='buttonRadius' variant="btn btn-dark">Excel Tracking</a></Button>
 
             <p>Bene ora che avete scaricato il file e lo avete aperto possiamo vedere insieme le varie sezioni:</p>
 

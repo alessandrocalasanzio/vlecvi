@@ -9,7 +9,7 @@ const SchedaProgetti = () => {
     <Navbar/>
     <div className='testoprogetti'>
         
-<h1><em>"Sezione Progetti"</em></h1>
+<h1><em>“Sezione Progetti"</em></h1>
 <p>Questo spazio sarà dedicato alla pubblicazione di tutti i miei progetti, indipendentemente che siano di natura personale o lavorativa.</p>
         </div>
     <Progetti1/>

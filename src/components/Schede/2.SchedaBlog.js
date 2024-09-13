@@ -10,8 +10,8 @@ class SchedaBlog extends Component {
         <Navbar />
         <div className='testoprogetti'>
         
-        <h1><em>"Sezione Blog"</em></h1>
-        <p>"Questa sezione sarà riservata agli articoli del  blog, con l'intento di condividere gratuitamente informazioni utili per il beneficio di tutti."</p>
+        <h1><em>“Sezione Blog"</em></h1>
+        <p>Questa sezione sarà riservata agli articoli del  blog, con l'intento di condividere gratuitamente informazioni utili per il beneficio di tutti.</p>
                 </div>
           <BlogFiltro/>
       </div>

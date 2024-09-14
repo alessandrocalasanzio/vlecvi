@@ -36,22 +36,26 @@ const ChiFiltro = () => {
 
   const chiItems = [
     { category: 'WorldMap', component: <Mappa />,titolo: 'WorldMap' },
-    { title: 'Brescia', category: 'Italia', link:'/brescia', titolo: 'Around: Italia' },
-    { title: 'Fuipiano', category: 'Italia', link:'/fuipiano' },
-    { title: 'Porto Recanati', category: 'Italia', link:'/portorecanati' },
-    { title: 'Franciacorta', category: 'Italia', link:'/franciacorta' },
-    { title: 'Cassiglio', category: 'Italia', link:'/cassiglio' },
-    { title: 'Traves', category: 'Italia', link:'/traves' },
-    { title: 'Varenna', category: 'Italia', link:'/varenna' },
-    { title: 'Lago di Garda', category: 'Italia', link:'/garda' },
-    { title: 'Piani Di Erna', category: 'Italia', link:'/erna' },
-    { title: "Trezzo Sull'Adda", category: 'Italia', link:'/trezzo' },
+    
+
+    { title: 'Porto Recanati', category: 'Italia', link:'/portorecanati',titolo: 'Around: Italia', label: '2023' },
+    { title: 'Cassiglio', category: 'Italia', link:'/cassiglio', label: '2023' },
+    { title: 'Franciacorta', category: 'Italia', link:'/franciacorta', label: '2022' },
+    { title: 'Fuipiano', category: 'Italia', link:'/fuipiano',  label: '2019' },
+    { title: 'Traves', category: 'Italia', link:'/traves', label: '2018' },
+    { title: 'Lago di Garda', category: 'Italia', link:'/garda', label: '2017' },
+    { title: 'Piani Di Erna', category: 'Italia', link:'/erna', label: '2017' },
+    { title: 'Brescia', category: 'Italia', link:'/brescia', label: '2017' },
+    { title: 'Varenna', category: 'Italia', link:'/varenna', label: '2016' },
+    { title: "Trezzo Sull'Adda", category: 'Italia', link:'/trezzo', label: '//' },
 
 
 
-    { title: 'Francia',    category: 'Estero', link:'/parigi', titolo: 'Around: Estero' },
-    { title: 'Barcellona', category: 'Estero', link:'/barcellona'  },
-    { title: 'Portogallo', category: 'Estero', link:'/portogallo'  },
+    { title: 'Portogallo ', category: 'Estero', link:'/portogallo', titolo: 'Around: Estero', label: '2018'},
+    { title: 'Barcellona', category: 'Estero', link:'/barcellona', label: '2017'  },
+    { title: 'Parigi ',    category: 'Estero', link:'/parigi', label: '2017' },
+   
+    
 
     { title: 'Mostra Costruzioni L. Da Vinci', category: 'Mostra', link:'/leo',titolo: 'Mostre Visitate' },
 
@@ -132,6 +136,7 @@ const ChiFiltro = () => {
         <Link to={item.link}>
         <a   className="mb-1">{item.title}</a>
         </Link>
+        <span className="badge bg-light text-dark ms-auto">{item.label}</span>
       </div>
       <div>
       

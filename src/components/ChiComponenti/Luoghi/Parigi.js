@@ -32,7 +32,7 @@ const Parigi = () => {
         <Col className="bordoColonna" md={2} >
           <div className='sticky-top'>
         
-         <h1 className='vertical-rl sticky-top '>Parigi</h1>
+         <h1 className='vertical-rl sticky-top '>Parigi 2017</h1>
          
           </div>
         

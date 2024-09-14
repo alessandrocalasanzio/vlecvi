@@ -27,7 +27,7 @@ const Varenna = () => {
         <Col   className="bordoColonna" md={2} >
           <div className='sticky-top'>
         
-         <h1 className='vertical-rl sticky-top '>Varenna</h1>
+         <h1 className='vertical-rl sticky-top '>Varenna 2016</h1>
          
           </div>
         

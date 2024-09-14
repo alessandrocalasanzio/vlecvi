@@ -33,7 +33,7 @@ const Portogallo = () => {
         <Col   className="bordoColonna" md={2} >
           <div className='sticky-top'>
         
-         <h1 className='vertical-rl sticky-top '>Portogallo</h1>
+         <h1 className='vertical-rl sticky-top '>Portogallo 2018</h1>
          
           </div>
         

@@ -25,7 +25,7 @@ const Traves = () => {
         <Col   className="bordoColonna" md={2} >
           <div className='sticky-top'>
         
-         <h1 className='vertical-rl sticky-top '>Traves</h1>
+         <h1 className='vertical-rl sticky-top '>Traves 2018</h1>
          
           </div>
         

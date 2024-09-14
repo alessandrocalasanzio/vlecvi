@@ -56,6 +56,7 @@ const Progetti = () => {
       <Carousel.Item>
             <Card className='marginiCard' style={{ textAlign: "center" }}>
               <Card.Img variant="top" src={angolo} className='imgBordi1' />
+              <span className="badge bg-light text-dark ms-auto"> Progetto</span>
               <Card.Body className='posizioneTesto'>
                 <Card.Title>Sito Web - "Da Giannino L'Angolo D'Abruzzo"</Card.Title>
                 <Card.Text>
@@ -69,6 +70,7 @@ const Progetti = () => {
             <Carousel.Item>
         <Card className='marginiCard' style={{ textAlign: "center" }}>
           <Card.Img variant="top" src={excel4} className='imgBordi1' />
+          <span className="badge bg-light text-dark ms-auto"> Mini-Progetto</span>
           <Card.Body className='posizioneTesto'>
             <Card.Title>Excel Expense Tracking</Card.Title>
             <Card.Text>
@@ -76,7 +78,7 @@ const Progetti = () => {
            <Link to="/excel">
             <a className='buttonRadius btn btn-dark buttonSpacing' href='#' target="_blank">Scopri come funziona</a>
            </Link>
-           <a className="buttonRadius btn btn-dark" href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods">Scarica il progetto</a>
+           <a className="buttonRadius btn btn-dark" href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods">Scarica il Mini-Progetto</a>
 
 
           </Card.Body>

@@ -83,7 +83,7 @@ function App() {
 
 
   return (
-    <Router basename={window.location.pathname || ''}>
+    <Router basename="/">
       <Switch>
         <Route path="/chisono" element={<SchedaChi />}></Route>
         <Route path="/blog" element={<SchedaBlog />}></Route>

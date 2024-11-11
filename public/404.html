@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>In caricamento</title>
+    <title>Pagina non trovata</title>
   </head>
   <body>
     <script type="text/javascript">
-      // Reindirizza a index.html mantenendo l'URL originale
-      window.location.href = window.location.origin + window.location.pathname;
+      // Reindirizza alla stessa URL ma carica index.html per lasciare React gestire la rotta
+      var path = window.location.pathname; // Ottiene il percorso della URL corrente
+      window.location.replace(window.location.origin + path); // Reindirizza alla stessa URL con index.html
     </script>
   </body>
 </html>

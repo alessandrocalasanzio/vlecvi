@@ -9,7 +9,8 @@ import Chi from './components/2.Chi';
 import Progetti from './components/3.Progetti';
 import Blog from './components/4.Blog';
 import Contattis from './components/5.Contattis.js';
-import { BrowserRouter as Router, Route, Form } from 'react-router-dom';
+import {  Route, Form } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Routes as Switch } from "react-router";
 
 import SchedaChi from './components/Schede/1.SchedaChi.js';
@@ -83,7 +84,7 @@ function App() {
 
 
   return (
-    <Router basename="/">
+    <HashRouter basename="/">
       <Switch>
         <Route path="/chisono" element={<SchedaChi />}></Route>
         <Route path="/blog" element={<SchedaBlog />}></Route>
@@ -140,7 +141,7 @@ function App() {
         </Route>
         <Route path="/refresh" element={null} />
       </Switch>
-    </Router>
+      </HashRouter>
 
   );
 

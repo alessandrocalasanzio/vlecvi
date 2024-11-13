@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="it">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pagina non trovata</title>
-  </head>
-  <body>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0; URL='/'" />
     <script type="text/javascript">
-      // Reindirizza alla stessa URL ma carica index.html per lasciare React gestire la rotta
-      var path = window.location.pathname; // Ottiene il percorso della URL corrente
-      window.location.replace(window.location.origin + path); // Reindirizza alla stessa URL con index.html
+        var path = window.location.pathname;
+        if (path && path !== '/') {
+            window.location.replace('/#' + path);
+        }
     </script>
-  </body>
+</head>
+<body>
+</body>
 </html>

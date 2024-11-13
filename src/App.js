@@ -3,6 +3,7 @@ import { React, useEffect, useState, useRef } from "react";
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './components/1.Navbar';
 import "../node_modules/jquery/dist/jquery.min.js";
 import Chi from './components/2.Chi';

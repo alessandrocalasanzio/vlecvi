@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d42ce95.css",
-    "main.js": "/static/js/main.99cba09b.js",
+    "main.css": "/static/css/main.b5ddae7c.css",
+    "main.js": "/static/js/main.49f3351a.js",
     "static/js/787.dfaf28dc.chunk.js": "/static/js/787.dfaf28dc.chunk.js",
     "static/media/lago.png": "/static/media/lago.3f6eda360733cff3f910.png",
     "static/media/erba.jpg": "/static/media/erba.4f80a09a322d336b349a.jpg",
@@ -115,6 +115,7 @@
     "static/media/Vinci.jpg": "/static/media/Vinci.edc3e48de215c4c1d7d9.jpg",
     "static/media/FotoPrincipale.jpg": "/static/media/FotoPrincipale.fd14de29406331c3ba2b.jpg",
     "static/media/office.jpg": "/static/media/office.211a559fae651f5bbb03.jpg",
+    "static/media/notion.jpg": "/static/media/notion.0eb9bf8418e6db9f8e09.jpg",
     "static/media/CancelloBellavista.jpg": "/static/media/CancelloBellavista.15bdf469569c4798b3c6.jpg",
     "static/media/list1.jpg": "/static/media/list1.f88177523beeebaf7f70.jpg",
     "static/media/Paesaggio1.jpg": "/static/media/Paesaggio1.685c9023799116d831e9.jpg",
@@ -124,6 +125,7 @@
     "static/media/torre.jpg": "/static/media/torre.56d09060fecf7f825ad6.jpg",
     "static/media/laptop.jpg": "/static/media/laptop.219902d1f7f6d935eb16.jpg",
     "static/media/operachiesa.jpg": "/static/media/operachiesa.e6dced5c125c93c8c708.jpg",
+    "static/media/notionDuplica.png": "/static/media/notionDuplica.af5fd5fcf7da92789294.png",
     "static/media/salita.jpg": "/static/media/salita.162549dc92006ca29c28.jpg",
     "static/media/fogli.jpg": "/static/media/fogli.89963bc14d6993458b84.jpg",
     "static/media/strettoia.jpg": "/static/media/strettoia.98161a5208490d57fa95.jpg",
@@ -132,6 +134,7 @@
     "static/media/municipio.jpg": "/static/media/municipio.f59868ce10ac7401484b.jpg",
     "static/media/growth.jpg": "/static/media/growth.101ee3f7ba7865a6416c.jpg",
     "static/media/PanoramaVigna.jpg": "/static/media/PanoramaVigna.cb88210df301a86f77de.jpg",
+    "static/media/notion1.png": "/static/media/notion1.47c1331fa526f10fe796.png",
     "static/media/riassunto.jpg": "/static/media/riassunto.62439e4dc1590e4345af.jpg",
     "static/media/cipressi.jpg": "/static/media/cipressi.94eb6e1d7a49e875eaf3.jpg",
     "static/media/me.jpg": "/static/media/me.aa156cd0651ee89003e4.jpg",
@@ -145,13 +148,14 @@
     "static/media/LogoVlecviRifatto2.png": "/static/media/LogoVlecviRifatto2.214221a2daa8ead644cc.png",
     "static/media/excel4.jpg": "/static/media/excel4.0e4654a8260bbfcbc080.jpg",
     "static/media/logo1.png": "/static/media/logo1.9c987e9169e882731bc0.png",
+    "static/media/Notionwall.png": "/static/media/Notionwall.da98b222e8440623b30b.png",
     "index.html": "/index.html",
-    "main.1d42ce95.css.map": "/static/css/main.1d42ce95.css.map",
-    "main.99cba09b.js.map": "/static/js/main.99cba09b.js.map",
+    "main.b5ddae7c.css.map": "/static/css/main.b5ddae7c.css.map",
+    "main.49f3351a.js.map": "/static/js/main.49f3351a.js.map",
     "787.dfaf28dc.chunk.js.map": "/static/js/787.dfaf28dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d42ce95.css",
-    "static/js/main.99cba09b.js"
+    "static/css/main.b5ddae7c.css",
+    "static/js/main.49f3351a.js"
   ]
 }

@@ -10,6 +10,7 @@ import angolo from '../img/angolo2.jpg'; // Imposta il percorso corretto per l'i
 import angoloGrigio from '../img/angoloGrigio.png';
 import excel4 from '../img/excel4.jpg';
 
+import notionwall from '../img/Notionwall.png';
 
 
 
@@ -67,23 +68,20 @@ const Progetti = () => {
             </Card>
             </Carousel.Item>
 
-            <Carousel.Item>
-        <Card className='marginiCard' style={{ textAlign: "center" }}>
-          <Card.Img variant="top" src={excel4} className='imgBordi1' />
-          <span className="badge bg-light text-dark ms-auto"> Mini-Progetto</span>
-          <Card.Body className='posizioneTesto'>
-            <Card.Title>Excel Expense Tracking</Card.Title>
-            <Card.Text>
-           Mini-Progetto in Excel che permette di tenere traccia delle proprie entrate e uscite.</Card.Text>
-           <Link to="/excel">
-            <a className='buttonRadius btn btn-dark buttonSpacing' href='#' target="_blank">Scopri come funziona</a>
-           </Link>
-           <a className="buttonRadius btn btn-dark" href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods">Scarica il Mini-Progetto</a>
-
-
-          </Card.Body>
-        </Card>
-      </Carousel.Item>
+         <Carousel.Item>
+                <Card className='marginiCard' style={{ textAlign: "center" }}>
+                  <Card.Img variant="top" src={notionwall} className='imgBordi1' />
+                  <span className="badge bg-light text-dark ms-auto"> Mini-Progetto</span>
+                  <Card.Body className='posizioneTesto'>
+                    <Card.Title>Il mondo di Notion+Template</Card.Title>
+                    <Card.Text>
+                   Mini-Progetto sul mondo di Notion che permette di organizzare in modo efficente il tuo lavoro e il tuo tempo</Card.Text>
+                   <Link to="/notion">
+                    <a className='buttonRadius btn btn-dark buttonSpacing' href='#' target="_blank">Scopri come funziona</a>
+                   </Link>
+                  </Card.Body>
+                </Card>
+              </Carousel.Item>
 
 
             </Carousel>

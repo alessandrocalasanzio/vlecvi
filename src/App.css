@@ -1901,6 +1901,11 @@ height: 150px !important;
   border-bottom: 2px solid black;
 }
 
+.fotoNotion{
+  height: 233px;
+  border-bottom: 2px solid black;
+}
+
 .fotoBlog1 {
   margin-left: auto;  /* Imposta il margine sinistro su auto per centrare l'elemento orizzontalmente */
   margin-right: auto; /* Imposta il margine destro su auto per centrare l'elemento orizzontalmente */

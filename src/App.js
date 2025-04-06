@@ -34,6 +34,8 @@ import Trezzo from './components/ChiComponenti/Luoghi/Trezzo.js';
 
 import WebList from './components/BlogComponenti/Articoli/WebList.js';
 import Excel from './components/BlogComponenti/Articoli/Excel.js';
+import Notion from "./components/BlogComponenti/Articoli/Notion.js";
+
 
 import Loading from './components/0.Loading.js';
 import AOS from 'aos';
@@ -109,7 +111,7 @@ function App() {
         <Route path="/excel" element={<Excel />}></Route>
         <Route path="/lavoro" element={<LavoroLista />}> </Route>
         <Route path="/musica" element={<Musica />}></Route>
-
+        <Route path="/notion" element={<Notion />}></Route>
 
 
 

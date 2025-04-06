@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import angolo from '../img/angolo2.jpg'; // Imposta il percorso corretto per l'immagine originale
 import angoloGrigio from '../img/angoloGrigio.png';
 import excel4 from '../img/excel4.jpg';
+import notionwall from '../img/Notionwall.png';
 
 
 
@@ -73,6 +74,23 @@ const Progetti = () => {
              
             </Card>
             </Carousel.Item>
+
+            <Carousel.Item>
+        <Card className='marginiCard' style={{ textAlign: "center" }}>
+          <Card.Img variant="top" src={notionwall} className='imgBordi1' />
+          <span className="badge bg-light text-dark ms-auto"> Mini-Progetto</span>
+          <Card.Body className='posizioneTesto'>
+            <Card.Title>Il mondo di Notion+Template</Card.Title>
+            <Card.Text>
+           Mini-Progetto sul mondo di Notion che permette di organizzare in modo efficente il tuo lavoro e il tuo tempo</Card.Text>
+           <Link to="/notion">
+            <a className='buttonRadius btn btn-dark buttonSpacing' href='#' target="_blank">Scopri come funziona</a>
+           </Link>
+          </Card.Body>
+        </Card>
+      </Carousel.Item>
+
+
 
             <Carousel.Item>
         <Card className='marginiCard' style={{ textAlign: "center" }}>

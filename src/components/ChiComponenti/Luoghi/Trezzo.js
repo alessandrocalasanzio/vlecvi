@@ -14,6 +14,12 @@ import cielo from "../../../img/Trezzo/cielo.jpg";
 import oca from "../../../img/Trezzo/oca.jpg";
 import panorama from "../../../img/Trezzo/panorama.jpg";
 import luna from "../../../img/Trezzo/luna.jpg";
+import biblio1 from "../../../img/Trezzo/biblio1.jpg";
+import nuvolo from "../../../img/Trezzo/nuvolo.jpg";
+import cielotrezzo from "../../../img/Trezzo/cielotrezzo.jpg";
+import finestrabiblio from "../../../img/Trezzo/finestrabiblio.jpg";
+import fiori from "../../../img/Trezzo/fiori.jpg";
+
 
 
 
@@ -76,6 +82,37 @@ const Trezzo = () => {
           <div class="cardt cardt--2x">
             <div class="cardt__image">
               <img src={luna}/>
+            </div>
+          </div>
+
+            <div class="cardt cardt--2x">
+            <div class="cardt__image">
+              <img src={biblio1}/>
+            </div>
+          </div>
+
+            <div class="cardt cardt--2x">
+            <div class="cardt__image">
+              <img src={finestrabiblio}/>
+            </div>
+          </div>
+
+            <div class="cardt cardt--2x">
+            <div class="cardt__image">
+              <img src={nuvolo}/>
+            </div>
+          </div>
+
+            <div class="cardt cardt--vertical">
+            <div class="cardt__image">
+              <img src={cielotrezzo}/>
+            </div>
+          </div>
+
+          
+            <div class="cardt cardt--vertical">
+            <div class="cardt__image">
+              <img src={fiori}/>
             </div>
           </div>
         

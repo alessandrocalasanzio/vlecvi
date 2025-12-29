@@ -11,8 +11,8 @@ import angoloGrigio from '../img/angoloGrigio.png';
 import excel4 from '../img/excel4.jpg';
 import notionwall from '../img/Notionwall.png';
 
-
-
+import vlecvihurst from '../img/vlecvi/sfondoVlecvi.jpg';
+import vlecvihurstLogo from '../img/vlecvi/VlecviLogo1.png';
 
 import Fade from 'react-reveal/Fade';
 
@@ -24,12 +24,15 @@ const Progetti = () => {
   useEffect(() => {
     function updateImageBasedOnWidth() {
       const cardImage = document.querySelector('.imgBordi1');
+      const cardImage1 = document.querySelector('.imgBordi2');
       const windowWidth = window.innerWidth;
 
       if (windowWidth <= 525) {
         cardImage.src = angoloGrigio; // Cambia l'immagine quando la larghezza è inferiore o uguale a 600px
+        cardImage1.src= vlecvihurstLogo;
       } else {
         cardImage.src = angolo; // Ripristina l'immagine originale quando la larghezza è superiore a 600px
+        cardImage1.src=vlecvihurst;
       }
     }
 
@@ -44,6 +47,8 @@ const Progetti = () => {
     };
   }, []); // Assicura che useEffect venga eseguito solo una volta durante il montaggio del componente
 
+
+  
   return (
     <div>
       <Container fluid>
@@ -54,6 +59,7 @@ const Progetti = () => {
 
           <Carousel prevIcon={<img  src={rightArrow} alt="Previous" style={{ width: '30px', height: '30px' }} />}
       nextIcon={<img  src={leftArrow} alt="Next" style={{ width: '40px', height: '30px' }} />}>
+      
       
       
       <Carousel.Item>
@@ -74,6 +80,22 @@ const Progetti = () => {
              
             </Card>
             </Carousel.Item>
+
+               <Carousel.Item>
+        <Card className='marginiCard' style={{ textAlign: "center" }}>
+          <Card.Img variant="top" src={vlecvihurst} className='imgBordi2' />
+          <span className="badge bg-light text-dark ms-auto"> Progetto</span>
+          <Card.Body className='posizioneTesto'>
+            <Card.Title>VlecviBot - Dolcevita</Card.Title>
+            <Card.Text>
+           Progetto inerente la costruzione di un software algoritmico per operare sui mercati finanziari in particolare sul mercato dell'oro.
+           </Card.Text>
+           <Link to="/vlecvibot">
+            <a className='buttonRadius btn btn-dark buttonSpacing' href='#' target="_blank">Apri il Progetto</a>
+           </Link>
+          </Card.Body>
+        </Card>
+      </Carousel.Item>
 
             <Carousel.Item>
         <Card className='marginiCard' style={{ textAlign: "center" }}>

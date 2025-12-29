@@ -83,7 +83,7 @@ import { Carousel } from 'react-responsive-carousel';
 
         <div className="timeline-item">
           <div className="timeline-content">
-            <h3>Immaigne 4 - Carro Armato</h3>
+            <h3>Immagine 4 - Carro Armato</h3>
             <p>Si muove su quattro ruote motrici azionate da un sistema di meccanismi a manovella e può sparare in ogni direzione</p>
             <p>Una delle opere che permise a Leonardo nel 1502 di essere assunto da Cesare Borgia come ingegnere ed architetto militare.</p>
           </div>

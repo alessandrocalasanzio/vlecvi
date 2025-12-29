@@ -29,13 +29,17 @@ import Piemonte from "./components/ChiComponenti/Luoghi/Piemonte.js";
 import Franciacorta from './components/ChiComponenti/Luoghi/Franciacorta.js';
 import Fuipiano from './components/ChiComponenti/Luoghi/Fuipiano.js';
 import PortoRecanati from './components/ChiComponenti/Luoghi/PortoRecanati.js';
+import PortoRecanati2 from "./components/ChiComponenti/Luoghi/PortoRecanati2.js";
 import Varenna from './components/ChiComponenti/Luoghi/Varenna.js';
 import Trezzo from './components/ChiComponenti/Luoghi/Trezzo.js';
+import Offagna from './components/ChiComponenti/Luoghi/Offagna.js';
+import Desenzano from './components/ChiComponenti/Luoghi/Desenzano.js';
+import CasaLeopardi from "./components/ChiComponenti/Musei/CasaLeopardi.js";
 
 import WebList from './components/BlogComponenti/Articoli/WebList.js';
 import Excel from './components/BlogComponenti/Articoli/Excel.js';
 import Notion from "./components/BlogComponenti/Articoli/Notion.js";
-
+import VlecviBot from "./components/BlogComponenti/Articoli/VlecviBot.js";
 
 import Loading from './components/0.Loading.js';
 import AOS from 'aos';
@@ -91,7 +95,7 @@ function App() {
         <Route path="/blog" element={<SchedaBlog />}></Route>
         <Route path="/progetti" element={<SchedaProgetti />}></Route>
         <Route path="/contatti" element={<SchedaContatti />}></Route>
-        <Route path="/leo" element={<Leo />}></Route>
+        
         <Route path="/parigi" element={<Parigi />}></Route>
         <Route path="/barcellona" element={<Barcellona />}></Route>
         <Route path="/portogallo" element={<Portogallo />}></Route>
@@ -105,13 +109,21 @@ function App() {
 
         <Route path="/fuipiano" element={<Fuipiano />}></Route>
         <Route path="/portorecanati" element={<PortoRecanati />}></Route>
+        <Route path="/portorecanati2" element={<PortoRecanati2 />}></Route>
+        <Route path="/offagna" element={<Offagna />}></Route>
+        <Route path="/desenzano" element={<Desenzano />}></Route>
         <Route path="/cassiglio" element={<Cassiglio />}></Route>
+
+        <Route path="/leo" element={<Leo />}></Route>
+        <Route path="/casaleopardi" element={<CasaLeopardi />}></Route>
 
         <Route path="/weblist" element={<WebList />}></Route>
         <Route path="/excel" element={<Excel />}></Route>
         <Route path="/lavoro" element={<LavoroLista />}> </Route>
         <Route path="/musica" element={<Musica />}></Route>
         <Route path="/notion" element={<Notion />}></Route>
+        <Route path="/vlecvibot" element={<VlecviBot />}></Route>
+
 
 
 

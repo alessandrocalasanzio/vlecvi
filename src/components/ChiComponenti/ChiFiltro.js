@@ -12,6 +12,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import Mappa from './Mappa/Mappa.js';
 
 import Musica from './Musica.js';
+import MappaMusei from './Mappa/MappaMusei.js';
 
 
 const ChiFiltro = () => {
@@ -36,9 +37,12 @@ const ChiFiltro = () => {
 
   const chiItems = [
     { category: 'WorldMap', component: <Mappa />,titolo: 'WorldMap' },
-    
+    { category: 'Mappa Musei&Mostre', component: <MappaMusei />,titolo: 'Mappa Musei&Mostre' },
 
-    { title: 'Porto Recanati', category: 'Italia', link:'/portorecanati',titolo: 'Around: Italia', label: '2023' },
+    { title: 'Az. Montonale - Desenzano', category: 'Italia', link:'/desenzano',titolo: 'Around: Italia', label: '2025' },
+    { title: 'Offagna', category: 'Italia', link:'/offagna', label: '2025' },
+    { title: 'Recanati e Gli Irti Colli', category: 'Italia', link:'/portorecanati2', label: '2025' },
+    { title: 'Porto Recanati', category: 'Italia', link:'/portorecanati', label: '2023' },
     { title: 'Cassiglio', category: 'Italia', link:'/cassiglio', label: '2023' },
     { title: 'Franciacorta', category: 'Italia', link:'/franciacorta', label: '2022' },
     { title: 'Fuipiano', category: 'Italia', link:'/fuipiano',  label: '2019' },
@@ -56,8 +60,8 @@ const ChiFiltro = () => {
     { title: 'Parigi ',    category: 'Estero', link:'/parigi', label: '2017' },
    
     
-
-    { title: 'Mostra Costruzioni L. Da Vinci', category: 'Mostra', link:'/leo',titolo: 'Mostre Visitate' },
+    { title: 'Tour  Bliblioteca Leopardi', category: 'Mostra', link:'/casaleopardi',titolo: 'Mostre Visitate' },
+    { title: 'Mostra Costruzioni L. Da Vinci',category: 'Mostra', link:'/leo' },
 
     { title: 'Lista: Serie Tv', category: 'Liste',titolo: 'Liste Personali',link:"https://vlecvi.notion.site/LISTA-SERIE-TV-25e2137def5540c6a7a2c672e22d9a54?pvs=4"  },
     { title: 'Lista: Film', category: 'Liste', link:"https://vlecvi.notion.site/LISTA-FILM-6d08d2d0815f4bcfb9d56f46991ece21?pvs=4" },
@@ -91,12 +95,17 @@ const ChiFiltro = () => {
 </div>
              
         
-              <button
-                onClick={() => handleFilterChange('Mostra')}
-                className={`btnBlog ${filter === 'Mostra' ? 'active' : ''}`}
-              >
-                Mostre Visitate
+                    <button
+  className= "btnBlog dropdown-toggle"
+  data-bs-toggle="dropdown"
+  aria-expanded="false"
+>
+              Mostre
               </button>
+              <div className="dropdown-menu">
+             <a onClick={() => handleFilterChange('Mappa Musei&Mostre')} className={`dropdown-item btnBlog ${filter === 'MappaMusei' ? 'active' : ''}`}> Mappa Musei&Mostre </a>
+             <a onClick={() => handleFilterChange('Mostra')} className={`dropdown-item btnBlog ${filter === 'Mostra' ? 'active' : ''}`}>Musie&Mostre Visitate</a> 
+              </div>
               <button
                 onClick={() => handleFilterChange('Liste')}
                 className={`btnBlog ${filter === 'Liste' ? 'active' : ''}`}

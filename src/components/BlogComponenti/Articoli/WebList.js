@@ -326,6 +326,18 @@ const WebList = () => {
     descrizione: "Sito fantastico dove trovare e comprare i vestiti delle star delle tue serie tv preferite.",
     category: "VestitiParticolari"
   },
+  {
+    title: "ICON AMSTERDAM",
+    link: "https://icon-amsterdam.com/it",
+    descrizione: "Sito dove trovare pantaloni eleganti elasticizzati di alta qualità",
+    category: "VestitiParticolari"
+  },
+  {
+    title: "BREEZE",
+    link: "https://breezeitalia.com/it-it",
+    descrizione: "Sito dove trovare scarpe comodo eleganti di qualità.",
+    category: "VestitiParticolari"
+  },
   /*----------------------------------------GIOIELLI-------------------------------------------------------*/
   {
     title: "BULLET STONE",

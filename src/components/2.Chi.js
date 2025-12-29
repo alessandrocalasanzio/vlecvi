@@ -48,7 +48,7 @@ const Chi = ({ toRotate, period }) => {
     
     const ChiContainer = () => {
       const elements = [
-        { toRotate: ["Accountant for Leaf Services", "Computer Science Student", "SMM for Angolo D'Abruzzo"], period: 300 },
+        { toRotate: ["Accountant for Leaf Services", "Computer Science Student", "SMM for Angolo D'Abruzzo","Creator of the VlecviBot-Dolcevita Software"], period: 300 },
         // Add more elements if necessary
       ];
 

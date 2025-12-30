@@ -29,10 +29,10 @@ const Progetti = () => {
 
       if (windowWidth <= 525) {
         cardImage.src = angoloGrigio; // Cambia l'immagine quando la larghezza è inferiore o uguale a 600px
-        cardImage1.src= vlecvihurstLogo;
+        
       } else {
         cardImage.src = angolo; // Ripristina l'immagine originale quando la larghezza è superiore a 600px
-        cardImage1.src=vlecvihurst;
+        
       }
     }
 

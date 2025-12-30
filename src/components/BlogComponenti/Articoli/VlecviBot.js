@@ -74,7 +74,7 @@ const VlecviBot = () => {
 
        <img className="fotoVlecviBot" src={forex} /> 
 
-           <p className="titoloBlog">VLECVIBOT - DOLCEVITA</p>
+           <p className="titolo3Blog">VLECVIBOT - DOLCEVITA</p>
 
              <div class="cardt cardt--featured ">
                      <div class="cardt__side-by-side--m-vlecvi ">
@@ -96,7 +96,7 @@ const VlecviBot = () => {
 
                        <p className="titoloBlog">PRESENTAZIONE PROGETTO</p>
                        <div class="cardt__content paddingt-large--2">
-                       <h2>VlecviBot - Dolcevita</h2>
+                       <h4>VlecviBot - Dolcevita</h4>
                             <p>Ho cercato per molto tempo le parole e il momento giusto per annunciare questo progetto.</p>
 <p>È sempre difficile esporsi quando dedichi anni a qualcosa, continuando a rimandare per cercare la perfezione.</p>
 <p>C’è un momento in cui si sente il bisogno di chiudere un cerchio. Per me è stato il giorno del mio compleanno, quando ho deciso di pubblicare questo progetto per la prima volta su Instagram, ora che era stabile da tempo.</p>

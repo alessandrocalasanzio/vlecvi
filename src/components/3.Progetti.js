@@ -13,8 +13,9 @@ import excel4 from '../img/excel4.jpg';
 import notionwall from '../img/Notionwall.png';
 
 import vlecvihurst from '../img/vlecvi/sfondoVlecvi.jpg';
-import vlecvihurstLogo from '../img/vlecvi/VlecviLogo1.png';
 
+import vlecvihurstLogo from '../img/vlecvi/VlecviLogo1.png';
+import vlecvihurstLogopiccolo from '../img/vlecvi/VlecviLogo1Piccolo.png';
 import Fade from 'react-reveal/Fade';
 
 
@@ -29,10 +30,10 @@ const Progetti = () => {
   
         if (windowWidth <= 525) {
           cardImage.src = angoloGrigio; // Cambia l'immagine quando la larghezza è inferiore o uguale a 600px
-          cardImage1.src= vlecvihurstLogo;
+          
         } else {
           cardImage.src = angolo; // Ripristina l'immagine originale quando la larghezza è superiore a 600px
-          cardImage1.src=vlecvihurst;
+          
         }
       }
 

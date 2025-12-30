@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c12b114.css",
-    "main.js": "/static/js/main.95fedbf7.js",
+    "main.css": "/static/css/main.6705c7bd.css",
+    "main.js": "/static/js/main.f55f35c7.js",
     "static/js/787.dfaf28dc.chunk.js": "/static/js/787.dfaf28dc.chunk.js",
     "static/media/lago.png": "/static/media/lago.3f6eda360733cff3f910.png",
     "static/media/erba.jpg": "/static/media/erba.4f80a09a322d336b349a.jpg",
@@ -145,12 +145,12 @@
     "static/media/sfondoVlecvi.jpg": "/static/media/sfondoVlecvi.7d9f6a58958b046c9f1b.jpg",
     "static/media/leopardi.jpg": "/static/media/leopardi.90c255420494af71dd5d.jpg",
     "static/media/graphs.jpg": "/static/media/graphs.cd1b44acb3bc32aaf7c1.jpg",
-    "static/media/Myfixbook.png": "/static/media/Myfixbook.faa9ca7c1190c2c2da79.png",
     "static/media/load.jpg": "/static/media/load.c666f5d24993910239c3.jpg",
     "static/media/list.jpg": "/static/media/list.ab8b293fb3860f170df6.jpg",
     "static/media/Panorama.jpg": "/static/media/Panorama.5c8fb67043be294b594c.jpg",
     "static/media/angoloGrigio.png": "/static/media/angoloGrigio.3d3650f2ec58093958b3.png",
     "static/media/Scritta1.jpg": "/static/media/Scritta1.1a6a4ea105b47c44ed41.jpg",
+    "static/media/Myfixbook.png": "/static/media/Myfixbook.103c739b384cc70186f9.png",
     "static/media/w1.jpg": "/static/media/w1.df8cbce0d30594980bd3.jpg",
     "static/media/VlecviLogo1.png": "/static/media/VlecviLogo1.970590e0aede263d3d5b.png",
     "static/media/Vinci.jpg": "/static/media/Vinci.edc3e48de215c4c1d7d9.jpg",
@@ -188,7 +188,7 @@
     "static/media/albero.jpg": "/static/media/albero.ac4ce1479b11934eaad3.jpg",
     "static/media/me1.webp": "/static/media/me1.f9f8e10d0f242f63166b.webp",
     "static/media/white.jpg": "/static/media/white.ac394a029e30ac94bda6.jpg",
-    "static/media/InputVlecviBot.png": "/static/media/InputVlecviBot.4f5c53ef58ddd5125e39.png",
+    "static/media/InputVlecviBot.png": "/static/media/InputVlecviBot.611b5d0bdbb6f9cc4c57.png",
     "static/media/LogoVlecvi.png": "/static/media/LogoVlecvi.28bace76ad896c5fc697.png",
     "static/media/MESI.png": "/static/media/MESI.31a1dda61dab6063c09c.png",
     "static/media/OVERVIEW.png": "/static/media/OVERVIEW.03888c1ccc7534ec9e37.png",
@@ -198,12 +198,12 @@
     "static/media/Perc.png": "/static/media/Perc.8436e0d71db2b93e0263.png",
     "static/media/Notionwall.png": "/static/media/Notionwall.da98b222e8440623b30b.png",
     "index.html": "/index.html",
-    "main.1c12b114.css.map": "/static/css/main.1c12b114.css.map",
-    "main.95fedbf7.js.map": "/static/js/main.95fedbf7.js.map",
+    "main.6705c7bd.css.map": "/static/css/main.6705c7bd.css.map",
+    "main.f55f35c7.js.map": "/static/js/main.f55f35c7.js.map",
     "787.dfaf28dc.chunk.js.map": "/static/js/787.dfaf28dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c12b114.css",
-    "static/js/main.95fedbf7.js"
+    "static/css/main.6705c7bd.css",
+    "static/js/main.f55f35c7.js"
   ]
 }

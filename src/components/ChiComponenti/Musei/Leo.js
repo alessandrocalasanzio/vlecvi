@@ -12,6 +12,8 @@ import paracadute from '../../../img/leo/paracadute.jpg';
 import uomo from '../../../img/leo/uomo.jpg';
 import Vinci from '../../../img/Vinci.jpg';
 
+
+
 import Slider from "react-slick";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import Carousel styles
@@ -50,7 +52,7 @@ import { Carousel } from 'react-responsive-carousel';
                     <img src={cannone} alt="cannone" />
                     <img src={paracadute} alt="paracadute" />
                     <img src={cannone1} alt="cannone2" />
-
+                 
                 </Carousel>  
                             </div>
               <div class="cardt__content paddingt-large--l">

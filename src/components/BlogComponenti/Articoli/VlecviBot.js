@@ -56,6 +56,8 @@ const VlecviBot = () => {
     setIsZoomed(!isZoomed);
   };
 
+  
+
   return (
     <div>
       <Navbar />
@@ -79,8 +81,9 @@ const VlecviBot = () => {
                        <div class="cardt__image ">
                        <Carousel className="vlecvi-carousel"  showThumbs={false} infiniteLoop showArrows={false} autoPlay={true} stopOnHover={true} interval={4000}>
                              
-                             <img src={vlecvihurst} alt="VlecviLogo" />
-                             <img src={vlecvidescrizione} alt="VlecviDescrizione" />
+                            
+                            <img src={vlecvihurst} style={{ backgroundColor: "black" }} alt="VlecviLogo" />
+                            <img src={vlecvidescrizione} alt="VlecviDescrizione" />
                              <img src={inputvlecvi} alt="InputVlecvi" />
                              <img src={vlecvipercentuali} alt="Vlecvipercentuali" />
                              <img src={vlecvigain} alt="VlecviGain" />
@@ -90,6 +93,7 @@ const VlecviBot = () => {
          
                          </Carousel>  
                                      </div>
+
                        <p className="titoloBlog">PRESENTAZIONE PROGETTO</p>
                        <div class="cardt__content paddingt-large--2">
                        <h2>VlecviBot - Dolcevita</h2>

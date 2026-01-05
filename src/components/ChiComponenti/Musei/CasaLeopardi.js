@@ -31,7 +31,7 @@ import { Carousel } from 'react-responsive-carousel';
 <Col   className="bordoColonna" md={2} >
   <div className='sticky-top'>
 
- <h1 className='vertical-rl sticky-top '>Bliblioteca Leopardi</h1>
+ <h1 className='vertical-rl sticky-top '>Biblioteca Leopardi</h1>
  
   </div>
 
@@ -58,7 +58,7 @@ import { Carousel } from 'react-responsive-carousel';
                 </Carousel>  
                             </div>
               <div class="cardt__content paddingt-large--l">
-              <h2>Tour Guidato Bliblioteca Giacomo Leopardi</h2>
+              <h2>Tour Guidato Biblioteca Giacomo Leopardi</h2>
                    <p>A Recanati è possibile visitare il Palazzo Leopardi. Non una semplice dimora, ma il luogo dove Giacomo Leopardi visse, compose le sue opere e dove, ancora oggi, risiede la sua dinastia.</p>
                    <p>Il punto cruciale del complesso è la Biblioteca, voluta dal padre Monaldo, che in breve tempo riuscì a costituire un imponente patrimonio librario di circa 20.000 volumi.</p>
       <div className="timeline-container">
@@ -89,8 +89,8 @@ import { Carousel } from 'react-responsive-carousel';
         <div className="timeline-item">
           <div className="timeline-content">
             <h3>Immagine 4 - Scrittoio</h3>
-            <p>Scrittoio originale di Giacomo Leopardi dove scriveva e lavorava all'interno della Bliblioteca</p>
-         <p>(Era cosi piccolo, per sua volontà, cosi da poterlo spostare comodamente seguendo la luce del sole che entrava all'interno della bliblioteca)</p>
+            <p>Scrittoio originale di Giacomo Leopardi dove scriveva e lavorava all'interno della Biblioteca</p>
+         <p>(Era cosi piccolo, per sua volontà, cosi da poterlo spostare comodamente seguendo la luce del sole che entrava all'interno della biblioteca)</p>
           </div>
         </div>
 

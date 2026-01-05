@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b652f6ce.css",
-    "main.js": "/static/js/main.14f7bba1.js",
+    "main.js": "/static/js/main.55e76f1b.js",
     "static/js/787.dfaf28dc.chunk.js": "/static/js/787.dfaf28dc.chunk.js",
     "static/media/lago.png": "/static/media/lago.3f6eda360733cff3f910.png",
     "static/media/erba.jpg": "/static/media/erba.4f80a09a322d336b349a.jpg",
@@ -200,11 +200,11 @@
     "static/media/Notionwall.png": "/static/media/Notionwall.da98b222e8440623b30b.png",
     "index.html": "/index.html",
     "main.b652f6ce.css.map": "/static/css/main.b652f6ce.css.map",
-    "main.14f7bba1.js.map": "/static/js/main.14f7bba1.js.map",
+    "main.55e76f1b.js.map": "/static/js/main.55e76f1b.js.map",
     "787.dfaf28dc.chunk.js.map": "/static/js/787.dfaf28dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b652f6ce.css",
-    "static/js/main.14f7bba1.js"
+    "static/js/main.55e76f1b.js"
   ]
 }

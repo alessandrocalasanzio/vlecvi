@@ -95,7 +95,7 @@ const Progetti = () => {
           <Col id="ColHover" className=' thumb1 colRight ' md={2}>
             <Fade right>
             <Link to="progetti">
-              <h1 className='vertical-rl1'><small className='more'>More to</small>Progetti</h1>
+              <h1 className='vertical-rl1'><small className='more'>More to</small> Progetti</h1>
             </Link>
             </Fade>
           </Col>

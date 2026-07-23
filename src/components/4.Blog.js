@@ -17,7 +17,7 @@ const Blog = () => {
           <Fade left>
           <Link to="/blog">
         <a>
-          <h1 className='vertical-rl'><small className='more'>More to</small>Blog</h1>
+          <h1 className='vertical-rl'><small className='more'>More to</small> Blog</h1>
           </a>
           </Link>
           </Fade>

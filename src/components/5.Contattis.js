@@ -82,7 +82,7 @@ const Contattis = () => {
                     <Col id="ColHover" className=' thumbContatti colRight ' md={2}>
                        <Fade>
                         <Link to="/contatti">
-                            <h1 className='vertical-rl1 '><small className='more'>More to</small>Contatti</h1>
+                            <h1 className='vertical-rl1 '><small className='more'>More to</small> Contatti</h1>
                         </Link>
                         </Fade>
                     </Col>

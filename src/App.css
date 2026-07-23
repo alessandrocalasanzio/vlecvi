@@ -188,6 +188,107 @@ body {
 /*FINE SCROLL BAR*/
     
 /*--------------------------------------------------- FINE GENERALE--------------------------------------*/
+
+/*------------------------------------RESET B/N MINIMALISMO (unifica default Bootstrap)-------------------*/
+/* Il sito usa due linguaggi di bordo/colore/raggio: quello editoriale voluto (bordi neri 2px,
+   spigolo vivo, testo nero) e i default di Bootstrap mai riscritti (hairline grigie #dee2e6,
+   testo #212529, border-radius 6px, focus ring blu). Qui si sceglie UNA sola logica: nero puro,
+   bordi netti, zero raggio, coerente col resto del sito. */
+
+:root {
+  --bs-body-color: #000000;
+  --bs-heading-color: #000000;
+  --bs-emphasis-color: #000000;
+  --bs-secondary-color: #000000;
+  --bs-link-color: #000000;
+  --bs-link-hover-color: #000000;
+  --bs-border-color: #000000;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.2);
+  --bs-focus-ring-color: rgba(0, 0, 0, 0.25);
+}
+
+body {
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+a {
+  color: #000000;
+}
+a:hover,
+a:focus {
+  color: #000000;
+}
+
+/* Scala tipografica: 6 taglie totali (micro-label, corpo, lead, h3, h2, h1 display).
+   Interlinea inversa alla dimensione, tracking negativo solo sul display gigante,
+   zero sui titoli medi, positivo solo sulle micro-label. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #000000;
+}
+
+h2 {
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+h4, h5, h6 {
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+/* Bootstrap: border-radius 6px di default su bottoni/card/form/dropdown ecc.
+   cozza con la griglia a spigolo vivo del sito: azzerato ovunque. */
+.btn,
+.card,
+.card-img,
+.card-img-top,
+.card-img-bottom,
+.dropdown-menu,
+.dropdown-item,
+.form-control,
+.form-select,
+.form-check-input,
+.navbar-toggler,
+.list-group-item,
+.badge,
+.alert,
+.modal-content,
+.accordion-button,
+.accordion-item {
+  border-radius: 0 !important;
+}
+
+/* Focus ring blu di default Bootstrap sostituito con nero, coerente col resto. */
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus,
+.btn:focus,
+.btn:focus-visible {
+  border-color: #000000 !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25) !important;
+}
+
+.form-check-input:checked {
+  background-color: #000000;
+  border-color: #000000;
+}
+/*----------------------------------FINE RESET B/N MINIMALISMO--------------------------------------------*/
+
 /*------------------------------------------------------NAVBAR-------------------------------------------*/
 
 
@@ -250,6 +351,7 @@ body {
 .ml11 {
   font-weight: 700;
   font-size: 5.0em;
+  letter-spacing: -0.02em;
   color: rgba(14, 172, 126, );
   /*TESTO AZZURRO DELLO SPAN*/
   width: 500px;
@@ -321,14 +423,16 @@ span {
   writing-mode: vertical-rl;
   rotate: -180deg;
   font-family: 'Space Grotesk', sans-serif;
-  letter-spacing: 2px;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   position: sticky;
   top: 110px;
   margin: 0px !important;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
   overflow-x: hidden !important;
-  line-height: 1.3em;
+  line-height: 1.6em;
   cursor: pointer;
 }
 
@@ -343,14 +447,16 @@ span {
     writing-mode: vertical-rl;
     rotate: -180deg;
     font-family: 'Space Grotesk', sans-serif;
-    letter-spacing: 2px;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     position: sticky;
     top: 110px !important;
     margin-top: 0px !important;
-    font-weight: 600;
+    font-weight: 500;
     color: #000000;
     overflow-x: hidden !important;
-    line-height: 1.3em;
+    line-height: 1.6em;
   }
 }
 
@@ -631,14 +737,16 @@ span {
   position: sticky !important;
   top: 110px;
   font-family: 'Space Grotesk', sans-serif;
-  letter-spacing: 2px;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   margin: 0px !important;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
   overflow-x: hidden !important;
-  line-height: 1.3em;
+  line-height: 1.6em;
   cursor: pointer;
-  
+
 }
 .vertical-rl1:hover {
   background-color: black;
@@ -831,16 +939,17 @@ div.gallery img {
 .content-details h3 {
   border: 2px solid black;
   color: black;
-  font-weight: 400;
-  letter-spacing: 0.10em;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
   margin-bottom: 0.5em;
   text-transform: uppercase;
 }
 
 @media only screen and (max-width: 700px) {
   .content-details h3 {
-    font-weight: 300;
-    letter-spacing: 0.08em;
+    font-weight: 500;
+    letter-spacing: 1px;
   }
 }
 
@@ -985,6 +1094,16 @@ h3:active.buttone {
   columns: black;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 100;
+}
+
+/* Citazioni in corsivo marcate (per errore) come <h1><em>...</em></h1>: trattate
+   come lead/paragrafo d'apertura (22px), non come display gigante. */
+.testoBio h1,
+.testoprogetti h1 {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 .testoBio::-webkit-scrollbar {
@@ -2056,23 +2175,24 @@ height: 150px !important;
 }
 
 .more{
-  font-size: 8px;
- 
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 .more::after{
   content: "------>";
   color: black;
-  color: black;
   position: absolute;
-  left: -8px;
-  top:-5px;
+  left: -13px;
+  top:-8px;
 }
 .more::after:hover {
   content: "------>";
   color: white;
   position: absolute;
-  left: -8px;
-  top: -5px;
+  left: -13px;
+  top: -8px;
 }
 
 .containImg{

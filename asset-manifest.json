@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1427860.css",
-    "main.js": "/static/js/main.72a1e97b.js",
+    "main.css": "/static/css/main.c8c1c1ce.css",
+    "main.js": "/static/js/main.ae9491f6.js",
     "static/js/287.ec9b5e4d.chunk.js": "/static/js/287.ec9b5e4d.chunk.js",
     "static/js/599.3becf5d5.chunk.js": "/static/js/599.3becf5d5.chunk.js",
     "static/js/853.a799b6b6.chunk.js": "/static/js/853.a799b6b6.chunk.js",
@@ -226,8 +226,8 @@
     "static/media/Perc.png": "/static/media/Perc.8436e0d71db2b93e0263.png",
     "static/media/Notionwall.png": "/static/media/Notionwall.da98b222e8440623b30b.png",
     "index.html": "/index.html",
-    "main.a1427860.css.map": "/static/css/main.a1427860.css.map",
-    "main.72a1e97b.js.map": "/static/js/main.72a1e97b.js.map",
+    "main.c8c1c1ce.css.map": "/static/css/main.c8c1c1ce.css.map",
+    "main.ae9491f6.js.map": "/static/js/main.ae9491f6.js.map",
     "287.ec9b5e4d.chunk.js.map": "/static/js/287.ec9b5e4d.chunk.js.map",
     "599.3becf5d5.chunk.js.map": "/static/js/599.3becf5d5.chunk.js.map",
     "853.a799b6b6.chunk.js.map": "/static/js/853.a799b6b6.chunk.js.map",
@@ -264,7 +264,7 @@
     "984.746a84ca.chunk.js.map": "/static/js/984.746a84ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1427860.css",
-    "static/js/main.72a1e97b.js"
+    "static/css/main.c8c1c1ce.css",
+    "static/js/main.ae9491f6.js"
   ]
 }

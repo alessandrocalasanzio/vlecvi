@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../App.js';
 import Navbar from '../../1.1Navbar1.js';
 import { Col, Row } from 'react-bootstrap';
 

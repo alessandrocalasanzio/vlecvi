@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../../1.Navbar.js";
 
-import '../../../App.js';
 import '../../../App.css';
 
 import { Col, Row } from "react-bootstrap";

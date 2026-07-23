@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../../1.Navbar";
 
-import '../../../App.js';
 import '../../../App.css';
 
 import { Col, Row } from "react-bootstrap";
@@ -12,7 +11,6 @@ import strettoia from '../../../img/Brescia/strettoia.jpg';
 import torre from '../../../img/Brescia/torre.jpg';
 import cipressi from '../../../img/Brescia/cipressi.jpg';
 import tettochiesa from '../../../img/Brescia/tettochiesa.jpg';
-import giardino from '../../../img/Brescia/giardino.jpg';
 import piovra from '../../../img/Brescia/piovra.jpg';
 import vedetta from '../../../img/Brescia/vedetta.jpg';
 import municipio from '../../../img/Brescia/municipio.jpg';

@@ -1,15 +1,8 @@
-import React, {useState, useEffect}  from 'react';
-import '../App.js';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import LogoVlecvi from '../img/LogoVlecvi.png';
-import me from '../img/me.jpg';
-import ny from '../img/ny.jpg';
-import me1 from '../img/me1.webp';
-import './7.Scriptscritta.js';
 import {Link} from 'react-router-dom';
-import BlogFiltro from './BlogComponenti/BlogFiltro.js';
 
 import { Fade } from 'react-reveal';
 

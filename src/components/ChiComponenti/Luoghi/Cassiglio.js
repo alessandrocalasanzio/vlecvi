@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../../1.Navbar";
 
-import '../../../App.js';
 import '../../../App.css';
 
 import { Col, Row } from "react-bootstrap";
@@ -13,9 +12,6 @@ import mappa from "../../../img/Cassiglio/Mappa.jpg";
 import ruota from "../../../img/Cassiglio/Ruota.jpg";
 import paesaggio from "../../../img/Cassiglio/Paesaggio.jpg";
 import paesaggio1 from "../../../img/Cassiglio/Paesaggio1.jpg";
-
-import quad from "../../../img/Franciacorta/Quad.jpg";
-import albero from "../../../img/Franciacorta/albero.jpg";
 
 const Cassiglio = () => {
 

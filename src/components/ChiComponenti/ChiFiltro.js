@@ -7,10 +7,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import Dropdown from 'react-bootstrap/Dropdown';
-
 import Mappa from './Mappa/Mappa.js';
-import Musica from './Musica.js';
 import MappaMusei from './Mappa/MappaMusei.js';
 
 const ChiFiltro = () => {

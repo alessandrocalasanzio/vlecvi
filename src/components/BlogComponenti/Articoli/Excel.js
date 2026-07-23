@@ -1,12 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import { Col, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import Carousel styles
-import { Carousel } from 'react-responsive-carousel';
-
-import Blog from "../../4.Blog";
 import BlogFiltro from "../BlogFiltro";
 import Navbar from "../../1.Navbar";
 
@@ -14,15 +10,8 @@ import graphs from '../../../img/graphs.jpg';
 import overview from '../../../img/OVERVIEW.png';
 import mesi from '../../../img/MESI.png';
 
-import Fade from 'react-reveal/Fade';
-
-
-import Giscus from '@giscus/react';
-
-import { FaCog, FaHeart } from 'react-icons/fa';  // Esempio di importazione di icone
-import { FaShareAlt } from "react-icons/fa";
+import { FaShareAlt, FaPaypal } from "react-icons/fa";
 import CopyToClipboard from 'react-copy-to-clipboard';
-import { FaPaypal } from 'react-icons/fa'; // Importa l'icona PayPal da react-icons
 
 
 
@@ -247,14 +236,16 @@ const Excel = () => {
     
       <span className="support-text support-container">PER SUPPORTARMI:
       
-      <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <form action="https://paypal.me/acalasanzio?locale.x=it_IT&country.x=IT" method="post" target="_top">
           <input type="hidden" name="business" value="TUM7KNN6PNHDS" />
           <input type="hidden" name="no_recurring" value="0" />
           <input type="hidden" name="item_name" value="Dona pure con Paypal se l'articolo di questo Blog ti è piaciuto e mi vuoi sostenere :)" />
           <input type="hidden" name="currency_code" value="EUR" />
           
           {/* Pulsante di donazione di PayPal */}
-          <input type="image" className="paypal-button" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/PayPal_Logo_Icon_2014.svg/887px-PayPal_Logo_Icon_2014.svg.png" width="50px" height="50px" color="black" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <button type="submit" name="submit" className="paypal-button" title="PayPal - The safer, easier way to pay online!" aria-label="Donate with PayPal">
+            <FaPaypal color="#0070BA" size="1.4em" />
+          </button>
         </form>
       
      </span>

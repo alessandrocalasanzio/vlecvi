@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Navbar from "../1.Navbar";
-import SpotifyPlayer from 'react-spotify-api';
 import { Col, Row } from "react-bootstrap";
 
 

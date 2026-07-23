@@ -1,21 +1,15 @@
 import React, { useEffect } from 'react';
-import '../App.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Carousel, Card, Button } from 'react-bootstrap';
+import { Carousel, Card } from 'react-bootstrap';
 
 import { Link } from 'react-router-dom';
 import angolo from '../img/angolo2.jpg'; // Imposta il percorso corretto per l'immagine originale
 import angoloGrigio from '../img/angoloGrigio.png';
-import excel4 from '../img/excel4.jpg';
-
-import notionwall from '../img/Notionwall.png';
 
 import vlecvihurst from '../img/vlecvi/sfondoVlecvi.jpg';
 
-import vlecvihurstLogo from '../img/vlecvi/VlecviLogo1.png';
-import vlecvihurstLogopiccolo from '../img/vlecvi/VlecviLogo1Piccolo.png';
 import Fade from 'react-reveal/Fade';
 
 
@@ -25,15 +19,15 @@ const Progetti = () => {
   useEffect(() => {
     function updateImageBasedOnWidth() {
         const cardImage = document.querySelector('.imgBordi1');
-        const cardImage1 = document.querySelector('.imgBordi2');
+        if (!cardImage) return;
         const windowWidth = window.innerWidth;
-  
+
         if (windowWidth <= 525) {
           cardImage.src = angoloGrigio; // Cambia l'immagine quando la larghezza è inferiore o uguale a 600px
-          
+
         } else {
           cardImage.src = angolo; // Ripristina l'immagine originale quando la larghezza è superiore a 600px
-          
+
         }
       }
 

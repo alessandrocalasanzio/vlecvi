@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../App.js';
 import Navbar from '../../1.1Navbar1.js';
 import { Col, Row } from 'react-bootstrap';
 
@@ -11,10 +10,6 @@ import deltaplano from '../../../img/leo/deltaplano.jpg';
 import paracadute from '../../../img/leo/paracadute.jpg';
 import uomo from '../../../img/leo/uomo.jpg';
 import Vinci from '../../../img/Vinci.jpg';
-
-
-
-import Slider from "react-slick";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import Carousel styles
 import { Carousel } from 'react-responsive-carousel';

@@ -252,8 +252,8 @@ const LavoroLista = () => {
               Corsi
               </button>
               <div className="dropdown-menu">
-<a onClick={() => handleFilterChange('CorsiFisici')} className={`dropdown-item btnBlog ${filter === 'CorsiFisici' ? 'active' : ''}`}>CORSI FISICI</a>
-<a onClick={() => handleFilterChange('CorsiDigitali')} className={`dropdown-item btnBlog ${filter === 'CorsiDigitali' ? 'active' : ''}`}>CORSI DIGITALI</a>
+<button type="button" onClick={() => handleFilterChange('CorsiFisici')} className={`dropdown-item btnBlog ${filter === 'CorsiFisici' ? 'active' : ''}`}>CORSI FISICI</button>
+<button type="button" onClick={() => handleFilterChange('CorsiDigitali')} className={`dropdown-item btnBlog ${filter === 'CorsiDigitali' ? 'active' : ''}`}>CORSI DIGITALI</button>
             </div>
 
 
@@ -265,7 +265,6 @@ const LavoroLista = () => {
            
             <Col id="ColHover" className="bordoColonna" md={2}>
               <Link to="/lavoro">
-              <a>
       <h1 className='vertical-rl'>
         {filter === 'all' ? 'Lavoro' : filteredItems.map((item, index) => (
           <div key={index}>
@@ -273,7 +272,6 @@ const LavoroLista = () => {
           </div>
         ))}
       </h1>
-    </a>
               </Link>
             </Col>
   

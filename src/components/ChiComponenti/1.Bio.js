@@ -15,7 +15,7 @@ const Bio = () => {
       <Row>
        <Col  id="ColHover" className="bordoColonna" md={1}  >
           <div>
-       <img class="resizeImg" src={me}/>
+       <img class="resizeImg" src={me} alt="Alessandro"/>
           </div>
         
           
@@ -42,9 +42,9 @@ const Bio = () => {
 
 <p>Attualmente, la mia vita si articola in tre sfere distintive:</p>
 
-  <p>- Lavoro come contabile per la Leaf Services.</p>
-  <p>- Sono il social media manager dei vari ristoranti:<br/> “Da Giannino- L'Angolo d'Abruzzo".</p>
-  <p>- E nel mio tempo libero, studio e creo progetti in ambito informatico.(Al momento solo progetti personali)</p>
+  <p>- Lavoro a tempo pieno sul mio progetto VlecviBot</p>
+  <p>- Sono il social media manager del ristorante:<br/> “Da Giannino- L'Angolo d'Abruzzo".</p>
+  <p>- Studio e rimango aggiornato su tutto quello ruota intorno all'intelligenza artificiale.</p>
 
 <p>Ma la mia vita non è solo codice e calcoli, e per fortuna, non tutto riguarda il lavoro. Sono un amante dell'arte digitale, che spazia tra film, serie TV, videogiochi e podcast. Tutto questo mi permette di vedere il mondo da prospettive diverse. Sul sito, troverete una vetrina dedicata alle liste, di ciò che ho guardato e di cosa invece vorrei guardare/ascoltare.</p>
 

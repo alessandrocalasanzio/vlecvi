@@ -39,13 +39,13 @@ const LagoGarda = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={lungovia}/>
+              <img src={lungovia} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={palme}/>
+              <img src={palme} alt=""/>
             </div>
           </div>
             
@@ -54,7 +54,7 @@ const LagoGarda = () => {
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={lagogarda}/>
+                <img src={lagogarda} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Lago di Garda</h2>
@@ -66,13 +66,13 @@ const LagoGarda = () => {
         
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={palme2}/>
+              <img src={palme2} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={piscina}/>
+              <img src={piscina} alt=""/>
             </div>
           </div>
           

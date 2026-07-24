@@ -69,7 +69,6 @@ const BlogFiltro = () => {
         <Row>
           <Col id="ColHover" className="bordoColonna" md={2}>
             <Link to="/blog">
-            <a>
       <h1 className='vertical-rl'>
         {filter === 'all' ? 'Blog' : filteredItems.map((item, index) => (
           <div key={index}>
@@ -77,7 +76,6 @@ const BlogFiltro = () => {
           </div>
         ))}
       </h1>
-    </a>
             </Link>
           </Col>
 
@@ -93,8 +91,7 @@ const BlogFiltro = () => {
       {item.component}
       <Link to={item.link}>
       <div className="d-flex w-100 justify-content-between">
-        {/* Aggiungi un link intorno al titolo */}
-        <a   className="mb-1">{item.title}</a>
+        <span className="mb-1">{item.title}</span>
       </div>
       </Link>
       <div>

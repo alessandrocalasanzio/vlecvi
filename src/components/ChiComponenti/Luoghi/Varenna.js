@@ -38,13 +38,13 @@ const Varenna = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={lago}/>
+              <img src={lago} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={alberi}/>
+              <img src={alberi} alt=""/>
             </div>
           </div>
             
@@ -53,7 +53,7 @@ const Varenna = () => {
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={costa}/>
+                <img src={costa} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Varenna</h2>
@@ -66,13 +66,13 @@ const Varenna = () => {
         
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={statua}/>
+              <img src={statua} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={vasi}/>
+              <img src={vasi} alt=""/>
             </div>
           </div>
           

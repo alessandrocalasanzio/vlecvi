@@ -16,9 +16,7 @@ const Blog = () => {
         <Col id="ColHover" className="bordoColonna" md={2} >
           <Fade left>
           <Link to="/blog">
-        <a>
           <h1 className='vertical-rl'><small className='more'>More to</small> Blog</h1>
-          </a>
           </Link>
           </Fade>
         </Col>
@@ -30,30 +28,23 @@ const Blog = () => {
         <Fade right>
     <div>
         <div class="list-group justify-content-center">
-        <Link to="/excel">
-  <a href="#" class="list-group-item list-group-item-action hoverBlog">
+        <Link to="/excel" class="list-group-item list-group-item-action hoverBlog">
     <div class=" d-flex1 w-100 justify-content-between">
       <h5 class="mb-1 sopra">Tenere Traccia delle spese con un File Excel</h5>
       <small class="text-muted1">Finanze</small>
     </div>
-   
-  </a>
   </Link>
-  <Link to="/lavoro">
-  <a href="#" class="list-group-item list-group-item-action hoverBlog">
+  <Link to="/lavoro" class="list-group-item list-group-item-action hoverBlog">
     <div class="d-flex1 w-100 justify-content-between">
       <h5 class="mb-1">I migliori siti per trovare lavoro</h5>
       <small class="text-muted1">Liste</small>
     </div>
-  </a>
   </Link>
-  <Link to="/weblist">
-  <a href="#" class="list-group-item list-group-item-action hoverBlog">
+  <Link to="/weblist" class="list-group-item list-group-item-action hoverBlog">
     <div class="d-flex1 w-100 justify-content-between ">
       <h5 class="mb-1">WebList</h5>
           <small class="text-muted1">Liste</small>
     </div>
-  </a>
   </Link>
 </div>
 </div>

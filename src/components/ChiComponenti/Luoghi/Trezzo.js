@@ -46,13 +46,13 @@ const Trezzo = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={cielo}/>
+              <img src={cielo} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={oca}/>
+              <img src={oca} alt=""/>
             </div>
           </div>
             
@@ -61,7 +61,7 @@ const Trezzo = () => {
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={fiume}/>
+                <img src={fiume} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Trezzo Sull'adda</h2>
@@ -73,45 +73,45 @@ const Trezzo = () => {
         
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={panorama}/>
+              <img src={panorama} alt=""/>
             </div>
           </div>
 
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={luna}/>
+              <img src={luna} alt=""/>
             </div>
           </div>
 
             <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={biblio1}/>
+              <img src={biblio1} alt=""/>
             </div>
           </div>
 
             <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={finestrabiblio}/>
+              <img src={finestrabiblio} alt=""/>
             </div>
           </div>
 
             <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={nuvolo}/>
+              <img src={nuvolo} alt=""/>
             </div>
           </div>
 
             <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={cielotrezzo}/>
+              <img src={cielotrezzo} alt=""/>
             </div>
           </div>
 
           
             <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={fiori}/>
+              <img src={fiori} alt=""/>
             </div>
           </div>
         

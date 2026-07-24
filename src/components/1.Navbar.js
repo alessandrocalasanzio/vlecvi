@@ -18,22 +18,22 @@ const Navbar = () => {
         <ul class="navbar-nav ms-auto">
         <Link to="/chisono">
             <li class="nav-item">
-                <a class="nav-link">Chi Sono</a>
+                <span class="nav-link">Chi Sono</span>
             </li>
             </Link>
             <Link to="/progetti">
             <li class="nav-item">
-                <a class="nav-link">Progetti</a>
+                <span class="nav-link">Progetti</span>
             </li>
             </Link>
             <Link to="/blog">
             <li class="nav-item">
-                <a class="nav-link">Blog</a>
+                <span class="nav-link">Blog</span>
             </li>
             </Link>
             <Link to="/contatti">
             <li class="nav-item">
-                <a class="nav-link">Contatti</a>
+                <span class="nav-link">Contatti</span>
             </li>
             </Link>
         </ul>

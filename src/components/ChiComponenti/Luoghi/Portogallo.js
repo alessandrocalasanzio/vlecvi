@@ -44,18 +44,18 @@ const Portogallo = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={ponte}/>
+              <img src={ponte} alt=""/>
             </div>
           </div>
             
           <div class="cardt">
             <div class="cardt__image">
-              <img src={casanatura}/>
+              <img src={casanatura} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={graffiti}/>
+              <img src={graffiti} alt=""/>
             </div>
           </div>
           <div class="cardt">
@@ -69,13 +69,13 @@ con la varietà dei colori che assume Lisbona alla luce del sole.<br/>
          
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-              <img src={porto}/>
+              <img src={porto} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={castello}/>
+                <img src={castello} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Portogallo</h2>
@@ -87,28 +87,28 @@ con la varietà dei colori che assume Lisbona alla luce del sole.<br/>
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={operachiesa}/>
+              <img src={operachiesa} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={sentiero}/>
+              <img src={sentiero} alt=""/>
             </div>
           </div>
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={oceano}/>
+              <img src={oceano} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={metro}/>
+              <img src={metro} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={fiori}/>
+              <img src={fiori} alt=""/>
             </div>
           </div>
           <div class="cardt">
@@ -121,24 +121,24 @@ con la varietà dei colori che assume Lisbona alla luce del sole.<br/>
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={vetrate}/>
+              <img src={vetrate} alt=""/>
 
             </div>
           </div>
         
           <div class="cardt">
             <div class="cardt__image">
-              <img src={verde}/>
+              <img src={verde} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-            <img src={scalechiesa}/>
+            <img src={scalechiesa} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={palme}/>
+              <img src={palme} alt=""/>
             </div>
           </div>
          

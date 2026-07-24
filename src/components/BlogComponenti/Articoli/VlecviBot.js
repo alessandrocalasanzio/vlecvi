@@ -55,7 +55,7 @@ const VlecviBot = () => {
         </Col>
         <Col>
 
-       <img className="fotoVlecviBot" src={forex} /> 
+       <img className="fotoVlecviBot" src={forex}  alt=""/> 
 
            <p className="titolo3Blog">VLECVIBOT - DOLCEVITA</p>
 

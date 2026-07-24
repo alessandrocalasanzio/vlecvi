@@ -72,7 +72,7 @@ const Progetti = () => {
                   Ideazione e creazione del Sito Web del ristorante Da Giannino l'Angolo d'Abruzzo.
                 </Card.Text>
                 
-                <a className='buttonRadius btn btn-dark' href='http://www.da-giannino-langolo-dabruzzo.it' target="_blank">Apri il Progetto</a>
+                <a className='buttonRadius btn btn-dark' href='http://www.da-giannino-langolo-dabruzzo.it' target="_blank" rel="noreferrer">Apri il Progetto</a>
                
               </Card.Body>
              
@@ -88,9 +88,7 @@ const Progetti = () => {
             <Card.Text>
            Progetto inerente la costruzione di un software algoritmico per operare sui mercati finanziari in particolare sul mercato dell'oro.
            </Card.Text>
-           <Link to="/vlecvibot">
-            <a className='buttonRadius btn btn-dark buttonSpacing' href='#' target="_blank">Apri il Progetto</a>
-           </Link>
+           <Link to="/vlecvibot" className='buttonRadius btn btn-dark buttonSpacing'>Apri il Progetto</Link>
           </Card.Body>
         </Card>
       </Carousel.Item>
@@ -103,9 +101,7 @@ const Progetti = () => {
             <Card.Title>Il mondo di Notion+Template</Card.Title>
             <Card.Text>
            Mini-Progetto sul mondo di Notion che permette di organizzare in modo efficente il tuo lavoro e il tuo tempo</Card.Text>
-           <Link to="/notion">
-            <a className='buttonRadius btn btn-dark buttonSpacing' href='#' target="_blank">Scopri come funziona</a>
-           </Link>
+           <Link to="/notion" className='buttonRadius btn btn-dark buttonSpacing'>Scopri come funziona</Link>
           </Card.Body>
         </Card>
       </Carousel.Item>
@@ -120,9 +116,7 @@ const Progetti = () => {
             <Card.Title>Excel Expense Tracking</Card.Title>
             <Card.Text>
            Mini-Progetto in Excel che permette di tenere traccia delle proprie entrate e uscite.</Card.Text>
-           <Link to="/excel">
-            <a className='buttonRadius btn btn-dark buttonSpacing' href='#' target="_blank">Scopri come funziona</a>
-           </Link>
+           <Link to="/excel" className='buttonRadius btn btn-dark buttonSpacing'>Scopri come funziona</Link>
            <a className="buttonRadius btn btn-dark" href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods">Scarica il Mini-Progetto</a>
 
 

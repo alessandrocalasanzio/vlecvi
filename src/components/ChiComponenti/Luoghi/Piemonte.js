@@ -36,13 +36,13 @@ const Piemonte = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={panorama1}/>
+              <img src={panorama1} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={panorama2}/>
+              <img src={panorama2} alt=""/>
             </div>
           </div>
             
@@ -51,7 +51,7 @@ const Piemonte = () => {
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={panorama3}/>
+                <img src={panorama3} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Piani D'erna</h2>

@@ -43,18 +43,18 @@ const Parigi = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={moulin}/>
+              <img src={moulin} alt=""/>
             </div>
           </div>
             
           <div class="cardt">
             <div class="cardt__image">
-              <img src={boxoffice}/>
+              <img src={boxoffice} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={graffiti}/>
+              <img src={graffiti} alt=""/>
             </div>
           </div>
           <div class="cardt">
@@ -66,13 +66,13 @@ const Parigi = () => {
            
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-              <img src={erba}/>
+              <img src={erba} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={riassunto}/>
+                <img src={riassunto} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Parigi, "La vie en Rose"</h2>
@@ -85,29 +85,29 @@ const Parigi = () => {
         
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={tour}/>
+              <img src={tour} alt=""/>
             </div>
           </div>
            
           <div class="cardt">
             <div class="cardt__image">
-              <img src={scrittaneon}/>
+              <img src={scrittaneon} alt=""/>
             </div>
           </div>
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={arco}/>
+              <img src={arco} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={lucitour}/>
+              <img src={lucitour} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={ponte}/>
+              <img src={ponte} alt=""/>
             </div>
           </div>
           <div class="cardt">
@@ -120,23 +120,23 @@ const Parigi = () => {
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={notre}/>
+              <img src={notre} alt=""/>
             </div>
           </div>
         
           <div class="cardt">
             <div class="cardt__image">
-              <img src={chiesa}/>
+              <img src={chiesa} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-              <img src={parlamento}/>
+              <img src={parlamento} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={scrittastrada}/>
+              <img src={scrittastrada} alt=""/>
             </div>
           </div>
           

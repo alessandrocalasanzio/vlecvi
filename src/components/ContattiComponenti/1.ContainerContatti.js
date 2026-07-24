@@ -13,7 +13,7 @@ const Bio = () => {
       <Row>
        <Col  id="ColHover" className="bordoColonnaContattiimg" md={1}  >
           <div>
-       <img class="resizeImg" src={office}/>
+       <img class="resizeImg" src={office} alt=""/>
           </div>
         
           
@@ -30,7 +30,7 @@ const Bio = () => {
        <div className='testoBio'>
        <h1><em>“Benvenuto nella sezione Contatti!”</em></h1>
        <p> Qui troverai vari modi per raggiungermi, sia per scambiare quattro chiacchiere che per discutere di opportunità lavorative. La tua opinione e il tuo interesse sono importanti per me, e sono sempre aperto a nuove esperienze e connessioni professionali.</p>
-<p>Puoi trovare il mio background professionale e il mio CV Digitale direttamente su <a href="https://www.linkedin.com/in/alessandro-calasanzio/" target="_blank" className="content-link">Linkedin.</a> </p> 
+<p>Puoi trovare il mio background professionale e il mio CV Digitale direttamente su <a href="https://www.linkedin.com/in/alessandro-calasanzio/" target="_blank" rel="noreferrer" className="content-link">Linkedin.</a> </p> 
 
        <h1><em>“Perché Contattarmi?”</em></h1>
       

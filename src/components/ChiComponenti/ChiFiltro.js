@@ -88,9 +88,9 @@ const ChiFiltro = () => {
           Around
         </button>
         <div className="dropdown-menu">
-          <a onClick={() => handleFilterChange('WorldMap')} className={`dropdown-item btnBlog ${filter === 'WorldMap' ? 'active' : ''}`}> World Map </a>
-          <a onClick={() => handleFilterChange('Italia')} className={`dropdown-item btnBlog ${filter === 'Italia' ? 'active' : ''}`}> Around: Italia </a>
-          <a onClick={() => handleFilterChange('Estero')} className={`dropdown-item btnBlog ${filter === 'Estero' ? 'active' : ''}`}> Around: Estero </a>
+          <button type="button" onClick={() => handleFilterChange('WorldMap')} className={`dropdown-item btnBlog ${filter === 'WorldMap' ? 'active' : ''}`}> World Map </button>
+          <button type="button" onClick={() => handleFilterChange('Italia')} className={`dropdown-item btnBlog ${filter === 'Italia' ? 'active' : ''}`}> Around: Italia </button>
+          <button type="button" onClick={() => handleFilterChange('Estero')} className={`dropdown-item btnBlog ${filter === 'Estero' ? 'active' : ''}`}> Around: Estero </button>
         </div>
 
         <button
@@ -101,8 +101,8 @@ const ChiFiltro = () => {
           Mostre
         </button>
         <div className="dropdown-menu">
-          <a onClick={() => handleFilterChange('Mappa Musei&Mostre')} className={`dropdown-item btnBlog ${filter === 'MappaMusei' ? 'active' : ''}`}> Mappa Musei&Mostre </a>
-          <a onClick={() => handleFilterChange('Mostra')} className={`dropdown-item btnBlog ${filter === 'Mostra' ? 'active' : ''}`}>Musie&Mostre Visitate</a>
+          <button type="button" onClick={() => handleFilterChange('Mappa Musei&Mostre')} className={`dropdown-item btnBlog ${filter === 'MappaMusei' ? 'active' : ''}`}> Mappa Musei&Mostre </button>
+          <button type="button" onClick={() => handleFilterChange('Mostra')} className={`dropdown-item btnBlog ${filter === 'Mostra' ? 'active' : ''}`}>Musie&Mostre Visitate</button>
         </div>
         <button
           onClick={() => handleFilterChange('Liste')}
@@ -116,7 +116,6 @@ const ChiFiltro = () => {
         <Row>
           <Col id="ColHover" className="bordoColonna" md={2}>
             <Link to="/blog">
-              <a>
                 <h1 className='vertical-rl'>
                   <div>
                     {filteredItems.map((item, index) => (
@@ -126,7 +125,6 @@ const ChiFiltro = () => {
                     ))}
                   </div>
                 </h1>
-              </a>
             </Link>
           </Col>
 
@@ -136,9 +134,7 @@ const ChiFiltro = () => {
                 <div key={index} className="list-group-item list-group-item-action hoverBlog">
                   {item.component}
                   <div className="d-flex w-100 justify-content-between">
-                    <Link to={item.link}>
-                      <a className="mb-1">{item.title}</a>
-                    </Link>
+                    <Link to={item.link} className="mb-1">{item.title}</Link>
                     <span className="badge bg-light text-dark ms-auto">{item.label}</span>
                   </div>
                 </div>

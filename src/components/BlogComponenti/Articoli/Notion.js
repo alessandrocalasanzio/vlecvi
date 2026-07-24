@@ -48,7 +48,7 @@ const Notion = () => {
 
         </Col>
         <Col>
-          <img className="fotoNotion" src={notion} />
+          <img className="fotoNotion" src={notion}  alt=""/>
 
           <div className='testoBlog'>
 
@@ -66,7 +66,7 @@ const Notion = () => {
             <div class="cardt cardt--featured">
               <div class="cardt__side-by-side--m">
                 <div class="cardt__image">
-                  <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={notion1} onClick={toggleZoom} />
+                  <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={notion1} onClick={toggleZoom}  alt=""/>
 
                 </div>
 
@@ -107,7 +107,7 @@ const Notion = () => {
             <div class="cardt cardt--featured">
               <div class="cardt__side-by-side--m">
                 <div class="cardt__image">
-                  <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={notionduplica} onClick={toggleZoom} />
+                  <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={notionduplica} onClick={toggleZoom}  alt=""/>
 
                 </div>
 

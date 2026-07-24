@@ -39,13 +39,13 @@ const Desenzano = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={vigne1}/>
+              <img src={vigne1} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={botte}/>
+              <img src={botte} alt=""/>
             </div>
           </div>
             
@@ -54,7 +54,7 @@ const Desenzano = () => {
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={vista2}/>
+                <img src={vista2} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Az. Montonale - Desenzano</h2>
@@ -67,25 +67,25 @@ const Desenzano = () => {
         
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={rose}/>
+              <img src={rose} alt=""/>
             </div>
           </div>
            
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={esposizione}/>
+              <img src={esposizione} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={gattino}/>
+              <img src={gattino} alt=""/>
             </div>
           </div>
           
           <div class="cardt cardt--horizontal1">
             <div class="cardt__image">
-              <img src={vista}/>
+              <img src={vista} alt=""/>
             </div>
           </div>
 

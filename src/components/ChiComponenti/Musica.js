@@ -20,6 +20,7 @@ const Musica = () => {
         <Col  style={{ height: '950px !important' }}>
           <div className="spotify" >
           <iframe wide className="spotify1"
+      title="Rap Italiano - Spotify Playlist"
       style={{ borderRadius: '0px !important' }}
       src="https://open.spotify.com/embed/playlist/3hXbzzSZiMqLbFmbAd9lur?utm_source=generator"
       width="100%"
@@ -38,6 +39,7 @@ const Musica = () => {
         <Col>
           <div className="spotify">
           <iframe wide className="spotify1"
+          title="Rap Americano - Spotify Playlist"
           src="https://open.spotify.com/embed/playlist/7Ie5jcc3kFiTExVTCmAi8H?utm_source=generator"
           width="100%" 
           height="152" 
@@ -76,6 +78,7 @@ const Musica = () => {
         <Col>
           <div className="spotify">
           <iframe wide className="spotify1"
+      title="Pop Italiano - Spotify Playlist"
       style={{ borderRadius: '0px !important' }}
       src="https://open.spotify.com/embed/playlist/0wmyFWzkj6UYDINiA1mB9i?si=fb7e3ee163bf4135"
       width="100%"
@@ -94,6 +97,7 @@ const Musica = () => {
         <Col>
           <div className="spotify">
           <iframe wide className="spotify1"
+      title="Dance - Spotify Playlist"
       style={{ borderRadius: '0px !important' }}
       src="https://open.spotify.com/embed/playlist/5CSj9iP4WgAUsGZIQlOPQ7?si=b3a316dc9fd34bdf"
       width="100%"

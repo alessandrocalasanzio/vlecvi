@@ -42,11 +42,20 @@ const Chi = ({ toRotate, period }) => {
   return <span className="wrap">{txt}</span>;
 };
     
-    const ChiContainer = () => {
-      const elements = [
-        { toRotate: ["Accountant for Leaf Services", "Computer Science Student", "SMM for Angolo D'Abruzzo","Creator of the VlecviBot-Dolcevita Software"], period: 300 },
-        // Add more elements if necessary
-      ];
+   const ChiContainer = () => {
+  const elements = [
+    {
+      toRotate: [
+        "Algo Trader",
+        "Tech Addicted",
+        "Social Media Manager",
+        "Cinefilo",
+        "Amante dell'arte",
+      ],
+      period: 300,
+    },
+    // Add more elements if necessary
+  ];
 
     return(
        <div>
@@ -68,7 +77,7 @@ const Chi = ({ toRotate, period }) => {
         <Col className=' thumb'>
           <Fade right>
           <div>
-        <img class="foldImg" src={w1}/>
+        <img class="foldImg" src={w1} alt=""/>
         <div className='ml11 ml11-posizione'>
       {elements.map((el, index) => (
         <Chi key={index} toRotate={el.toRotate} period={el.period} />

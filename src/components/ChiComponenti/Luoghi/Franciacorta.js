@@ -38,13 +38,13 @@ const Franciacorta = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={cancello}/>
+              <img src={cancello} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={panorama}/>
+              <img src={panorama} alt=""/>
             </div>
           </div>
             
@@ -53,7 +53,7 @@ const Franciacorta = () => {
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={luna}/>
+                <img src={luna} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Franciacorta</h2>
@@ -66,31 +66,31 @@ const Franciacorta = () => {
         
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={vigne}/>
+              <img src={vigne} alt=""/>
             </div>
           </div>
            
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={panoramavigna}/>
+              <img src={panoramavigna} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={uva}/>
+              <img src={uva} alt=""/>
             </div>
           </div>
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={quad}/>
+              <img src={quad} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={albero}/>
+              <img src={albero} alt=""/>
             </div>
           </div>
           

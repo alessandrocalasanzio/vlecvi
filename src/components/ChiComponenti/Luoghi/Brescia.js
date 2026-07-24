@@ -42,31 +42,31 @@ const Brescia = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={fogli}/>
+              <img src={fogli} alt=""/>
             </div>
           </div>
             
           <div class="cardt">
             <div class="cardt__image">
-              <img src={finestra}/>
+              <img src={finestra} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={strettoia}/>
+              <img src={strettoia} alt=""/>
             </div>
           </div>
         
            
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-              <img src={torre}/>
+              <img src={torre} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={tettochiesa}/>
+                <img src={tettochiesa} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Brescia</h2>
@@ -80,52 +80,52 @@ const Brescia = () => {
         
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={cipressi}/>
+              <img src={cipressi} alt=""/>
             </div>
           </div>
            
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={piovra}/>
+              <img src={piovra} alt=""/>
             </div>
           </div>
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={vedetta}/>
+              <img src={vedetta} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={municipio}/>
+              <img src={municipio} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={salita}/>
+              <img src={salita} alt=""/>
             </div>
           </div>
           
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={ponte}/>
+              <img src={ponte} alt=""/>
             </div>
           </div>
         
           <div class="cardt">
             <div class="cardt__image">
-              <img src={panchiesa}/>
+              <img src={panchiesa} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-              <img src={panorama}/>
+              <img src={panorama} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={scalinata}/>
+              <img src={scalinata} alt=""/>
             </div>
           </div>
           

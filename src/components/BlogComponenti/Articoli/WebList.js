@@ -1586,17 +1586,17 @@ const WebList = () => {
   Informatica
 </button>
 <div className="dropdown-menu">
-  <a onClick={() => handleFilterChange('Torrent')} className={`dropdown-item btnBlog ${filter === 'Torrent' ? 'active' : ''}`}> TORRENT </a>
-  <a onClick={() => handleFilterChange('Sicurezza')} className={`dropdown-item btnBlog ${filter === 'Sicurezza' ? 'active' : ''}`}> SICUREZZA INFORMATICA </a>
-  <a onClick={() => handleFilterChange('BlogInformatici')} className={`dropdown-item btnBlog ${filter === 'BlogInformatici' ? 'active' : ''}`}> BLOG INFORMATICI </a>
-  <a onClick={() => handleFilterChange('Videogame')} className={`dropdown-item btnBlog ${filter === 'Videogame' ? 'active' : ''}`}> VIDEOGAME </a>
-  <a onClick={() => handleFilterChange('Tastiere')} className={`dropdown-item btnBlog ${filter === 'Tastiere' ? 'active' : ''}`}> TASTIERE MECCANICHE </a>
-  <a onClick={() => handleFilterChange('SoftwarePc')} className={`dropdown-item btnBlog ${filter === 'SoftwarePc' ? 'active' : ''}`}>SOFTWARE PC</a>
-  <a onClick={() => handleFilterChange('CdKey')} className={`dropdown-item btnBlog ${filter === 'CdKey' ? 'active' : ''}`}>CD KEY</a>
-  <a onClick={() => handleFilterChange('AI')} className={`dropdown-item btnBlog ${filter === 'AI' ? 'active' : ''}`}>INTELLIGENZA ARTIFICIALE</a>
-  <a onClick={() => handleFilterChange('ForumCode')} className={`dropdown-item btnBlog ${filter === 'ForumCode' ? 'active' : ''}`}>CODING FORUM</a>
-  <a onClick={() => handleFilterChange('Word')} className={`dropdown-item btnBlog ${filter === 'Word' ? 'active' : ''}`}>WORD TOOL</a>
-  <a onClick={() => handleFilterChange('Transfer')} className={`dropdown-item btnBlog ${filter === 'Transfer' ? 'active' : ''}`}>TRASF. DATI</a>
+  <button type="button" onClick={() => handleFilterChange('Torrent')} className={`dropdown-item btnBlog ${filter === 'Torrent' ? 'active' : ''}`}> TORRENT </button>
+  <button type="button" onClick={() => handleFilterChange('Sicurezza')} className={`dropdown-item btnBlog ${filter === 'Sicurezza' ? 'active' : ''}`}> SICUREZZA INFORMATICA </button>
+  <button type="button" onClick={() => handleFilterChange('BlogInformatici')} className={`dropdown-item btnBlog ${filter === 'BlogInformatici' ? 'active' : ''}`}> BLOG INFORMATICI </button>
+  <button type="button" onClick={() => handleFilterChange('Videogame')} className={`dropdown-item btnBlog ${filter === 'Videogame' ? 'active' : ''}`}> VIDEOGAME </button>
+  <button type="button" onClick={() => handleFilterChange('Tastiere')} className={`dropdown-item btnBlog ${filter === 'Tastiere' ? 'active' : ''}`}> TASTIERE MECCANICHE </button>
+  <button type="button" onClick={() => handleFilterChange('SoftwarePc')} className={`dropdown-item btnBlog ${filter === 'SoftwarePc' ? 'active' : ''}`}>SOFTWARE PC</button>
+  <button type="button" onClick={() => handleFilterChange('CdKey')} className={`dropdown-item btnBlog ${filter === 'CdKey' ? 'active' : ''}`}>CD KEY</button>
+  <button type="button" onClick={() => handleFilterChange('AI')} className={`dropdown-item btnBlog ${filter === 'AI' ? 'active' : ''}`}>INTELLIGENZA ARTIFICIALE</button>
+  <button type="button" onClick={() => handleFilterChange('ForumCode')} className={`dropdown-item btnBlog ${filter === 'ForumCode' ? 'active' : ''}`}>CODING FORUM</button>
+  <button type="button" onClick={() => handleFilterChange('Word')} className={`dropdown-item btnBlog ${filter === 'Word' ? 'active' : ''}`}>WORD TOOL</button>
+  <button type="button" onClick={() => handleFilterChange('Transfer')} className={`dropdown-item btnBlog ${filter === 'Transfer' ? 'active' : ''}`}>TRASF. DATI</button>
 
 </div>
 
@@ -1608,13 +1608,13 @@ const WebList = () => {
   Commerce
 </button>
 <div className="dropdown-menu">
-  <a onClick={() => handleFilterChange('E-commerce')} className={`dropdown-item btnBlog ${filter === 'E-ccomerce' ? 'active' : ''}`}> E-COMMERCE </a>
-  <a onClick={() => handleFilterChange('Vestiti')} className={`dropdown-item btnBlog ${filter === 'Vestiti' ? 'active' : ''}`}> VESTITI</a>
-  <a onClick={() => handleFilterChange('VestitiParticolari')} className={`dropdown-item btnBlog ${filter === 'VestitiParticolari' ? 'active' : ''}`}> VESTITI PARTICOLARI</a>
-  <a onClick={() => handleFilterChange('Gioielli')} className={`dropdown-item btnBlog ${filter === 'Gioielli' ? 'active' : ''}`}>ACCESSORI PARTICOLARI</a>
-  <a onClick={() => handleFilterChange('Orologi')} className={`dropdown-item btnBlog ${filter === 'Orologi' ? 'active' : ''}`}>OROLOGI</a>
-  <a onClick={() => handleFilterChange('Libri')} className={`dropdown-item btnBlog ${filter === 'Libri' ? 'active' : ''}`}>LIBRI</a>
-  <a onClick={() => handleFilterChange('Auto')} className={`dropdown-item btnBlog ${filter === 'Auto' ? 'active' : ''}`}>AUTO</a>
+  <button type="button" onClick={() => handleFilterChange('E-commerce')} className={`dropdown-item btnBlog ${filter === 'E-ccomerce' ? 'active' : ''}`}> E-COMMERCE </button>
+  <button type="button" onClick={() => handleFilterChange('Vestiti')} className={`dropdown-item btnBlog ${filter === 'Vestiti' ? 'active' : ''}`}> VESTITI</button>
+  <button type="button" onClick={() => handleFilterChange('VestitiParticolari')} className={`dropdown-item btnBlog ${filter === 'VestitiParticolari' ? 'active' : ''}`}> VESTITI PARTICOLARI</button>
+  <button type="button" onClick={() => handleFilterChange('Gioielli')} className={`dropdown-item btnBlog ${filter === 'Gioielli' ? 'active' : ''}`}>ACCESSORI PARTICOLARI</button>
+  <button type="button" onClick={() => handleFilterChange('Orologi')} className={`dropdown-item btnBlog ${filter === 'Orologi' ? 'active' : ''}`}>OROLOGI</button>
+  <button type="button" onClick={() => handleFilterChange('Libri')} className={`dropdown-item btnBlog ${filter === 'Libri' ? 'active' : ''}`}>LIBRI</button>
+  <button type="button" onClick={() => handleFilterChange('Auto')} className={`dropdown-item btnBlog ${filter === 'Auto' ? 'active' : ''}`}>AUTO</button>
   
 
 </div>              
@@ -1628,16 +1628,16 @@ const WebList = () => {
 Enterteinment
 </button>
 <div className="dropdown-menu">
-<a onClick={() => handleFilterChange('SitiInteressanti')} className={`dropdown-item btnBlog ${filter === 'SitiInteressanti' ? 'active' : ''}`}>SITI INTERESSANTI</a>
-<a onClick={() => handleFilterChange('Teatro')} className={`dropdown-item btnBlog ${filter === 'Teatro' ? 'active' : ''}`}>TEATRO</a>
-<a onClick={() => handleFilterChange('Immagini')} className={`dropdown-item btnBlog ${filter === 'Immagini' ? 'active' : ''}`}>IMMAGINI</a>
-<a onClick={() => handleFilterChange('Font&Color')} className={`dropdown-item btnBlog ${filter === 'Font&Color' ? 'active' : ''}`}>FONT E COLORI</a>
-<a onClick={() => handleFilterChange('Wikipedia')} className={`dropdown-item btnBlog ${filter === 'Wikipedia' ? 'active' : ''}`}>WIKIPEDIE</a>
-<a onClick={() => handleFilterChange('Musica')} className={`dropdown-item btnBlog ${filter === 'Musica' ? 'active' : ''}`}>MUSICA</a>
-<a onClick={() => handleFilterChange('Streaming')} className={`dropdown-item btnBlog ${filter === 'Streaming' ? 'active' : ''}`}>STREAMING</a>
-<a onClick={() => handleFilterChange('Cibo')} className={`dropdown-item btnBlog ${filter === 'Cibo' ? 'active' : ''}`}>CIBO</a>
-<a onClick={() => handleFilterChange('BlogVari')} className={`dropdown-item btnBlog ${filter === 'BlogVari' ? 'active' : ''}`}>BLOG VARI</a>
-<a onClick={() => handleFilterChange('Viaggi')} className={`dropdown-item btnBlog ${filter === 'Viaggi' ? 'active' : ''}`}>VIAGGI</a>
+<button type="button" onClick={() => handleFilterChange('SitiInteressanti')} className={`dropdown-item btnBlog ${filter === 'SitiInteressanti' ? 'active' : ''}`}>SITI INTERESSANTI</button>
+<button type="button" onClick={() => handleFilterChange('Teatro')} className={`dropdown-item btnBlog ${filter === 'Teatro' ? 'active' : ''}`}>TEATRO</button>
+<button type="button" onClick={() => handleFilterChange('Immagini')} className={`dropdown-item btnBlog ${filter === 'Immagini' ? 'active' : ''}`}>IMMAGINI</button>
+<button type="button" onClick={() => handleFilterChange('Font&Color')} className={`dropdown-item btnBlog ${filter === 'Font&Color' ? 'active' : ''}`}>FONT E COLORI</button>
+<button type="button" onClick={() => handleFilterChange('Wikipedia')} className={`dropdown-item btnBlog ${filter === 'Wikipedia' ? 'active' : ''}`}>WIKIPEDIE</button>
+<button type="button" onClick={() => handleFilterChange('Musica')} className={`dropdown-item btnBlog ${filter === 'Musica' ? 'active' : ''}`}>MUSICA</button>
+<button type="button" onClick={() => handleFilterChange('Streaming')} className={`dropdown-item btnBlog ${filter === 'Streaming' ? 'active' : ''}`}>STREAMING</button>
+<button type="button" onClick={() => handleFilterChange('Cibo')} className={`dropdown-item btnBlog ${filter === 'Cibo' ? 'active' : ''}`}>CIBO</button>
+<button type="button" onClick={() => handleFilterChange('BlogVari')} className={`dropdown-item btnBlog ${filter === 'BlogVari' ? 'active' : ''}`}>BLOG VARI</button>
+<button type="button" onClick={() => handleFilterChange('Viaggi')} className={`dropdown-item btnBlog ${filter === 'Viaggi' ? 'active' : ''}`}>VIAGGI</button>
 
 
 </div>
@@ -1650,7 +1650,6 @@ Enterteinment
            
             <Col id="ColHover" className="bordoColonna" md={2}>
               <Link to="/blog">
-              <a>
       <h1 className='vertical-rl'>
         {filter === 'all' ? 'Blog' : filteredItems.map((item, index) => (
           <div key={index}>
@@ -1658,7 +1657,6 @@ Enterteinment
           </div>
         ))}
       </h1>
-    </a>
               </Link>
             </Col>
   

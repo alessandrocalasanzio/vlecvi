@@ -44,31 +44,31 @@ const Fuipiano = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={caminetto}/>
+              <img src={caminetto} alt=""/>
             </div>
           </div>
             
           <div class="cardt">
             <div class="cardt__image">
-              <img src={panoramanuvolo}/>
+              <img src={panoramanuvolo} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={gufopiccolo}/>
+              <img src={gufopiccolo} alt=""/>
             </div>
           </div>
          
            
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-              <img src={foresta}/>
+              <img src={foresta} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={casaprincipale}/>
+                <img src={casaprincipale} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
               <h2>Fuipiano Valle Imagna</h2>
@@ -80,52 +80,52 @@ const Fuipiano = () => {
         
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={poesia}/>
+              <img src={poesia} alt=""/>
             </div>
           </div>
            
           <div class="cardt">
             <div class="cardt__image">
-              <img src={minipanorama}/>
+              <img src={minipanorama} alt=""/>
             </div>
           </div>
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={gufo}/>
+              <img src={gufo} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={valle}/>
+              <img src={valle} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={casarustica}/>
+              <img src={casarustica} alt=""/>
             </div>
           </div>
        
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={alberi}/>
+              <img src={alberi} alt=""/>
             </div>
           </div>
         
           <div class="cardt">
             <div class="cardt__image">
-              <img src={casaprofilo}/>
+              <img src={casaprofilo} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--horizontal1">
             <div class="cardt__image">
-              <img src={casarustica3}/>
+              <img src={casarustica3} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={nuvolo}/>
+              <img src={nuvolo} alt=""/>
 
             </div>
           </div>

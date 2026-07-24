@@ -46,7 +46,7 @@ const Excel = () => {
 
         </Col>
         <Col>
-          <img className="fotoBlog" src={graphs} />
+          <img className="fotoBlog" src={graphs}  alt=""/>
 
           <div className='testoBlog'>
 
@@ -67,7 +67,7 @@ const Excel = () => {
             <div class="cardt cardt--featured">
               <div class="cardt__side-by-side--m">
                 <div class="cardt__image">
-                  <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={overview} onClick={toggleZoom} />
+                  <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={overview} onClick={toggleZoom}  alt=""/>
 
                 </div>
 
@@ -129,7 +129,7 @@ const Excel = () => {
             <div class="cardt cardt--featured">
               <div class="cardt__side-by-side--m">
                 <div class="cardt__image">
-                  <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={mesi} onClick={toggleZoom} />
+                  <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={mesi} onClick={toggleZoom}  alt=""/>
 
                 </div>
 

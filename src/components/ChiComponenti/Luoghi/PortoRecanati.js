@@ -45,31 +45,31 @@ const PortoRecanati = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={piazzacastello}/>
+              <img src={piazzacastello} alt=""/>
             </div>
           </div>
             
           <div class="cardt">
             <div class="cardt__image">
-              <img src={portachiesa}/>
+              <img src={portachiesa} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={scritta1}/>
+              <img src={scritta1} alt=""/>
             </div>
           </div>
          
            
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-              <img src={panoramacastello}/>
+              <img src={panoramacastello} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={fotoprincipale}/>
+                <img src={fotoprincipale} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Porto Recanati</h2>
@@ -84,52 +84,52 @@ const PortoRecanati = () => {
         
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={miami}/>
+              <img src={miami} alt=""/>
             </div>
           </div>
            
           <div class="cardt">
             <div class="cardt__image">
-              <img src={mare}/>
+              <img src={mare} alt=""/>
             </div>
           </div>
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={chiesa}/>
+              <img src={chiesa} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={chiesa1}/>
+              <img src={chiesa1} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={chiesa3}/>
+              <img src={chiesa3} alt=""/>
             </div>
           </div>
          
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={panorama1}/>
+              <img src={panorama1} alt=""/>
             </div>
           </div>
         
           <div class="cardt">
             <div class="cardt__image">
-              <img src={scritta2}/>
+              <img src={scritta2} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--horizontal1">
             <div class="cardt__image">
-              <img src={panorama}/>
+              <img src={panorama} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={mare2}/>
+              <img src={mare2} alt=""/>
             </div>
           </div>
           

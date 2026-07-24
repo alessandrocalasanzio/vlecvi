@@ -45,18 +45,18 @@ const Barcellona = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={tubineri}/>
+              <img src={tubineri} alt=""/>
             </div>
           </div>
           
           <div class="cardt">
             <div class="cardt__image">
-              <img src={palme}/>
+              <img src={palme} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={panorama}/>
+              <img src={panorama} alt=""/>
             </div>
           </div>
           <div class="cardt">
@@ -72,13 +72,13 @@ che vola sopra il tuo bel mare — (Freddie Mercury)
            
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-              <img src={castello}/>
+              <img src={castello} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={sagrada}/>
+                <img src={sagrada} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Barcellona</h2>
@@ -90,28 +90,28 @@ che vola sopra il tuo bel mare — (Freddie Mercury)
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={aereo}/>
+              <img src={aereo} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={mappa}/>
+              <img src={mappa} alt=""/>
             </div>
           </div>
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={sagrada1}/>
+              <img src={sagrada1} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={battlo}/>
+              <img src={battlo} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={battlo1}/>
+              <img src={battlo1} alt=""/>
             </div>
           </div>
           <div class="cardt">
@@ -124,23 +124,23 @@ che vola sopra il tuo bel mare — (Freddie Mercury)
           
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={palazzo}/>
+              <img src={palazzo} alt=""/>
             </div>
           </div>
           
           <div class="cardt">
             <div class="cardt__image">
-              <img src={opere}/>
+              <img src={opere} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--horizontal">
             <div class="cardt__image">
-              <img src={gaudi}/>
+              <img src={gaudi} alt=""/>
             </div>
           </div>
           <div class="cardt">
             <div class="cardt__image">
-              <img src={arco}/>
+              <img src={arco} alt=""/>
             </div>
           </div>
           

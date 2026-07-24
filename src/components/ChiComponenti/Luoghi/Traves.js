@@ -36,13 +36,13 @@ const Traves = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={valle}/>
+              <img src={valle} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={valle3}/>
+              <img src={valle3} alt=""/>
             </div>
           </div>
             
@@ -51,7 +51,7 @@ const Traves = () => {
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={strada}/>
+                <img src={strada} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Traves</h2>
@@ -72,13 +72,13 @@ const Traves = () => {
         
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={valle2}/>
+              <img src={valle2} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={sfuocato}/>
+              <img src={sfuocato} alt=""/>
             </div>
           </div>
           

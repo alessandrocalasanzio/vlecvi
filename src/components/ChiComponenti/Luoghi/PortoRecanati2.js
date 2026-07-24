@@ -44,18 +44,18 @@ const PortoRecanati2 = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={alberi}/>
+              <img src={alberi} alt=""/>
             </div>
           </div>
             
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={caffe}/>
+              <img src={caffe} alt=""/>
             </div>
           </div>
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={gattino}/>
+              <img src={gattino} alt=""/>
             </div>
           </div>
          
@@ -63,7 +63,7 @@ const PortoRecanati2 = () => {
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={entratagiardino}/>
+                <img src={entratagiardino} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h3>Recanati & gli Irti Colli</h3>
@@ -76,39 +76,39 @@ const PortoRecanati2 = () => {
         
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={viti}/>
+              <img src={viti} alt=""/>
             </div>
           </div>
            
         
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={torre}/>
+              <img src={torre} alt=""/>
             </div>
           </div>
           
            <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={girasoli}/>
+              <img src={girasoli} alt=""/>
             </div>
           </div>
          
           
            <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={arco}/>
+              <img src={arco} alt=""/>
             </div>
           </div>
         
             <div class="cardt cardt--2x">
                       <div class="cardt__image">
-                        <img src={panoramairti}/>
+                        <img src={panoramairti} alt=""/>
                       </div>
                     </div>
 
          <div class="cardt cardt--2x">
                       <div class="cardt__image">
-                        <img src={viti2}/>
+                        <img src={viti2} alt=""/>
                       </div>
                     </div>
           

@@ -36,13 +36,13 @@ const Cassiglio = () => {
         <div class="gridt-container">
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={fiori}/>
+              <img src={fiori} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={mappa}/>
+              <img src={mappa} alt=""/>
             </div>
           </div>
             
@@ -51,7 +51,7 @@ const Cassiglio = () => {
           <div class="cardt cardt--featured">
             <div class="cardt__side-by-side--m">
               <div class="cardt__image">
-                <img src={panorama}/>
+                <img src={panorama} alt=""/>
               </div>
               <div class="cardt__content paddingt-large--l">
                 <h2>Cassiglio</h2>
@@ -64,19 +64,19 @@ const Cassiglio = () => {
         
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={ruota}/>
+              <img src={ruota} alt=""/>
             </div>
           </div>
            
           <div class="cardt cardt--2x">
             <div class="cardt__image">
-              <img src={paesaggio}/>
+              <img src={paesaggio} alt=""/>
             </div>
           </div>
 
           <div class="cardt cardt--vertical">
             <div class="cardt__image">
-              <img src={paesaggio1}/>
+              <img src={paesaggio1} alt=""/>
             </div>
           </div>
           

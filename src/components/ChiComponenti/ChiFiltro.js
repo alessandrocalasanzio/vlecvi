@@ -133,10 +133,10 @@ const ChiFiltro = () => {
               {filteredItems.map((item, index) => (
                 <div key={index} className="list-group-item list-group-item-action hoverBlog">
                   {item.component}
-                  <div className="d-flex w-100 justify-content-between">
-                    <Link to={item.link} className="mb-1">{item.title}</Link>
+                  <Link to={item.link} className="mb-1 d-flex w-100 justify-content-between">
+                    <span>{item.title}</span>
                     <span className="badge bg-light text-dark ms-auto">{item.label}</span>
-                  </div>
+                  </Link>
                 </div>
               ))}
             </div>

@@ -441,30 +441,47 @@ span {
   color: white;
 }
 
+/* Sotto i 480px lo spazio verticale disponibile per il testo ruotato non basta
+   più a contenere l'etichetta a 40px senza andare a capo su una seconda "colonna"
+   che viene poi tagliata da overflow-x:hidden (es. "Chi Sono" -> "Chi Son").
+   Si riduce il font-size mantenendolo comunque ben leggibile/"con carattere",
+   non una micro-label. */
+@media screen and (max-width: 480px){
+  .vertical-rl {
+    font-size: 28px !important;
+    top: 90px;
+    line-height: 1.15em;
+  }
+}
+
 @media screen and (max-width: 355px){
   .vertical-rl {
     writing-mode: vertical-rl;
     rotate: -180deg;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 40px !important;
+    font-size: 24px !important;
     letter-spacing: 0;
     position: sticky;
-    top: 110px !important;
+    top: 80px !important;
     margin-top: 0px !important;
     font-weight: 600;
     color: #000000;
     overflow-x: hidden !important;
-    line-height: 1.3em;
+    line-height: 1.1em;
   }
 }
 
-@media screen and (max-width: 355px){
+/* Senza una regola base, .foldImg ereditava solo il default globale "img"
+   (nessun object-fit), quindi quando la colonna veniva "stirata" in altezza
+   dal flex (align-items:stretch, per adattarsi all'etichetta verticale
+   accanto) l'immagine non riempiva il riquadro e lasciava margini bianchi.
+   Con height:100% + object-fit:cover l'immagine riempie sempre la colonna,
+   su qualunque breakpoint. */
 .foldImg{
   width: 100%;
-  height: 200px !important;
+  height: 100%;
   object-fit: cover;
-  border-radius: 0px !important
-}
+  border-radius: 0px !important;
 }
 
 .bordoColonnaExcel {
@@ -549,9 +566,12 @@ span {
     z-index: 999;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    height: 450px;
+    /* Altezza fissa rimossa: usata da Bio/Contatti, con il contenitore
+       antenato .noOver a overflow-y:hidden clippava tutto il testo oltre
+       i 450px (bug: testo tagliato in Chi Sono/Contatti su mobile). */
+    height: auto;
     font-size:0.8em;
-   
+
   }
 }
 
@@ -1199,6 +1219,14 @@ h3:active.buttone {
    passa a un layout impilato: foto sopra, testo sotto. Scoped a .noOver
    (usata solo da Bio e ContainerContatti) per non toccare le altre pagine. */
 @media screen and (max-width: 1090px) {
+  /* .noOver ha overflow-y:hidden !important globale (riga ~136, non scoped):
+     su desktop serve a contenere l'immagine/testoBio assoluti, ma nel layout
+     mobile impilato (testo in flusso normale, altezza auto) clippava
+     comunque qualunque contenuto più alto della riga più corta accanto.
+     Qui si riabilita l'overflow visibile solo nel layout mobile. */
+  .noOver {
+    overflow-y: visible !important;
+  }
   .noOver .row {
     flex-wrap: wrap;
   }
@@ -1234,8 +1262,8 @@ h3:active.buttone {
     top: auto !important;
     left: auto !important;
     height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
+    max-height: 55vh !important;
+    overflow-y: auto !important;
     margin: 20px 20px 30px 20px !important;
   }
 }
@@ -1399,14 +1427,45 @@ h3:active.buttone {
    white-space: nowrap;
    width: auto !important;
    font-size: 0.5em !important;
- 
+
   }
- 
+
  }
+
+/* Le voci dentro un menu a tendina (World Map, Around: Italia, ecc.) condividono
+   la classe .btnBlog con i pulsanti della barra filtri, quindi ereditavano lo
+   stesso width:auto!important pensato per quella barra: risultato, ogni voce
+   si restringeva alla lunghezza del proprio testo invece di avere tutte la
+   stessa larghezza dentro il menu. Qui si forza la larghezza piena e uniforme. */
+@media (max-width: 600px) {
+  .dropdown-menu .btnBlog {
+    width: 100% !important;
+    white-space: normal;
+    text-align: left;
+  }
+}
 
 .btnBlog:hover {
   background-color: black !important;
   color: white !important;
+}
+
+/* Bootstrap applica ".dropdown-item.active" con testo bianco (specificità
+   2 classi, batte il "color: black" non-important di .btnBlog) sopra il
+   nostro sfondo bianco forzato: risultato testo bianco su bianco, illeggibile,
+   sulla voce del filtro attualmente selezionata nel menu a tendina. */
+.btnBlog.active {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Bootstrap aggiunge una piccola freccina (::after) ai bottoni con
+   dropdown-toggle: risultato box visivamente diversi tra "Around"/"Mostre"
+   (con freccia) e "Liste Personali" (senza). Si nasconde la freccia per
+   uniformare l'aspetto dei tre pulsanti indipendentemente dallo stato
+   aperto/chiuso del dropdown. */
+.btnBlog.dropdown-toggle::after {
+  display: none;
 }
 
 

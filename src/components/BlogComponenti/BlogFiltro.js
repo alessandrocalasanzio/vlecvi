@@ -90,9 +90,7 @@ const BlogFiltro = () => {
     <div key={index} className="list-group-item list-group-item-action hoverBlog">
       {item.component}
       <Link to={item.link} className="mb-1">
-      <div className="d-flex w-100 justify-content-between">
         {item.title}
-      </div>
       </Link>
       <div>
       

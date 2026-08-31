@@ -7,9 +7,9 @@ import { Col, Row } from "react-bootstrap";
 
 
 
-import panorama1 from "../../../img/PianiErna/Panorama1.jpg";
-import panorama2 from "../../../img/PianiErna/Panorama2.jpg";
-import panorama3 from "../../../img/PianiErna/Panorama3.jpg";
+import panorama1 from "../../../img/Italia/PianiErna/Panorama1.jpg";
+import panorama2 from "../../../img/Italia/PianiErna/Panorama2.jpg";
+import panorama3 from "../../../img/Italia/PianiErna/Panorama3.jpg";
 
 
 

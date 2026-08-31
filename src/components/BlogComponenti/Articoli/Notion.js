@@ -7,10 +7,10 @@ import BlogFiltro from "../BlogFiltro";
 import Navbar from "../../1.Navbar";
 
 
-import notion from '../../../img/notion.jpg';
+import notion from '../../../img/Blog/notion.jpg';
 
-import notion1 from '../../../img/notion1.png';
-import notionduplica from  '../../../img/notionDuplica.png';
+import notion1 from '../../../img/Blog/notion1.png';
+import notionduplica from  '../../../img/Blog/notionDuplica.png';
 
 import { FaShareAlt, FaPaypal } from "react-icons/fa";
 import CopyToClipboard from 'react-copy-to-clipboard';

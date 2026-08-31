@@ -5,20 +5,20 @@ import '../../../App.css';
 
 import { Col, Row } from "react-bootstrap";
 
-import tubineri from "../../../img/Barca/tubineri.jpg";
-import palme from "../../../img/Barca/palme.jpg";
-import panorama from "../../../img/Barca/panorama.jpg";
-import castello from "../../../img/Barca/castello.jpg";
-import sagrada from "../../../img/Barca/sagrada.jpg";
-import aereo from "../../../img/Barca/aereo.jpg";
-import mappa from "../../../img/Barca/mappa.jpg";
-import sagrada1 from "../../../img/Barca/sagrada1.jpg";
-import battlo from "../../../img/Barca/battlo.jpg";
-import battlo1 from "../../../img/Barca/battlo1.jpg";
-import palazzo from "../../../img/Barca/palazzo.jpg";
-import opere from "../../../img/Barca/opere.jpg";
-import gaudi from "../../../img/Barca/gaudi.jpg";
-import arco from "../../../img/Barca/arco.jpg";
+import tubineri from "../../../img/Estero/Barcellona/tubineri.jpg";
+import palme from "../../../img/Estero/Barcellona/palme.jpg";
+import panorama from "../../../img/Estero/Barcellona/panorama.jpg";
+import castello from "../../../img/Estero/Barcellona/castello.jpg";
+import sagrada from "../../../img/Estero/Barcellona/sagrada.jpg";
+import aereo from "../../../img/Estero/Barcellona/aereo.jpg";
+import mappa from "../../../img/Estero/Barcellona/mappa.jpg";
+import sagrada1 from "../../../img/Estero/Barcellona/sagrada1.jpg";
+import battlo from "../../../img/Estero/Barcellona/battlo.jpg";
+import battlo1 from "../../../img/Estero/Barcellona/battlo1.jpg";
+import palazzo from "../../../img/Estero/Barcellona/palazzo.jpg";
+import opere from "../../../img/Estero/Barcellona/opere.jpg";
+import gaudi from "../../../img/Estero/Barcellona/gaudi.jpg";
+import arco from "../../../img/Estero/Barcellona/arco.jpg";
 
 
 

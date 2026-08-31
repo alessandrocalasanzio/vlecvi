@@ -5,20 +5,20 @@ import '../../../App.css';
 
 import { Col, Row } from "react-bootstrap";
 
-import fogli from '../../../img/Brescia/fogli.jpg';
-import finestra from '../../../img/Brescia/finestra.jpg';
-import strettoia from '../../../img/Brescia/strettoia.jpg';
-import torre from '../../../img/Brescia/torre.jpg';
-import cipressi from '../../../img/Brescia/cipressi.jpg';
-import tettochiesa from '../../../img/Brescia/tettochiesa.jpg';
-import piovra from '../../../img/Brescia/piovra.jpg';
-import vedetta from '../../../img/Brescia/vedetta.jpg';
-import municipio from '../../../img/Brescia/municipio.jpg';
-import salita from '../../../img/Brescia/salita.jpg';
-import ponte from '../../../img/Brescia/ponte.jpg';
-import panchiesa from '../../../img/Brescia/panchiesa.jpg';
-import scalinata from '../../../img/Brescia/scalinata.jpg';
-import panorama from '../../../img/Brescia/panorama.jpg';
+import fogli from '../../../img/Italia/Brescia/fogli.jpg';
+import finestra from '../../../img/Italia/Brescia/finestra.jpg';
+import strettoia from '../../../img/Italia/Brescia/strettoia.jpg';
+import torre from '../../../img/Italia/Brescia/torre.jpg';
+import cipressi from '../../../img/Italia/Brescia/cipressi.jpg';
+import tettochiesa from '../../../img/Italia/Brescia/tettochiesa.jpg';
+import piovra from '../../../img/Italia/Brescia/piovra.jpg';
+import vedetta from '../../../img/Italia/Brescia/vedetta.jpg';
+import municipio from '../../../img/Italia/Brescia/municipio.jpg';
+import salita from '../../../img/Italia/Brescia/salita.jpg';
+import ponte from '../../../img/Italia/Brescia/ponte.jpg';
+import panchiesa from '../../../img/Italia/Brescia/panchiesa.jpg';
+import scalinata from '../../../img/Italia/Brescia/scalinata.jpg';
+import panorama from '../../../img/Italia/Brescia/panorama.jpg';
 const Brescia = () => {
 
     return(

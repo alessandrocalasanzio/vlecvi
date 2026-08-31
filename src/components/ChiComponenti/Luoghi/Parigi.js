@@ -5,20 +5,20 @@ import '../../../App.css';
 
 import { Col, Row } from "react-bootstrap";
 
-import moulin from "../../../img/Parigi/moulin.jpg";
-import boxoffice from "../../../img/Parigi/boxoffice.jpg";
-import graffiti from "../../../img/Parigi/graffiti.jpg";
-import erba from "../../../img/Parigi/erba.jpg";
-import riassunto from "../../../img/Parigi/riassunto.jpg";
-import tour from "../../../img/Parigi/tour.jpg";
-import scrittaneon from "../../../img/Parigi/scrittaneon.jpg";
-import arco from "../../../img/Parigi/arco.jpg";
-import lucitour from "../../../img/Parigi/lucitour.jpg";
-import ponte from "../../../img/Parigi/ponte.jpg";
-import notre from "../../../img/Parigi/notre.jpg";
-import chiesa from "../../../img/Parigi/chiesa.jpg";
-import parlamento from "../../../img/Parigi/parlamento.jpg";
-import scrittastrada from "../../../img/Parigi/scrittastrada.jpg";
+import moulin from "../../../img/Estero/Parigi/moulin.jpg";
+import boxoffice from "../../../img/Estero/Parigi/boxoffice.jpg";
+import graffiti from "../../../img/Estero/Parigi/graffiti.jpg";
+import erba from "../../../img/Estero/Parigi/erba.jpg";
+import riassunto from "../../../img/Estero/Parigi/riassunto.jpg";
+import tour from "../../../img/Estero/Parigi/tour.jpg";
+import scrittaneon from "../../../img/Estero/Parigi/scrittaneon.jpg";
+import arco from "../../../img/Estero/Parigi/arco.jpg";
+import lucitour from "../../../img/Estero/Parigi/lucitour.jpg";
+import ponte from "../../../img/Estero/Parigi/ponte.jpg";
+import notre from "../../../img/Estero/Parigi/notre.jpg";
+import chiesa from "../../../img/Estero/Parigi/chiesa.jpg";
+import parlamento from "../../../img/Estero/Parigi/parlamento.jpg";
+import scrittastrada from "../../../img/Estero/Parigi/scrittastrada.jpg";
 
 const Parigi = () => {
 

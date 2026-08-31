@@ -60,12 +60,14 @@ const ChiFiltro = () => {
     { title: 'Varenna', category: 'Italia', link: '/varenna', label: '2016' },
     { title: "Trezzo Sull'Adda", category: 'Italia', link: '/trezzo', label: '//' },
 
+    { title: 'Grecia ', category: 'Estero', link: '/grecia', label: '2026' },
     { title: 'Portogallo ', category: 'Estero', link: '/portogallo', titolo: 'Around: Estero', label: '2018' },
     { title: 'Barcellona', category: 'Estero', link: '/barcellona', label: '2017' },
     { title: 'Parigi ', category: 'Estero', link: '/parigi', label: '2017' },
 
     { title: 'Tour Biblioteca Leopardi', category: 'Mostra', link: '/casaleopardi', titolo: 'Mostre Visitate' },
     { title: 'Mostra Costruzioni L. Da Vinci', category: 'Mostra', link: '/leo' },
+    { title: 'Musei di Atene', category: 'Mostra', link: '/museigrecia' },
 
     { title: 'Lista: Serie Tv', category: 'Liste', titolo: 'Liste Personali', link: "https://vlecvi.notion.site/Lista-Serie-TV-1b93dae9c88b81ccbfeffa80a68e66a6?source=copy_link" },
     { title: 'Lista: Film', category: 'Liste', link: "https://vlecvi.notion.site/Lista-Film-1b93dae9c88b81469563ed4f328878fe?source=copy_link" },

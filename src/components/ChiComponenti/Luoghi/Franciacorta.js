@@ -6,14 +6,14 @@ import '../../../App.css';
 import { Col, Row } from "react-bootstrap";
 
 
-import luna from "../../../img/Franciacorta/Luna.jpg";
-import cancello from "../../../img/Franciacorta/CancelloBellavista.jpg";
-import panorama from "../../../img/Franciacorta/PanoramaNuvolo.jpg";
-import vigne from "../../../img/Franciacorta/Vigne.jpg";
-import panoramavigna from "../../../img/Franciacorta/PanoramaVigna.jpg";
-import uva from "../../../img/Franciacorta/Uva.jpg";
-import quad from "../../../img/Franciacorta/Quad.jpg";
-import albero from "../../../img/Franciacorta/albero.jpg";
+import luna from "../../../img/Italia/Franciacorta/Luna.jpg";
+import cancello from "../../../img/Italia/Franciacorta/CancelloBellavista.jpg";
+import panorama from "../../../img/Italia/Franciacorta/PanoramaNuvolo.jpg";
+import vigne from "../../../img/Italia/Franciacorta/Vigne.jpg";
+import panoramavigna from "../../../img/Italia/Franciacorta/PanoramaVigna.jpg";
+import uva from "../../../img/Italia/Franciacorta/Uva.jpg";
+import quad from "../../../img/Italia/Franciacorta/Quad.jpg";
+import albero from "../../../img/Italia/Franciacorta/albero.jpg";
 
 const Franciacorta = () => {
 

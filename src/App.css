@@ -16,7 +16,7 @@
 
 .sfondoLoading {
   mask-image: radial-gradient(circle, rgb(227, 227, 227) 0%, rgba(255, 46, 46, 0) 100%);
-  background-image: url("./img/museoload.jpg");
+  background-image: url("./img/Generale/museoload.jpg");
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: repeat !important;
@@ -99,6 +99,15 @@ body {
     z-index: 9999;
     margin-top: -10px !important;
     margin-bottom: -10px !important;
+  }
+
+  /* Le pagine Mostre (CasaLeopardi, Leo, MuseiGrecia) usano la navbar non-fixed
+     (1.1Navbar1.js): il padding-top sopra, pensato per compensare la navbar
+     fixed-top delle altre pagine, qui spinge in basso l'intera navbar creando
+     uno spazio vuoto sopra di essa. Annullato solo quando la navbar in pagina
+     non è fixed-top. */
+  body:has(nav.navbar:not(.fixed-top)) {
+    padding-top: 0px;
   }
 
   
@@ -324,14 +333,14 @@ h4, h5, h6 {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("./img/LogoVlecviRifatto2.png");
+  background-image: url("./img/Generale/LogoVlecviRifatto2.png");
   width: 85px;
   height: 70px;
 }
 
 @media screen and (max-width: 300px) {
   .navbar-light .navbar-toggler-icon {
-    background-image: url("./img/LogoVlecviRifatto2.png");
+    background-image: url("./img/Generale/LogoVlecviRifatto2.png");
     width: 50px;
     height: 40px;
   }
@@ -1080,7 +1089,7 @@ h3:active.buttone {
   columns: black;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 800;
-  height: 350px !important; /* Imposta l'altezza desiderata con overflow auto */
+  height: 520px !important; /* Imposta l'altezza desiderata con overflow auto */
   overflow: auto;
   margin: 0px 25px 0px 25px !important;
 }
@@ -1302,7 +1311,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/miami.jpg");
+  background-image: url("./img/Generale/miami.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -1311,7 +1320,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/list.jpg");
+  background-image: url("./img/Generale/list.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -1320,7 +1329,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/laptop.jpg");
+  background-image: url("./img/Generale/laptop.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -1329,7 +1338,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/miami.jpg") !important;
+  background-image: url("./img/Generale/miami.jpg") !important;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -1338,7 +1347,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/laptop.jpg") !important;
+  background-image: url("./img/Generale/laptop.jpg") !important;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -1347,7 +1356,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/museum3.jpg") !important;
+  background-image: url("./img/Generale/museum3.jpg") !important;
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -1355,7 +1364,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/finance.jpg") !important;
+  background-image: url("./img/Generale/finance.jpg") !important;
   background-position: top top !important;
   background-repeat: no-repeat;
   background-size:cover;
@@ -1364,7 +1373,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/list.jpg") !important;
+  background-image: url("./img/Generale/list.jpg") !important;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center !important;
@@ -1373,7 +1382,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/growth.jpg") !important;
+  background-image: url("./img/Generale/growth.jpg") !important;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center !important;
@@ -1382,7 +1391,7 @@ h3:active.buttone {
   text-align: center;
   float: row;
   border: 2px solid black;
-  background-image: url("./img/list1.jpg") !important;
+  background-image: url("./img/Generale/list1.jpg") !important;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center !important;
@@ -1963,6 +1972,19 @@ span{
   }
   .cardt__side-by-side--m img {
     min-height: 100%;
+  }
+  /* Senza una larghezza fissa, il carosello/immagine prende la larghezza
+     dal rapporto d'aspetto della prima foto: nelle pagine Musei, dove più
+     blocchi side-by-side sono impilati, questo fa terminare l'immagine (e
+     iniziare il testo) a un punto diverso per ogni blocco. Larghezza fissa
+     per allinearli tutti. */
+  .cardt__side-by-side--m .cardt__image {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  .cardt__side-by-side--m .cardt__content {
+    flex: 1 1 auto;
+    min-width: 0;
   }
   .cardt--featured {
     grid-row: auto/span 2;

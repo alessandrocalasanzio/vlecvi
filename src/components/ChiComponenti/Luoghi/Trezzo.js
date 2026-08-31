@@ -8,16 +8,16 @@ import { Col, Row } from "react-bootstrap";
 
 
 
-import fiume from "../../../img/Trezzo/fiume.jpg";
-import cielo from "../../../img/Trezzo/cielo.jpg";
-import oca from "../../../img/Trezzo/oca.jpg";
-import panorama from "../../../img/Trezzo/panorama.jpg";
-import luna from "../../../img/Trezzo/luna.jpg";
-import biblio1 from "../../../img/Trezzo/biblio1.jpg";
-import nuvolo from "../../../img/Trezzo/nuvolo.jpg";
-import cielotrezzo from "../../../img/Trezzo/cielotrezzo.jpg";
-import finestrabiblio from "../../../img/Trezzo/finestrabiblio.jpg";
-import fiori from "../../../img/Trezzo/fiori.jpg";
+import fiume from "../../../img/Italia/Trezzo/fiume.jpg";
+import cielo from "../../../img/Italia/Trezzo/cielo.jpg";
+import oca from "../../../img/Italia/Trezzo/oca.jpg";
+import panorama from "../../../img/Italia/Trezzo/panorama.jpg";
+import luna from "../../../img/Italia/Trezzo/luna.jpg";
+import biblio1 from "../../../img/Italia/Trezzo/biblio1.jpg";
+import nuvolo from "../../../img/Italia/Trezzo/nuvolo.jpg";
+import cielotrezzo from "../../../img/Italia/Trezzo/cielotrezzo.jpg";
+import finestrabiblio from "../../../img/Italia/Trezzo/finestrabiblio.jpg";
+import fiori from "../../../img/Italia/Trezzo/fiori.jpg";
 
 
 

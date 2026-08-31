@@ -6,12 +6,12 @@ import '../../../App.css';
 import { Col, Row } from "react-bootstrap";
 
 
-import panorama from "../../../img/Cassiglio/CassiglioPanorama.jpg";
-import fiori from "../../../img/Cassiglio/Fiori.jpg";
-import mappa from "../../../img/Cassiglio/Mappa.jpg";
-import ruota from "../../../img/Cassiglio/Ruota.jpg";
-import paesaggio from "../../../img/Cassiglio/Paesaggio.jpg";
-import paesaggio1 from "../../../img/Cassiglio/Paesaggio1.jpg";
+import panorama from "../../../img/Italia/Cassiglio/CassiglioPanorama.jpg";
+import fiori from "../../../img/Italia/Cassiglio/Fiori.jpg";
+import mappa from "../../../img/Italia/Cassiglio/Mappa.jpg";
+import ruota from "../../../img/Italia/Cassiglio/Ruota.jpg";
+import paesaggio from "../../../img/Italia/Cassiglio/Paesaggio.jpg";
+import paesaggio1 from "../../../img/Italia/Cassiglio/Paesaggio1.jpg";
 
 const Cassiglio = () => {
 

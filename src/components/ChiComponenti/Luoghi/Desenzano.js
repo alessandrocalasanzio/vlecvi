@@ -6,13 +6,13 @@ import '../../../App.css';
 import { Col, Row } from "react-bootstrap";
 
 
-import vigne1 from "../../../img/Desenzano/vigne.jpg";
-import botte from "../../../img/Desenzano/botte.jpg";
-import vista2 from "../../../img/Desenzano/vista2.jpg";
-import rose from "../../../img/Desenzano/rose.jpg";
-import gattino from "../../../img/Desenzano/gattino.jpg";
-import vista from "../../../img/Desenzano/vista.jpg";
-import esposizione from "../../../img/Desenzano/esposizione.jpg";
+import vigne1 from "../../../img/Italia/Desenzano/vigne.jpg";
+import botte from "../../../img/Italia/Desenzano/botte.jpg";
+import vista2 from "../../../img/Italia/Desenzano/vista2.jpg";
+import rose from "../../../img/Italia/Desenzano/rose.jpg";
+import gattino from "../../../img/Italia/Desenzano/gattino.jpg";
+import vista from "../../../img/Italia/Desenzano/vista.jpg";
+import esposizione from "../../../img/Italia/Desenzano/esposizione.jpg";
 
 
 

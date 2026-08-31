@@ -7,11 +7,11 @@ import { Col, Row } from "react-bootstrap";
 
 
 
-import lagogarda from "../../../img/Garda/lagogarda.jpg";
-import lungovia from "../../../img/Garda/lungovia.jpg";
-import palme from "../../../img/Garda/palme.jpg";
-import palme2 from "../../../img/Garda/palme2.jpg";
-import piscina from "../../../img/Garda/piscina.jpg";
+import lagogarda from "../../../img/Italia/Garda/lagogarda.jpg";
+import lungovia from "../../../img/Italia/Garda/lungovia.jpg";
+import palme from "../../../img/Italia/Garda/palme.jpg";
+import palme2 from "../../../img/Italia/Garda/palme2.jpg";
+import piscina from "../../../img/Italia/Garda/piscina.jpg";
 
 
 

@@ -5,20 +5,20 @@ import '../../../App.css';
 
 import { Col, Row } from "react-bootstrap";
 
-import ponte from "../../../img/Portogallo/ponte.jpg"
-import casanatura from "../../../img/Portogallo/casanatura.jpg"
-import graffiti from "../../../img/Portogallo/graffiti.jpg"
-import porto from "../../../img/Portogallo/porto.jpg"
-import castello from "../../../img/Portogallo/castello.jpg"
-import operachiesa from "../../../img/Portogallo/operachiesa.jpg"
-import sentiero from "../../../img/Portogallo/sentiero.jpg"
-import oceano from "../../../img/Portogallo/oceano.jpg"
-import metro from "../../../img/Portogallo/metro.jpg"
-import fiori from "../../../img/Portogallo/fiori.jpg"
-import vetrate from "../../../img/Portogallo/vetrate.jpg"
-import verde from "../../../img/Portogallo/verde.jpg"
-import scalechiesa from "../../../img/Portogallo/scalechiesa.jpg"
-import palme from "../../../img/Portogallo/palme.jpg"
+import ponte from "../../../img/Estero/Portogallo/ponte.jpg"
+import casanatura from "../../../img/Estero/Portogallo/casanatura.jpg"
+import graffiti from "../../../img/Estero/Portogallo/graffiti.jpg"
+import porto from "../../../img/Estero/Portogallo/porto.jpg"
+import castello from "../../../img/Estero/Portogallo/castello.jpg"
+import operachiesa from "../../../img/Estero/Portogallo/operachiesa.jpg"
+import sentiero from "../../../img/Estero/Portogallo/sentiero.jpg"
+import oceano from "../../../img/Estero/Portogallo/oceano.jpg"
+import metro from "../../../img/Estero/Portogallo/metro.jpg"
+import fiori from "../../../img/Estero/Portogallo/fiori.jpg"
+import vetrate from "../../../img/Estero/Portogallo/vetrate.jpg"
+import verde from "../../../img/Estero/Portogallo/verde.jpg"
+import scalechiesa from "../../../img/Estero/Portogallo/scalechiesa.jpg"
+import palme from "../../../img/Estero/Portogallo/palme.jpg"
 
 
 const Portogallo = () => {

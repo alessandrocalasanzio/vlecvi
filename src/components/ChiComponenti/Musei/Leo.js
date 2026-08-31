@@ -2,14 +2,14 @@ import React from 'react';
 import Navbar from '../../1.1Navbar1.js';
 import { Col, Row } from 'react-bootstrap';
 
-import cannone from '../../../img/leo/cannone.jpg';
-import cannone1 from '../../../img/leo/cannone1.jpg';
-import carro from '../../../img/leo/carro.jpg';
-import cena from '../../../img/leo/cena.jpg';
-import deltaplano from '../../../img/leo/deltaplano.jpg';
-import paracadute from '../../../img/leo/paracadute.jpg';
-import uomo from '../../../img/leo/uomo.jpg';
-import Vinci from '../../../img/Vinci.jpg';
+import cannone from '../../../img/Musei/leo/cannone.jpg';
+import cannone1 from '../../../img/Musei/leo/cannone1.jpg';
+import carro from '../../../img/Musei/leo/carro.jpg';
+import cena from '../../../img/Musei/leo/cena.jpg';
+import deltaplano from '../../../img/Musei/leo/deltaplano.jpg';
+import paracadute from '../../../img/Musei/leo/paracadute.jpg';
+import uomo from '../../../img/Musei/leo/uomo.jpg';
+import Vinci from '../../../img/Musei/leo/Vinci.jpg';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import Carousel styles
 import { Carousel } from 'react-responsive-carousel';

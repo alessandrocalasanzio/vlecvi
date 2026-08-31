@@ -4,15 +4,15 @@ import { Col, Row } from 'react-bootstrap';
 
 
 
-import bancodalavoro from '../../../img/casaLeopardi/bancodalavoro.jpg';
-import dinastialeopardi from '../../../img/casaLeopardi/dinastialeopardi.jpg';
-import finestraasilvia from '../../../img/casaLeopardi/finestraasilvia.jpg';
-import infinitoreplica from '../../../img/casaLeopardi/infinitoreplica.jpg';
-import leopardi from '../../../img/casaLeopardi/leopardi.jpg';
-import proibiti from '../../../img/casaLeopardi/proibiti.jpg';
-import quadroamano from '../../../img/casaLeopardi/quadroamano.jpg';
-import silviareplica from '../../../img/casaLeopardi/silviareplica.jpg';
-import volumiproibiti from '../../../img/casaLeopardi/volumiproibiti.jpg';
+import bancodalavoro from '../../../img/Musei/casaLeopardi/bancodalavoro.jpg';
+import dinastialeopardi from '../../../img/Musei/casaLeopardi/dinastialeopardi.jpg';
+import finestraasilvia from '../../../img/Musei/casaLeopardi/finestraasilvia.jpg';
+import infinitoreplica from '../../../img/Musei/casaLeopardi/infinitoreplica.jpg';
+import leopardi from '../../../img/Musei/casaLeopardi/leopardi.jpg';
+import proibiti from '../../../img/Musei/casaLeopardi/proibiti.jpg';
+import quadroamano from '../../../img/Musei/casaLeopardi/quadroamano.jpg';
+import silviareplica from '../../../img/Musei/casaLeopardi/silviareplica.jpg';
+import volumiproibiti from '../../../img/Musei/casaLeopardi/volumiproibiti.jpg';
 
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import Carousel styles

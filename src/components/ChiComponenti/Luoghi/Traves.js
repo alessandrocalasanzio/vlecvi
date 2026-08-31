@@ -6,11 +6,11 @@ import '../../../App.css';
 import { Col, Row } from "react-bootstrap";
 
 
-import strada from "../../../img/Traves/Strada.jpg";
-import valle from "../../../img/Traves/Valle.jpg";
-import valle3 from "../../../img/Traves/Valle3.jpg";
-import valle2 from "../../../img/Traves/Valle2.jpg";
-import sfuocato from "../../../img/Traves/Sfuocato.jpg";
+import strada from "../../../img/Italia/Traves/Strada.jpg";
+import valle from "../../../img/Italia/Traves/Valle.jpg";
+import valle3 from "../../../img/Italia/Traves/Valle3.jpg";
+import valle2 from "../../../img/Italia/Traves/Valle2.jpg";
+import sfuocato from "../../../img/Italia/Traves/Sfuocato.jpg";
 
 
 const Traves = () => {

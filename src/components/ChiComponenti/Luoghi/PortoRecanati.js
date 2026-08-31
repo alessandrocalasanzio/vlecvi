@@ -8,20 +8,20 @@ import { Col, Row } from "react-bootstrap";
 
 
 
-import piazzacastello from '../../../img/PortoRecanati/PiazzaCastello.jpg';
-import portachiesa from '../../../img/PortoRecanati/PortaChiesa.jpg';
-import scritta1 from '../../../img/PortoRecanati/Scritta1.jpg';
-import panoramacastello from '../../../img/PortoRecanati/PanCastello.jpg';
-import mare from '../../../img/PortoRecanati/Mare.jpg';
-import fotoprincipale from '../../../img/PortoRecanati/FotoPrincipale.jpg';
-import miami from '../../../img/PortoRecanati/MiamiMood.jpg';
-import chiesa from '../../../img/PortoRecanati/Chiesa.jpg';
-import chiesa1 from '../../../img/PortoRecanati/Chiesa1.jpg';
-import chiesa3 from '../../../img/PortoRecanati/Chiesa3.jpg';
-import panorama1 from '../../../img/PortoRecanati/Panorama1.jpg';
-import panorama from '../../../img/PortoRecanati/Panorama.jpg';
-import scritta2 from '../../../img/PortoRecanati/Scritta2.jpg';
-import mare2 from '../../../img/PortoRecanati/Mare2.jpg';
+import piazzacastello from '../../../img/Italia/PortoRecanati/PiazzaCastello.jpg';
+import portachiesa from '../../../img/Italia/PortoRecanati/PortaChiesa.jpg';
+import scritta1 from '../../../img/Italia/PortoRecanati/Scritta1.jpg';
+import panoramacastello from '../../../img/Italia/PortoRecanati/PanCastello.jpg';
+import mare from '../../../img/Italia/PortoRecanati/Mare.jpg';
+import fotoprincipale from '../../../img/Italia/PortoRecanati/FotoPrincipale.jpg';
+import miami from '../../../img/Italia/PortoRecanati/MiamiMood.jpg';
+import chiesa from '../../../img/Italia/PortoRecanati/Chiesa.jpg';
+import chiesa1 from '../../../img/Italia/PortoRecanati/Chiesa1.jpg';
+import chiesa3 from '../../../img/Italia/PortoRecanati/Chiesa3.jpg';
+import panorama1 from '../../../img/Italia/PortoRecanati/Panorama1.jpg';
+import panorama from '../../../img/Italia/PortoRecanati/Panorama.jpg';
+import scritta2 from '../../../img/Italia/PortoRecanati/Scritta2.jpg';
+import mare2 from '../../../img/Italia/PortoRecanati/Mare2.jpg';
 const PortoRecanati = () => {
 
     return(

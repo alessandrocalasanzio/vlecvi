@@ -39,7 +39,9 @@ const Varenna = lazy(() => import('./components/ChiComponenti/Luoghi/Varenna.js'
 const Trezzo = lazy(() => import('./components/ChiComponenti/Luoghi/Trezzo.js'));
 const Offagna = lazy(() => import('./components/ChiComponenti/Luoghi/Offagna.js'));
 const Desenzano = lazy(() => import('./components/ChiComponenti/Luoghi/Desenzano.js'));
+const Grecia = lazy(() => import('./components/ChiComponenti/Luoghi/Grecia.js'));
 const CasaLeopardi = lazy(() => import('./components/ChiComponenti/Musei/CasaLeopardi.js'));
+const MuseiGrecia = lazy(() => import('./components/ChiComponenti/Musei/MuseiGrecia.js'));
 const WebList = lazy(() => import('./components/BlogComponenti/Articoli/WebList.js'));
 const Excel = lazy(() => import('./components/BlogComponenti/Articoli/Excel.js'));
 const Notion = lazy(() => import('./components/BlogComponenti/Articoli/Notion.js'));
@@ -104,9 +106,11 @@ function App() {
           <Route path="/offagna" element={<Offagna />}></Route>
           <Route path="/desenzano" element={<Desenzano />}></Route>
           <Route path="/cassiglio" element={<Cassiglio />}></Route>
+          <Route path="/grecia" element={<Grecia />}></Route>
 
           <Route path="/leo" element={<Leo />}></Route>
           <Route path="/casaleopardi" element={<CasaLeopardi />}></Route>
+          <Route path="/museigrecia" element={<MuseiGrecia />}></Route>
 
           <Route path="/weblist" element={<WebList />}></Route>
           <Route path="/excel" element={<Excel />}></Route>

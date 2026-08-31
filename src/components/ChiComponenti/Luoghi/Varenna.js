@@ -6,11 +6,11 @@ import '../../../App.css';
 import { Col, Row } from "react-bootstrap";
 
 
-import costa from "../../../img/Varenna/Costa.png";
-import lago from "../../../img/Varenna/lago.png";
-import alberi from "../../../img/Varenna/alberi.png";
-import statua from "../../../img/Varenna/statua.png";
-import vasi from "../../../img/Varenna/vasi.jpg";
+import costa from "../../../img/Italia/Varenna/Costa.jpg";
+import lago from "../../../img/Italia/Varenna/lago.jpg";
+import alberi from "../../../img/Italia/Varenna/alberi.jpg";
+import statua from "../../../img/Italia/Varenna/statua.jpg";
+import vasi from "../../../img/Italia/Varenna/vasi.jpg";
 
 
 

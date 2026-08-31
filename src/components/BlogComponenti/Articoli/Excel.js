@@ -6,9 +6,9 @@ import Button from 'react-bootstrap/Button';
 import BlogFiltro from "../BlogFiltro";
 import Navbar from "../../1.Navbar";
 
-import graphs from '../../../img/graphs.jpg';
-import overview from '../../../img/OVERVIEW.png';
-import mesi from '../../../img/MESI.png';
+import graphs from '../../../img/Blog/graphs.jpg';
+import overview from '../../../img/Blog/OVERVIEW.png';
+import mesi from '../../../img/Blog/MESI.png';
 
 import { FaShareAlt, FaPaypal } from "react-icons/fa";
 import CopyToClipboard from 'react-copy-to-clipboard';

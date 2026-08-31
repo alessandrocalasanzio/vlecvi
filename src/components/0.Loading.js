@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo1 from "../img/logo1.png";
+import logo1 from "../img/Generale/logo1.png";
 import { Fade } from "react-reveal";
 
 const Loading = () => {

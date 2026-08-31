@@ -7,17 +7,17 @@ import { Col, Row } from "react-bootstrap";
 
 
 
-import torre from '../../../img/PortoRecanati2/torre.jpg';
-import alberi from '../../../img/PortoRecanati2/alberi.jpg';
-import arco from '../../../img/PortoRecanati2/arco.jpg';
-import caffe from '../../../img/PortoRecanati2/caffe.jpg';
-import entratagiardino from '../../../img/PortoRecanati2/entratagiardino.jpg';
-import gattino from '../../../img/PortoRecanati2/gattino.jpg';
-import viti from '../../../img/PortoRecanati2/viti.jpg';
-import viti2 from '../../../img/PortoRecanati2/viti2.jpg';
-import panoramairti from '../../../img/PortoRecanati2/panoramairti.jpg';
+import torre from '../../../img/Italia/PortoRecanati2/torre.jpg';
+import alberi from '../../../img/Italia/PortoRecanati2/alberi.jpg';
+import arco from '../../../img/Italia/PortoRecanati2/arco.jpg';
+import caffe from '../../../img/Italia/PortoRecanati2/caffe.jpg';
+import entratagiardino from '../../../img/Italia/PortoRecanati2/entratagiardino.jpg';
+import gattino from '../../../img/Italia/PortoRecanati2/gattino.jpg';
+import viti from '../../../img/Italia/PortoRecanati2/viti.jpg';
+import viti2 from '../../../img/Italia/PortoRecanati2/viti2.jpg';
+import panoramairti from '../../../img/Italia/PortoRecanati2/panoramairti.jpg';
 
-import girasoli from '../../../img/PortoRecanati2/girasoli.jpg';
+import girasoli from '../../../img/Italia/PortoRecanati2/girasoli.jpg';
 
 
 const PortoRecanati2 = () => {

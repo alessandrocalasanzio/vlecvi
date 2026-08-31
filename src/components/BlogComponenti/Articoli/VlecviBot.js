@@ -10,15 +10,15 @@ import Navbar from "../../1.Navbar";
 
 
 
-import vlecvihurst from '../../../img/vlecvi/VlecviLogo1.png';
-import vlecvidescrizione from '../../../img/vlecvi/VlecviBotDescrizione.png';
-import inputvlecvi from '../../../img/vlecvi/InputVlecviBot.png';
-import vlecvipercentuali from '../../../img/vlecvi/Perc.png';
-import vlecvigain from '../../../img/vlecvi/Myfixbook.png';
-import profitti1 from '../../../img/vlecvi/profitti1.jpg';
-import profitti2 from '../../../img/vlecvi/profitti2.jpg';
-import profitti3 from '../../../img/vlecvi/profitti3.jpg';
-import forex from  '../../../img/vlecvi/forex.jpg';
+import vlecvihurst from '../../../img/Progetti/vlecvi/VlecviLogo1.png';
+import vlecvidescrizione from '../../../img/Progetti/vlecvi/VlecviBotDescrizione.png';
+import inputvlecvi from '../../../img/Progetti/vlecvi/InputVlecviBot.png';
+import vlecvipercentuali from '../../../img/Progetti/vlecvi/Perc.png';
+import vlecvigain from '../../../img/Progetti/vlecvi/Myfixbook.png';
+import profitti1 from '../../../img/Progetti/vlecvi/profitti1.jpg';
+import profitti2 from '../../../img/Progetti/vlecvi/profitti2.jpg';
+import profitti3 from '../../../img/Progetti/vlecvi/profitti3.jpg';
+import forex from  '../../../img/Progetti/vlecvi/forex.jpg';
 
 
 

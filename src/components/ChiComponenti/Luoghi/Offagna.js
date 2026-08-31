@@ -7,18 +7,18 @@ import { Col, Row } from "react-bootstrap";
 
 
 
-import castello from '../../../img/Offagna/castello.jpg';
-import finestrino from '../../../img/Offagna/finestrino.jpg';
-import statualibro from '../../../img/Offagna/statualibro.jpg';
-import battagliaporco from '../../../img/Offagna/battagliaporco.jpg';
-import panoramaoffagna from '../../../img/Offagna/panoramaoffagna.jpg';
-import statua from '../../../img/Offagna/statua.jpg';
-import finestrino2 from '../../../img/Offagna/finestrino2.jpg';
-import spiragliotorre from '../../../img/Offagna/spiragliotorre.jpg';
-import panoramaalberi from '../../../img/Offagna/panoramaalberi.jpg';
-import finestrino3 from '../../../img/Offagna/finestrino3.jpg';
-import battagliaminiatura from '../../../img/Offagna/battagliaminiatura.jpg';
-import spiragliocasa from '../../../img/Offagna/spiragliocasa.jpg';
+import castello from '../../../img/Italia/Offagna/castello.jpg';
+import finestrino from '../../../img/Italia/Offagna/finestrino.jpg';
+import statualibro from '../../../img/Italia/Offagna/statualibro.jpg';
+import battagliaporco from '../../../img/Italia/Offagna/battagliaporco.jpg';
+import panoramaoffagna from '../../../img/Italia/Offagna/panoramaoffagna.jpg';
+import statua from '../../../img/Italia/Offagna/statua.jpg';
+import finestrino2 from '../../../img/Italia/Offagna/finestrino2.jpg';
+import spiragliotorre from '../../../img/Italia/Offagna/spiragliotorre.jpg';
+import panoramaalberi from '../../../img/Italia/Offagna/panoramaalberi.jpg';
+import finestrino3 from '../../../img/Italia/Offagna/finestrino3.jpg';
+import battagliaminiatura from '../../../img/Italia/Offagna/battagliaminiatura.jpg';
+import spiragliocasa from '../../../img/Italia/Offagna/spiragliocasa.jpg';
 
 
 const Offagna = () => {

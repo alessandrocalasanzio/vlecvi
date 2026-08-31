@@ -5,10 +5,10 @@ import Col from 'react-bootstrap/Col';
 import { Carousel, Card } from 'react-bootstrap';
 
 import { Link } from 'react-router-dom';
-import angolo from '../img/angolo2.jpg'; // Imposta il percorso corretto per l'immagine originale
-import angoloGrigio from '../img/angoloGrigio.png';
+import angolo from '../img/Progetti/angolo2.jpg'; // Imposta il percorso corretto per l'immagine originale
+import angoloGrigio from '../img/Progetti/angoloGrigio.png';
 
-import vlecvihurst from '../img/vlecvi/sfondoVlecvi.jpg';
+import vlecvihurst from '../img/Progetti/vlecvi/sfondoVlecvi.jpg';
 
 import Fade from 'react-reveal/Fade';
 

@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {Link} from 'react-router-dom';
 
-import w1 from '../img/w1.jpg';
+import w1 from '../img/Generale/w1.jpg';
 
 import Fade from 'react-reveal/Fade';
 

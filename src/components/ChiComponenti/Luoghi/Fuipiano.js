@@ -7,20 +7,20 @@ import { Col, Row } from "react-bootstrap";
 
 
 
-import caminetto from '../../../img/Fuipiano/Caminetto.jpg';
-import gufopiccolo from '../../../img/Fuipiano/gufopiccolo.jpg';
-import poesia from '../../../img/Fuipiano/Poesia.jpg';
-import casaprincipale from '../../../img/Fuipiano/CasaPrincipale.jpg';
-import gufo from '../../../img/Fuipiano/gufo.jpg';
-import foresta from '../../../img/Fuipiano/Foresta.jpg';
-import minipanorama from '../../../img/Fuipiano/MiniPanorama.jpg';
-import panoramanuvolo from '../../../img/Fuipiano/PanoramaNuvolo.jpg';
-import valle from '../../../img/Fuipiano/Valle.jpg';
-import casarustica from '../../../img/Fuipiano/CasaRustica.jpg';
-import alberi from '../../../img/Fuipiano/AlberiForesta.jpg';
-import casaprofilo from '../../../img/Fuipiano/CasaRusticaProfilo.jpg';
-import casarustica3 from '../../../img/Fuipiano/CasaRustica3.jpg';
-import nuvolo from '../../../img/Fuipiano/Nuvolo.jpg';
+import caminetto from '../../../img/Italia/Fuipiano/Caminetto.jpg';
+import gufopiccolo from '../../../img/Italia/Fuipiano/gufopiccolo.jpg';
+import poesia from '../../../img/Italia/Fuipiano/Poesia.jpg';
+import casaprincipale from '../../../img/Italia/Fuipiano/CasaPrincipale.jpg';
+import gufo from '../../../img/Italia/Fuipiano/gufo.jpg';
+import foresta from '../../../img/Italia/Fuipiano/Foresta.jpg';
+import minipanorama from '../../../img/Italia/Fuipiano/MiniPanorama.jpg';
+import panoramanuvolo from '../../../img/Italia/Fuipiano/PanoramaNuvolo.jpg';
+import valle from '../../../img/Italia/Fuipiano/Valle.jpg';
+import casarustica from '../../../img/Italia/Fuipiano/CasaRustica.jpg';
+import alberi from '../../../img/Italia/Fuipiano/AlberiForesta.jpg';
+import casaprofilo from '../../../img/Italia/Fuipiano/CasaRusticaProfilo.jpg';
+import casarustica3 from '../../../img/Italia/Fuipiano/CasaRustica3.jpg';
+import nuvolo from '../../../img/Italia/Fuipiano/Nuvolo.jpg';
 const Fuipiano = () => {
 
     return(

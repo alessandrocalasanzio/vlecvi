@@ -50,9 +50,12 @@ const Excel = () => {
 
           <div className='testoBlog'>
 
-            <p>Quello che ho creato è un mio personale file di Excel che permette di tenere traccia delle entrate e delle uscite dei propri conti, avendo anche un occhio di riguardo sull'andamento generale mensile del totale dei propri soldi, sia vedendo in modo basilare se il conto rispetto al mese precedente è cresciuto o meno sia a livello di percentuale la sitazione come procede.</p>
-
-            <p>Prima di procedere con la breve guida, che ti mostra le varie schermate(giusto per farti capire come usare al meglio il file) è importante scaricare il file😂. </p>
+            <div className='mastheadArticolo'>
+              <p className='mastheadSezione__eyebrow'>Blog · Mini-progetto</p>
+              <h1 className='mastheadSezione__titolo'>Tenere traccia delle spese</h1>
+              <p className='mastheadSezione__lead'>Un file Excel per registrare entrate e uscite dei propri conti e vedere, mese per mese, se il totale cresce o cala — anche in percentuale.</p>
+              <p className='mastheadSezione__nota'>Prima della guida conviene scaricare il file: le schermate che seguono mostrano proprio quello.</p>
+            </div>
 
             <p>Ecco a te :</p>
             <Button className='buttonRadius' variant="btn btn-dark"><a href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods" className='buttonRadius' variant="btn btn-dark">Excel Tracking</a></Button>
@@ -225,13 +228,11 @@ const Excel = () => {
       <CopyToClipboard text={pageLink} onCopy={handleCopyLink}>
       <span className="support-text"style={{ cursor: 'pointer' }}>CONDIVIDI ARTICOLO: <FaShareAlt /></span>
       </CopyToClipboard>
-      <span style={{ position: 'relative' }}>
-        {isLinkCopied && (
-          <p style={{ color: 'black', fontSize: '8px', position: 'absolute', top: '10%', left: 0 }}>
-            Link copiato negli appunti!
-          </p>
-        )}
-      </span>
+      {isLinkCopied && (
+        <div className="toastCopiato" role="status" aria-live="polite">
+          Link copiato negli appunti
+        </div>
+      )}
 
     
       <span className="support-text support-container">PER SUPPORTARMI:

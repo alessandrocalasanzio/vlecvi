@@ -819,12 +819,6 @@ span {
   color: black !important;
   z-index: 99999;
 }
-.text-muted2{
-  font-family: 'Space Grotesk', sans-serif;
-  color: black !important;
-  z-index: 99999;
-  margin-left: 50%;
-}
 .text-muted1:hover {
   font-family: 'Space Grotesk', sans-serif;
   color: white !important;
@@ -1079,57 +1073,191 @@ h3:active.buttone {
 
 
 /*------------------------------------------1.1 CSS DELLA PAGINA DELLA BIO-------------------------------*/
+/* .testoBio governa il riquadro (posizione, altezza, scorrimento interno);
+   la tipografia sta in .testoSezione, che entrambe le pagine affiancano.
+   Il grassetto 800 e la centratura che stavano qui erano gia' scavalcati da
+   quella classe: rimossi per non lasciare una trappola a chi riuserà .testoBio. */
 .testoBio {
   font-size: 1.2em;
-  text-align: center;
   position: absolute;
   z-index: 99999;
   top: 8%;
   left: 10%;
   columns: black;
   font-family: 'Space Grotesk', sans-serif;
-  font-weight: 800;
   height: 520px !important; /* Imposta l'altezza desiderata con overflow auto */
   overflow: auto;
   margin: 0px 25px 0px 25px !important;
 }
+/* Corpo degli articoli. Allineato al lavoro fatto su Bio e Contatti: peso 400
+   e testo a sinistra. Prima .testoweblist era in grassetto 800 e .testoBlog
+   in 100 filiforme: due estremi opposti per due corpi di testo dello stesso
+   tipo, entrambi centrati su righe lunghe. */
 .testoweblist {
   font-size: 1.2em;
-  text-align: center;
+  text-align: left;
   position: relative;
   columns: black;
   font-family: 'Space Grotesk', sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   margin: 15px 50px 0px 50px !important;
-}
-.testoprogetti {
-  border-bottom: 2px solid black;
-  font-size: 1.2em;
-  text-align: center;
-  position: relative;
-  columns: black;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 800;
-  margin-top: 34px!important;
 }
 .testoBlog {
   font-size: 1.2em;
-  text-align: center;
+  text-align: left;
   z-index: 99999;
   margin-top: 25px !important;
   columns: black;
   font-family: 'Space Grotesk', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
+}
+
+/* .testoBlog avvolge l'intero articolo: fasce dei titoli e card comprese, che
+   devono restare a tutta larghezza. Il rientro va quindi ai soli paragrafi di
+   prosa (figli diretti senza classe): da centrati non sfioravano mai i lati,
+   allineati a sinistra finivano addosso al bordo del contenitore. */
+.testoBlog > p:not([class]),
+.testoBlog > .buttonRadius {
+  margin-left: clamp(16px, 4vw, 50px);
+  margin-right: clamp(16px, 4vw, 50px);
+}
+
+/* Testata degli articoli (Notion, Excel). Stessa tipografia della testata di
+   Progetti e Blog ma senza cornice: qui il blocco sta gia' dentro una colonna
+   incorniciata, e aggiungere altri bordi creerebbe righe doppie. */
+.mastheadArticolo {
+  margin: 0 clamp(16px, 4vw, 50px) clamp(1.5rem, 3vw, 2.5rem);
+}
+
+/* Testata delle pagine sezione (per ora solo Progetti).
+   I blocchi sottostanti sono incorniciati da bordi neri ai due lati: senza
+   bordi laterali e con un margine sopra, la testata restava sospesa fuori da
+   quella cornice. Qui i bordi proseguono quelli di sotto e il blocco parte a
+   filo del filetto della navbar, cosi' la cornice scende ininterrotta. */
+.mastheadSezione {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: clamp(1.75rem, 4vw, 3.25rem) clamp(1.25rem, 3vw, 2.75rem);
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: left;
+}
+
+/* Micro-label: unico punto della scala tipografica con tracking positivo. */
+.mastheadSezione__eyebrow {
+  margin: 0 0 clamp(0.75rem, 2vw, 1.5rem) 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Titolo di pagina: serve dove la pagina non ha gia' un'etichetta verticale che
+   la nomini (WebList non ne aveva nessuna, si apriva direttamente col testo). */
+.mastheadSezione__titolo {
+  margin: 0 0 clamp(0.6rem, 1.5vw, 1rem) 0;
+  font-size: clamp(34px, 5.5vw, 56px);
+  line-height: 1.02;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Riga di servizio sotto la frase d'apertura: dice come si usa la pagina. */
+.mastheadSezione__nota {
+  margin: clamp(0.8rem, 1.6vw, 1.1rem) 0 0 0;
+  max-width: 62ch;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* La frase d'apertura diventa l'elemento forte del blocco: prima era in
+   grassetto 800 sotto un titolo piu' piccolo, con la gerarchia invertita. */
+.mastheadSezione__lead {
+  margin: 0;
+  max-width: 46ch;
+  font-size: clamp(21px, 3vw, 34px);
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 /* Citazioni in corsivo marcate (per errore) come <h1><em>...</em></h1>: trattate
    come lead/paragrafo d'apertura (22px), non come display gigante. */
-.testoBio h1,
-.testoprogetti h1 {
+.testoBio h1 {
   font-size: 22px;
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0;
+}
+
+/* Testo delle pagine Chi Sono e Contatti: stesso linguaggio della testata di
+   Progetti e Blog. Classe a parte e non modifica di .testoBio, che governa il
+   riquadro a scorrimento di entrambe: qui cadono il grassetto 800 e la
+   centratura, il comportamento del box resta quello di sempre. */
+.testoSezione {
+  font-weight: 400;
+  text-align: left;
+}
+
+/* Il saluto d'apertura prende il posto del titolo virgolettato in corsivo. */
+.testoSezione__lead {
+  font-size: clamp(20px, 2.2vw, 28px);
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.5rem;
+}
+
+/* Micro-label come "SEZIONE PROGETTI": unico punto con tracking positivo. */
+.testoSezione__eyebrow {
+  margin: 2.5rem 0 1rem 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Citazione: stessa convenzione delle pagine dei viaggi (corsivo, niente
+   virgolette, autore preceduto da trattino). Il corsivo qui resta perche'
+   segnala che le parole sono di un altro, non e' decorazione. */
+.testoSezione__citazione {
+  font-size: clamp(19px, 2vw, 24px);
+  line-height: 1.4;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.testoSezione__autore {
+  margin-bottom: 2.5rem;
+  font-size: 15px;
+}
+
+/* Elenco puntato: trattino al posto del pallino di default, per restare nel
+   segno grafico del sito (e perche' i trattini c'erano gia', scritti a mano
+   dentro i paragrafi). */
+.testoSezione__elenco {
+  margin: 0 0 1rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.testoSezione__elenco li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.testoSezione__elenco li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+}
+
+.testoSezione__firma {
+  margin-top: 2.5rem;
 }
 
 .testoBio::-webkit-scrollbar {
@@ -2166,7 +2294,7 @@ height: 150px !important;
   border-right: 2px solid black;
   font-size: 2em;
   background-color: rgb(186, 230, 216);
-  font-weight: 800;
+  font-weight: 600;
   text-align: center;
   font-family: 'Space Grotesk', sans-serif;
   margin: 0px !important;
@@ -2174,7 +2302,7 @@ height: 150px !important;
 .titolo1Blog{
   font-size: 2em;
   background-color: rgb(186, 230, 216);
-  font-weight: 800;
+  font-weight: 600;
   text-align: center;
   font-family: 'Space Grotesk', sans-serif;
   margin: 0px 0px 0px 0px !important;
@@ -2186,7 +2314,7 @@ height: 150px !important;
   border-bottom: 2px solid black;
   font-size: 2em;
   background-color: rgb(186, 230, 216);
-  font-weight: 800;
+  font-weight: 600;
   text-align: center;
   font-family: 'Space Grotesk', sans-serif;
 }
@@ -2195,7 +2323,7 @@ height: 150px !important;
   border-right: 2px solid black;
   font-size: 1.33em;
   background-color: rgb(186, 230, 216);
-  font-weight: 800;
+  font-weight: 600;
   text-align: center;
   font-family: 'Space Grotesk', sans-serif;
   margin: 0px !important;
@@ -2292,8 +2420,71 @@ height: 150px !important;
   display: none;
 }
 
+/* Frecce del carosello Progetti. Di default Bootstrap le fa larghe il 15% e
+   alte quanto tutto il carosello: a 1440px sono fasce da 207px per lato, ma
+   l'icona dentro ne occupa 30. I 177px avanzati stavano sopra la card e si
+   prendevano i click destinati ai pulsanti "Apri il Progetto" e "Scopri come
+   funziona", che cadono proprio in quella fascia. Ridotte all'area dell'icona:
+   restano bersagli comodi e il contenuto della card torna cliccabile. */
+.carousel-control-prev,
+.carousel-control-next {
+  /* !important perche' il CSS di Bootstrap viene caricato dopo App.css e a
+     parita' di specificita' vincerebbe il suo width: 15%. */
+  width: clamp(46px, 6%, 90px) !important;
+}
+
+/* Seconda difesa, necessaria sugli schermi stretti dove anche una freccia da
+   46px arriva a sovrapporsi ai pulsanti: Bootstrap mette le frecce a z-index 1,
+   quindi i pulsanti salgono sopra e si riprendono il click dove stanno loro.
+   Le frecce restano cliccabili su tutto il resto della loro fascia. */
+.buttonRadius {
+  position: relative;
+  z-index: 2;
+}
+
 .buttonSpacing {
   margin-right: 10px; /* Aggiunge uno spazio a destra del primo bottone */
+}
+
+/* Conferma della copia del link. Prima era un <p> a 8px in position:absolute
+   dentro uno <span> vuoto: non avendo il genitore dimensioni proprie, finiva
+   in un punto arbitrario della pagina e si accavallava al contenuto.
+   Qui diventa un avviso fisso in basso al centro, sopra ogni altra cosa. */
+.toastCopiato {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100000;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  padding: 12px 20px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  animation: toastCopiatoEntra 180ms ease-out;
+}
+
+@keyframes toastCopiatoEntra {
+  from { opacity: 0; transform: translateX(-50%) translateY(8px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toastCopiato { animation: none; }
+}
+
+@media (max-width: 480px) {
+  .toastCopiato {
+    font-size: 14px;
+    padding: 10px 16px;
+    max-width: calc(100vw - 32px);
+    white-space: normal;
+    text-align: center;
+  }
 }
 
 @media (max-width: 620px) {
@@ -2310,3 +2501,83 @@ footer {
   text-align: center; /* Testo centrato */
   padding: 2px 0;
 }
+
+/*--------------------------------- RIGHE DOPPIE -----------------------------------
+   Il sito e' costruito a blocchi ognuno col proprio bordo da 2px. Quando due
+   blocchi si toccano i bordi si sommano e la linea diventa spessa 4px invece di 2.
+   Qui il blocco che sta dopo viene tirato indietro di 2px con un margine negativo,
+   cosi' i due bordi si sovrappongono in una riga sola: nessuna regola di bordo
+   viene rimossa, quindi ogni blocco resta incorniciato anche preso da solo.
+   I margini negativi sono !important dove devono superare le regole globali
+   ".row > *" e ".row" (margin: 0 !important, riga ~130). ----------------------- */
+
+/* Barra filtri: bottoni affiancati (Around/Mostre/Liste, Mostra Tutti/Finanze/...).
+   Il selettore "~" salta i dropdown-menu che stanno in mezzo ai bottoni, e ">"
+   evita di toccare le voci dentro i dropdown, che usano la stessa .btnBlog. */
+#myBtnContainerChi > .btnBlog ~ .btnBlog,
+#myBtnContainer1 > .btnBlog ~ .btnBlog,
+#myBtnContainer > .btnBlog ~ .btnBlog {
+  margin-left: -2px;
+}
+
+/* Barra filtri contro il blocco che la precede (Bio su Chi Sono, testata su Blog)
+   e contro l'elenco che la segue. */
+#myBtnContainerChi,
+#myBtnContainer1,
+#myBtnContainer {
+  margin-top: -2px;
+}
+
+.bordiContainerBlog {
+  margin-top: -2px;
+}
+
+/* Pagine Mostre: la navbar non e' fixed-top, quindi il suo bordo inferiore tocca
+   il bordo superiore della prima card. */
+body:has(nav.navbar:not(.fixed-top)) nav.navbar + .row {
+  margin-top: -2px !important;
+}
+
+/* Colonna dell'etichetta verticale contro le card accanto (Mostre, Excel, VlecviBot).
+   Sulle Mostre e' ristretto alle pagine con navbar non fixed-top, per non spostare
+   l'elenco di ChiFiltro che usa la stessa .bordoColonna ma non ha bordo sinistro. */
+body:has(nav.navbar:not(.fixed-top)) .bordoColonna + .col,
+.bordoColonnaExcel + .col {
+  margin-left: -2px !important;
+}
+
+/* Chi Sono: la colonna della foto e quella dell'etichetta "Biografia" si toccano.
+   Ristretto al caso in cui la colonna precedente e' .bordoColonna (solo la Bio):
+   sulla pagina Contatti la stessa etichetta segue .bordoColonnaContattiimg e li'
+   la riga e' gia' singola. */
+.bordoColonna + .bordoColonnaimg .bordoColonnaContatti {
+  margin-left: -2px !important; /* .bordoColonnaContatti ha margin: 0 !important */
+}
+
+/* VlecviBot: bordo inferiore dell'immagine contro quello del titolo sottostante. */
+p.titolo3Blog {
+  margin-top: -2px !important; /* .titolo3Blog ha margin: 0 !important */
+}
+
+/* Articoli (Excel, Notion): l'immagine dentro la card ha un bordo proprio su tutti
+   i lati. Sopra i 1024px i margini auto la tengono centrata e i bordi restano
+   staccati da quelli della card; sotto, l'immagine occupa tutta la larghezza e i
+   due bordi si affiancano su entrambi i lati. Li' fa da cornice quella della card. */
+@media (max-width: 1024px) {
+  .cardt .fotoBlog1 {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+/* Contatti: le tre schede social affiancate hanno bordo sia a sinistra sia a destra,
+   quindi fra una e l'altra la linea risultava doppia. Resta il solo bordo destro,
+   e la prima scheda riceve quello sinistro per chiudere la fila. */
+div.gallery img {
+  border-left: none;
+}
+
+.responsive:first-of-type div.gallery img {
+  border-left: 1.5px solid black;
+}
+/*------------------------------- FINE RIGHE DOPPIE --------------------------------*/

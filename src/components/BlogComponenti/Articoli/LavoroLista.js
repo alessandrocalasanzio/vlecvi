@@ -230,10 +230,11 @@ const LavoroLista = () => {
     return (
       <div>
         <Navbar/>
-        <div className='testoweblist'>
-        <p> Ho deciso con questo articolo di creare una sorta di raccoglitore/archivio di tutti i siti Web che trovo utili o che ho trovato interessanti, dividendoli per categorie.</p>
-      
-      <p> L'articolo sarà in continuo aggiornamento.</p>
+        <div className='mastheadSezione'>
+          <p className='mastheadSezione__eyebrow'>Blog · Raccolta</p>
+          <h1 className='mastheadSezione__titolo'>Siti per trovare lavoro</h1>
+          <p className='mastheadSezione__lead'>I portali dove cercare offerte, insieme ai corsi — online e in presenza — con cui prepararsi.</p>
+          <p className='mastheadSezione__nota'>Il pulsante Lavoro mostra i portali di annunci; sotto Corsi si sceglie fra quelli digitali e quelli in aula. Anche questa raccolta è in aggiornamento continuo.</p>
         </div>
           <div id="myBtnContainer">
          
@@ -310,13 +311,11 @@ const LavoroLista = () => {
       <CopyToClipboard text={pageLink} onCopy={handleCopyLink}>
       <span className="support-text"style={{ cursor: 'pointer' }}>CONDIVIDI ARTICOLO: <FaShareAlt /></span>
       </CopyToClipboard>
-      <span style={{ position: 'relative' }}>
-        {isLinkCopied && (
-          <p style={{ color: 'black', fontSize: '8px', position: 'absolute', top: '10%', left: 0 }}>
-            Link copiato negli appunti!
-          </p>
-        )}
-      </span>
+      {isLinkCopied && (
+        <div className="toastCopiato" role="status" aria-live="polite">
+          Link copiato negli appunti
+        </div>
+      )}
 
     
       <span className="support-text support-container">PER SUPPORTARMI:

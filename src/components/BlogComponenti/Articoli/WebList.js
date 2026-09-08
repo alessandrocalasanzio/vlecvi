@@ -1571,10 +1571,11 @@ const WebList = () => {
     return (
       <div>
         <Navbar/>
-        <div className='testoweblist'>
-        <p> Ho deciso con questo articolo di creare una sorta di raccoglitore/archivio di tutti i siti Web che trovo utili o che ho trovato interessanti, dividendoli per categorie.</p>
-      
-      <p> L'articolo sarà in continuo aggiornamento.</p>
+        <div className='mastheadSezione'>
+          <p className='mastheadSezione__eyebrow'>Blog · Raccolta</p>
+          <h1 className='mastheadSezione__titolo'>WebList</h1>
+          <p className='mastheadSezione__lead'>Un archivio dei siti che ho trovato utili o interessanti nel tempo, raccolti e divisi per categoria.</p>
+          <p className='mastheadSezione__nota'>I pulsanti qui sotto filtrano l'elenco per categoria. È una raccolta in aggiornamento continuo: ogni volta che incontro un sito che vale, finisce qui.</p>
         </div>
           <div id="myBtnContainer">
          
@@ -1695,13 +1696,11 @@ Enterteinment
       <CopyToClipboard text={pageLink} onCopy={handleCopyLink}>
       <span className="support-text"style={{ cursor: 'pointer' }}>CONDIVIDI ARTICOLO: <FaShareAlt /></span>
       </CopyToClipboard>
-      <span style={{ position: 'relative' }}>
-        {isLinkCopied && (
-          <p style={{ color: 'black', fontSize: '8px', position: 'absolute', top: '10%', left: 0 }}>
-            Link copiato negli appunti!
-          </p>
-        )}
-      </span>
+      {isLinkCopied && (
+        <div className="toastCopiato" role="status" aria-live="polite">
+          Link copiato negli appunti
+        </div>
+      )}
 
     
       <span className="support-text support-container">PER SUPPORTARMI:

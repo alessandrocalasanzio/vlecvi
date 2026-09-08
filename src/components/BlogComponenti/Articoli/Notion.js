@@ -52,9 +52,12 @@ const Notion = () => {
 
           <div className='testoBlog'>
 
-            <p>Eccoci qui con il secondo mini-progetto di questo sito. </p>
-                
-            <p>In questo articolo parleremo del mondo di Notion: cos'è, come funziona e infine ti darò un mio personale template.</p>
+            <div className='mastheadArticolo'>
+              <p className='mastheadSezione__eyebrow'>Blog · Mini-progetto</p>
+              <h1 className='mastheadSezione__titolo'>Il mondo di Notion</h1>
+              <p className='mastheadSezione__lead'>Cos'è Notion, come funziona e, alla fine, un mio template personale da riusare.</p>
+              <p className='mastheadSezione__nota'>È il secondo mini-progetto pubblicato su questo sito.</p>
+            </div>
 
 
            
@@ -180,13 +183,11 @@ const Notion = () => {
       <CopyToClipboard text={pageLink} onCopy={handleCopyLink}>
       <span className="support-text"style={{ cursor: 'pointer' }}>CONDIVIDI ARTICOLO: <FaShareAlt /></span>
       </CopyToClipboard>
-      <span style={{ position: 'relative' }}>
-        {isLinkCopied && (
-          <p style={{ color: 'black', fontSize: '8px', position: 'absolute', top: '10%', left: 0 }}>
-            Link copiato negli appunti!
-          </p>
-        )}
-      </span>
+      {isLinkCopied && (
+        <div className="toastCopiato" role="status" aria-live="polite">
+          Link copiato negli appunti
+        </div>
+      )}
 
     
       <span className="support-text support-container">PER SUPPORTARMI:

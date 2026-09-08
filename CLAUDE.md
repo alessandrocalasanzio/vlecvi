@@ -9,7 +9,7 @@ Sito personale di Alessandro (Vlecvi), scritto interamente da lui. React 18 / Cr
 - **Bootstrap 5** + `react-bootstrap` (Container/Row/Col, Carousel, Card, Button). Bootstrap JS bundle importato in `src/index.js`.
 - **jQuery** ancora presente come dipendenza ma non essenziale: attenzione a non reintrodurre CDN Bootstrap4/jQuery/Popper in `public/index.html`, è già successo che coesistessero due Bootstrap in conflitto (vedi "Incidenti noti").
 - Animazioni: `AOS` (scroll reveal), `react-reveal` (`Fade`).
-- Altro: `react-slick`/`react-responsive-carousel`, `js-cookie` (cookie "isFirstVisit" per mostrare lo splash `0.Loading.js` solo alla prima visita, 9s), `react-icons`, `@giscus/react`, `@emotion/react`, `react-copy-to-clipboard`.
+- Altro: `react-slick`/`react-responsive-carousel`, `js-cookie` (cookie "isFirstVisit" per mostrare lo splash `0.Loading.js` solo alla prima visita, 5s), `react-icons`, `@giscus/react`, `@emotion/react`, `react-copy-to-clipboard`.
 - Deploy: pacchetto `gh-pages` (non GitHub Actions custom — il branch `gh-pages` triggera il workflow automatico "pages build and deployment" di GitHub).
 
 ## Struttura del progetto

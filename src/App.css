@@ -536,24 +536,10 @@ span {
   color: white !important;
 }
 
-.bordoColonna1 {
-  border-bottom: 0px solid black;
-  margin-left: 150px !important;
-  border-right: 2px solid black;
-}
-
 .thumb {
   position: relative;
   display: inline-block;
   z-index: 999;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-}
-.thumbExcel {
-  position: relative;
-  display: inline-block;
-  z-index: 999;
-  border-top: 2px solid black;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
 }
@@ -616,16 +602,6 @@ span {
   width: 18rem;
   border-right: 2px solid black;
   border-left: 2px solid black;
-  overflow-y: auto;
-  width: 100%;
-  justify-content: start;
-  align-items: flex-start;
-}
-.ProgettiColonna1 {
-  width: 18rem;
-  border-right: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
   overflow-y: auto;
   width: 100%;
   justify-content: start;
@@ -1093,15 +1069,6 @@ h3:active.buttone {
    e testo a sinistra. Prima .testoweblist era in grassetto 800 e .testoBlog
    in 100 filiforme: due estremi opposti per due corpi di testo dello stesso
    tipo, entrambi centrati su righe lunghe. */
-.testoweblist {
-  font-size: 1.2em;
-  text-align: left;
-  position: relative;
-  columns: black;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 400;
-  margin: 15px 50px 0px 50px !important;
-}
 .testoBlog {
   font-size: 1.2em;
   text-align: left;
@@ -1278,31 +1245,10 @@ h3:active.buttone {
   /* creates padding around scroll thumb */
 }
 
-
-.marginiCard1 {
-  margin: 0px 15px 0px 15px !important;
-  border-radius: 0px !important;
-  font-family: 'Space Grotesk', sans-serif;
-  text-align: left !important;
-  border-left:2px solid black !important ;
-  border-bottom: 2px solid black !important;
-}
-
 .containerCardBio {
   margin-left: -30px !important;
   overflow-x: hidden !important;
   overflow-y: hidden !important;
-}
-
-.imgBordi {
-  border-bottom: 2px solid black !important;
-  height: 200px !important;
-  -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(80%);
-}
-.noClassfora{
-  text-decoration: none !important;
-  color: white !important;
 }
 /*---------------------------------------1.1FINE CSS DELLA PAGINA DELLA BIO-------------------------------*/
 
@@ -1634,62 +1580,6 @@ h3:active.buttone {
  }
 
 }
-
-
-
-      
-
-
-.mainsss-container {
-  font-size: 14.5px;
-  border: 2px solid black !important;
-}
-.mainsss-container {
-  font-family: 'Space Grotesk', cursive;
-  line-height: 1.45em;
-  color: #404646;
-}
-
-.mainsss-container {
-  margin-top: 0.5rem;
-}
-
-.mainssss-container {
-  font-size: 14.5px;
-}
-.mainssss-container {
-  font-family: 'Space Grotesk', cursive;
-  line-height: 1.45em;
-  color: #404646;
-}
-
-.mainssss-container {
-  margin: 1.6rem 0.8rem;
-}
-
-    
-      
-.gridsss-container {
-  margin: auto;
-  display: flex;
-  grid-gap: 1.1312rem;
-  grid-template-columns: repeat(auto-fit, 10.8rem);
-  grid-auto-rows: 20.8rem;
-  grid-auto-flow: dense;
-  justify-content: center;
-  width: 100% !important;
-}
-      
- .gridsss1-container {
-  margin: auto;
-  display: flex;
-  grid-gap: 1.1312rem;
-  grid-template-columns: repeat(auto-fit, 15.8rem);
-  grid-auto-rows: 24.8rem;
-  grid-auto-flow: dense;
-  justify-content: center;
-  width: 100% !important;
-}
       
 .cardsss {
   grid-row: auto / span 1;
@@ -1752,25 +1642,13 @@ h3:active.buttone {
   grid-column: auto / span 2;
 }
 
-
-.paddingsss-large--l {
-  padding: 1.6rem;
-}
-
 @media (max-width: 1025px) {
-  .gridsss-container {
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: auto;
-  }
   .cardsss {
     min-height: 12.8rem;
   }
 }
 
 @media (min-width: 1025px) {
-  .gridsss-container {
-    grid-gap: 1.6rem;
-  }
   .cardsss__side-by-side--m {
     flex-flow: row nowrap;
   }
@@ -1780,14 +1658,6 @@ h3:active.buttone {
   .cardsss--featured {
     grid-row: auto / span 2;
     grid-column: 1 / -1;
-  }
-}
-
-
-
-@media (min-width: 836px) {
-  .paddingsss-large--l {
-    padding: 3.2rem;
   }
 }
 
@@ -1813,11 +1683,6 @@ h3:active.buttone {
   height: 200px; /* Imposta l'altezza desiderata con overflow auto */
   overflow: auto;
 }
-.timeline-container1 {
-  width: 100%;
-  height: 333px; /* Imposta l'altezza desiderata con overflow auto */
-  overflow: auto;
-}
 
 
 .timeline-container::-webkit-scrollbar {
@@ -1830,23 +1695,6 @@ h3:active.buttone {
 }
 
 .timeline-container::-webkit-scrollbar-thumb {
-  background-color: black;
-  /* color of the scroll thumb */
-  border-radius: 0px !important;
-  /* roundness of the scroll thumb */
-  border: 3px solid black;
-  /* creates padding around scroll thumb */
-}
-.timeline-container1::-webkit-scrollbar {
-  width: 5px;
-}
-
-.timeline-container1::-webkit-scrollbar-track {
-  background: white;
-  /* color of the tracking area */
-}
-
-.timeline-container1::-webkit-scrollbar-thumb {
   background-color: black;
   /* color of the scroll thumb */
   border-radius: 0px !important;
@@ -2061,27 +1909,8 @@ span{
   background-color: transparent;
   box-shadow: none;
 }
-
-.paddingt-large {
-  padding: 3.2rem;
-}
 .paddingt-large--l {
   padding: 1.6rem;
-}
-
-.bigt-script {
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  font-family: "Sacramento", sans-serif;
-  font-size: 4.3em;
-  line-height: 1.15em;
-  text-align: center;
-}
-.bigt-script p {
-  margin: 0;
 }
 
 @media (max-width: 413px) {
@@ -2139,52 +1968,11 @@ span{
   }
 }
 
-
-
-      
-
-.grid {
-columns: 18rem;
-gap: 1rem;
-counter-reset: grid;
-}
-
-     @media only screen and (min-width: 1230px) {
-.grid {
-display: block;
-columns: 25rem;
-gap: 1rem;
-counter-reset: grid;
-}
-}
-
-.item + .item {
-margin-top: 1rem;
-}
-
-.item {
-break-inside: avoid;
-aspect-ratio: 4 / 3;
-border: 2px solid black;
-border-radius: 0px !important;
-}
-
 img{
 width:100%;
   height:100%;
    object-fit: cover;
  border-radius: 0px !important;
-}
-
-
-.item:nth-child(2n) {
-aspect-ratio: 1;
-background: transparent;
-}
-
-.item:nth-child(2n - 1) {
-aspect-ratio: 1;
-background: transparent;
 }
 
 body.item-view .post-body-container img{
@@ -2194,36 +1982,11 @@ body.item-view .post-body-container img{
  border-radius: 0px !important;
   margin: 0px !important;
 }
-
-.filterDivv {
-  color: #ffffff;
-  text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-}
-
-
-
-
-      .pulisci{
-clear: both;
-margin: 50px 0 50px 0 !important;
-}
 .carousel .slide {
     min-width: 100%;
     margin: 0;
     position: relative;
     text-align: center;
-}
-
-@media (min-width: 487px) {
-.vlecviimg .carousel .slide {
-    
-    margin: 0;
-    position: relative;
-    text-align: center;
-    width:100%;
-}
 }
 .carousel .slide{
   height: 530px;
@@ -2328,13 +2091,6 @@ height: 150px !important;
   font-family: 'Space Grotesk', sans-serif;
   margin: 0px !important;
 }
-.sezioneBlog{
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  font-size: 1.5em;
-  font-weight: 400;
-
-}
 .textUl{
   text-align: left;
 }
@@ -2399,20 +2155,6 @@ height: 150px !important;
   position: absolute;
   left: -13px;
   top: -8px;
-}
-
-.containImg{
-  background-position: center;
-  background-size: contain !important;
-}
-
-.commentiExcel{
-  border: 2px solid black;
-}
-.commentiExcel1{
-  border-right: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
 }
 
 .hideCarouselControls .carousel-control-prev,

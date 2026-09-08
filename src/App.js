@@ -63,10 +63,10 @@ function App() {
       return;
     }
 
-    // Perform the preload (splash screen di 9 secondi, scelta di design)
+    // Perform the preload (splash screen di 5 secondi, scelta di design)
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 9000);
+    }, 5000);
 
     // Set the isFirstVisit cookie to prevent further preloads
     Cookies.set('isFirstVisit', 'true', { expires: 30 }); // This will expire after 30 days

@@ -117,7 +117,7 @@ const Progetti = () => {
             <Card.Text>
            Mini-Progetto in Excel che permette di tenere traccia delle proprie entrate e uscite.</Card.Text>
            <Link to="/excel" className='buttonRadius btn btn-dark buttonSpacing'>Scopri come funziona</Link>
-           <a className="buttonRadius btn btn-dark" href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods">Scarica il Mini-Progetto</a>
+           <a className="buttonRadius btn btn-dark" href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods" target="_blank" rel="noopener noreferrer">Scarica il Mini-Progetto</a>
 
 
           </Card.Body>

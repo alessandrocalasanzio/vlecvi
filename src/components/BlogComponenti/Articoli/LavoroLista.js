@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
+import LinkAdattivo from '../../LinkAdattivo.js';
 
 import BlogFiltro from '../BlogFiltro';
 
@@ -287,9 +288,9 @@ const LavoroLista = () => {
       {item.component}
       <div className="d-flex1 w-100 justify-content-between ">
         {/* Aggiungi un link intorno al titolo */}
-        <Link to={item.link}>
+        <LinkAdattivo to={item.link}>
         <h5  className="mb-1">{item.title}</h5>
-        </Link>
+        </LinkAdattivo>
 
         <small className="text-muted1">{item.descrizione}</small>
       </div>

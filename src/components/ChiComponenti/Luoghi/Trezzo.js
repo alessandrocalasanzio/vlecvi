@@ -42,28 +42,28 @@ const Trezzo = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={cielo} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={oca} alt=""/>
             </div>
           </div>
             
        
          
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={fiume} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Trezzo Sull'adda</h2>
                 <p>Raccoglierò in questa scheda le migliori foto scattate di Trezzo sull'Adda, la citta dove sono cresciuto 🙂
                 </p>
@@ -71,46 +71,46 @@ const Trezzo = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={panorama} alt=""/>
             </div>
           </div>
 
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={luna} alt=""/>
             </div>
           </div>
 
-            <div class="cardt cardt--2x">
-            <div class="cardt__image">
+            <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={biblio1} alt=""/>
             </div>
           </div>
 
-            <div class="cardt cardt--2x">
-            <div class="cardt__image">
+            <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={finestrabiblio} alt=""/>
             </div>
           </div>
 
-            <div class="cardt cardt--2x">
-            <div class="cardt__image">
+            <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={nuvolo} alt=""/>
             </div>
           </div>
 
-            <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+            <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={cielotrezzo} alt=""/>
             </div>
           </div>
 
           
-            <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+            <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={fiori} alt=""/>
             </div>
           </div>

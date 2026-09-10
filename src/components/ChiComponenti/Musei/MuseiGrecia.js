@@ -51,9 +51,9 @@ import { Carousel } from 'react-responsive-carousel';
 
     <Col>
 
-    <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+    <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
               <Carousel showThumbs={false} infiniteLoop showArrows={false} autoPlay={true} stopOnHover={true} interval={4000}>
 
                     <img src={zappeion} alt="Zappeion" />
@@ -63,7 +63,7 @@ import { Carousel } from 'react-responsive-carousel';
 
                 </Carousel>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
               <h2>Zappeion</h2>
                     <p>Il Zappeion sorge all'interno del Giardino Nazionale di Atene ed è uno degli edifici più eleganti della città: una sala per esposizioni in stile neoclassico, costruita nell'Ottocento grazie alla donazione del mecenate Evangelis Zappas.</p>
                     <p>Ha ospitato la scherma dei primi Giochi Olimpici moderni del 1896 ed è ancora oggi usato per eventi, mostre e conferenze istituzionali.</p>
@@ -104,12 +104,12 @@ import { Carousel } from 'react-responsive-carousel';
             </div>
           </div>
 
-    <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+    <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
               <img src={arcoadriano} alt="Porta di Adriano" />
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
               <h2>Porta di Adriano</h2>
                     <p>Eretta nel 131 d.C. per volere dell'imperatore Adriano, la porta segnava simbolicamente il confine tra la città greca antica e la nuova Atene romana che l'imperatore aveva contribuito a costruire.</p>
                     <p>Sull'architrave un'iscrizione recitava, da un lato, "Questa è Atene, l'antica città di Teseo" e, dall'altro, "Questa è la città di Adriano, non di Teseo": attraversandola verso Plaka, alle spalle si lascia l'Acropoli, ancora visibile in lontananza.</p>
@@ -117,9 +117,9 @@ import { Carousel } from 'react-responsive-carousel';
             </div>
           </div>
 
-    <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+    <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
               <Carousel showThumbs={false} infiniteLoop showArrows={false} autoPlay={true} stopOnHover={true} interval={4000}>
 
                     <img src={zeus} alt="Tempio di Zeus Olimpio" />
@@ -132,7 +132,7 @@ import { Carousel } from 'react-responsive-carousel';
 
                 </Carousel>
                             </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
               <h2>Acropoli di Atene e dintorni</h2>
                     <p>Il cuore archeologico della città, visitato nella seconda giornata: dai resti del tempio più grande mai dedicato a Zeus, fino alla sommità della rocca sacra dove sorgono il Partenone e l'Eretteo.</p>
                     <div className="timeline-container">
@@ -193,9 +193,9 @@ import { Carousel } from 'react-responsive-carousel';
             </div>
           </div>
 
-    <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+    <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
               <Carousel showThumbs={false} infiniteLoop showArrows={false} autoPlay={true} stopOnHover={true} interval={4000}>
 
                     <img src={metopamuseo} alt="Metopa del Partenone" />
@@ -207,7 +207,7 @@ import { Carousel } from 'react-responsive-carousel';
 
                 </Carousel>
                             </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
               <h2>Museo dell'Acropoli</h2>
                     <p>Ai piedi della rocca sacra, il Museo dell'Acropoli raccoglie tutto ciò che nei secoli è stato spostato al riparo dagli agenti atmosferici e dall'inquinamento: le sculture originali dei templi e, in gesso bianco, i calchi che ne prendono il posto quando gli originali sono finiti in musei stranieri.</p>
                     <div className="timeline-container">
@@ -261,9 +261,9 @@ import { Carousel } from 'react-responsive-carousel';
             </div>
           </div>
 
-    <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+    <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
               <Carousel showThumbs={false} infiniteLoop showArrows={false} autoPlay={true} stopOnHover={true} interval={4000}>
 
                     <img src={prigione} alt="Prigione di Socrate" />
@@ -271,7 +271,7 @@ import { Carousel } from 'react-responsive-carousel';
 
                 </Carousel>
                             </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
               <h2>Collina di Filopappo</h2>
                     <p>Ultima tappa del viaggio, nella mattina del terzo giorno: la collina proprio di fronte all'Acropoli, meta meno battuta dal turismo di massa ma con una vista impagabile sulla rocca sacra.</p>
                     <div className="timeline-container">

@@ -34,28 +34,28 @@ const Franciacorta = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={cancello} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={panorama} alt=""/>
             </div>
           </div>
             
        
          
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={luna} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Franciacorta</h2>
                 <p>Giornata trascorsa in Franciacorta per festeggiare un addio al nubilato, immersi nella bellezza della tenuta Bellavista.</p>
                 <p> In sella ai quad, abbiamo esplorato i vigneti, con un po di adrenalina per "l'avventura" che stavamo vivendo.</p>
@@ -64,32 +64,32 @@ const Franciacorta = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={vigne} alt=""/>
             </div>
           </div>
            
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={panoramavigna} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={uva} alt=""/>
             </div>
           </div>
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={quad} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={albero} alt=""/>
             </div>
           </div>

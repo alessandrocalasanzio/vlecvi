@@ -32,28 +32,28 @@ const Cassiglio = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={fiori} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={mappa} alt=""/>
             </div>
           </div>
             
        
          
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={panorama} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Cassiglio</h2>
                 <p>Abbiamo trascorso un paio d'ore in una piacevole passeggiata a Cassiglio, sperando di ammirare il famoso lago.</p>
                 <p>Attesa  delusa quando abbiamo scoperto che il corso d'acqua era stato deviato a causa di lavori in corso.</p>
@@ -62,20 +62,20 @@ const Cassiglio = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={ruota} alt=""/>
             </div>
           </div>
            
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={paesaggio} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={paesaggio1} alt=""/>
             </div>
           </div>

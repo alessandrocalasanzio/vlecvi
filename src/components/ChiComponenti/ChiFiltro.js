@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
+import LinkAdattivo from '../LinkAdattivo.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -71,9 +72,10 @@ const ChiFiltro = () => {
 
     { title: 'Lista: Serie Tv', category: 'Liste', titolo: 'Liste Personali', link: "https://vlecvi.notion.site/Lista-Serie-TV-1b93dae9c88b81ccbfeffa80a68e66a6?source=copy_link" },
     { title: 'Lista: Film', category: 'Liste', link: "https://vlecvi.notion.site/Lista-Film-1b93dae9c88b81469563ed4f328878fe?source=copy_link" },
-    { title: 'Lista Libri', category: 'Liste', link: "https://vlecvi.notion.site/Lista-Libri-1b93dae9c88b819783fafbf5d72f2685?source=copy_link" },
+    { title: 'Lista: Libri', category: 'Liste', link: "https://vlecvi.notion.site/Lista-Libri-1b93dae9c88b819783fafbf5d72f2685?source=copy_link" },
     { title: 'Lista: Podcast', category: 'Liste', link: "https://vlecvi.notion.site/Lista-Podcast-AudioLibri-1b93dae9c88b81adb774da32ab5d71c9?source=copy_link" },
     { title: 'Lista: Musica', category: 'Liste', link: '/musica' },
+    { title: 'Lista: Videogiochi', category: 'Liste', link: "https://vlecvi.notion.site/Lista-Videogiochi-1b93dae9c88b8148b6ead7dc358678fb?source=copy_link" },
   ];
 
   const filteredItems = filter === 'all' ? chiItems : chiItems.filter(item => item.category === filter);
@@ -81,7 +83,7 @@ const ChiFiltro = () => {
   return (
     <div>
       {/* Aggiunto il ref qui per identificare l'inizio della sezione filtri/liste */}
-      <div id="myBtnContainerChi" className={isButtonClicked} ref={listaRef}>
+      <div id="myBtnContainerChi" className={isButtonClicked || ''} ref={listaRef}>
         <button
           className="btnBlog dropdown-toggle"
           data-bs-toggle="dropdown"
@@ -135,10 +137,10 @@ const ChiFiltro = () => {
               {filteredItems.map((item, index) => (
                 <div key={index} className="list-group-item list-group-item-action hoverBlog">
                   {item.component}
-                  <Link to={item.link} className="mb-1 d-flex w-100 justify-content-between">
+                  <LinkAdattivo to={item.link} className="mb-1 d-flex w-100 justify-content-between">
                     <span>{item.title}</span>
                     <span className="badge bg-light text-dark ms-auto">{item.label}</span>
-                  </Link>
+                  </LinkAdattivo>
                 </div>
               ))}
             </div>

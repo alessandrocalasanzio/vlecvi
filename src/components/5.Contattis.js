@@ -18,10 +18,10 @@ const Contattis = () => {
                         <Fade>
 
 <div>
-                        <div class="responsive">
-                            <div class="gallery">
-                                <div class="content">
-                                    <div class="content-overlay"></div>
+                        <div className="responsive">
+                            <div className="gallery">
+                                <div className="content">
+                                    <div className="content-overlay"></div>
 
                                     <a href="mailto:acalasanzio@outlook.com" className="content-link">
                                         <img src={white} width="80%" height="280px" alt="Mail Icon" />
@@ -37,10 +37,10 @@ const Contattis = () => {
 
 
 
-                        <div class="responsive">
-                            <div class="gallery">
-                                <div class="content">
-                                    <div class="content-overlay"></div>
+                        <div className="responsive">
+                            <div className="gallery">
+                                <div className="content">
+                                    <div className="content-overlay"></div>
 
                                     <a href="https://www.linkedin.com/in/alessandro-calasanzio/" target="_blank" rel="noreferrer" className="content-link">
                                         <img src={white} width="80%" height="280px" alt="LinkedIn Icon" />
@@ -57,10 +57,10 @@ const Contattis = () => {
 
 
 
-                        <div class="responsive">
-                            <div class="gallery">
-                                <div class="content">
-                                    <div class="content-overlay"></div>
+                        <div className="responsive">
+                            <div className="gallery">
+                                <div className="content">
+                                    <div className="content-overlay"></div>
                                     <a href="https://www.instagram.com/vlecvi/" target="_blank" rel="noreferrer" className="content-link">
                                         <img src={white} width="80%" height="280px" alt="LinkedIn Icon" />
                                         <div className="content-details fadeIn-bottom">

@@ -38,9 +38,9 @@ import { Carousel } from 'react-responsive-carousel';
 </Col>
     
     <Col>
-    <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+    <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
               <Carousel showThumbs={false} infiniteLoop showArrows={false} autoPlay={true} stopOnHover={true} interval={4000}>
                     
                     <img src={leopardi} alt="Leopardi" />
@@ -56,7 +56,7 @@ import { Carousel } from 'react-responsive-carousel';
 
                 </Carousel>  
                             </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
               <h2>Tour Guidato Biblioteca Giacomo Leopardi</h2>
                    <p>A Recanati è possibile visitare il Palazzo Leopardi. Non una semplice dimora, ma il luogo dove Giacomo Leopardi visse, compose le sue opere e dove, ancora oggi, risiede la sua dinastia.</p>
                    <p>Il punto cruciale del complesso è la Biblioteca, voluta dal padre Monaldo, che in breve tempo riuscì a costituire un imponente patrimonio librario di circa 20.000 volumi.</p>

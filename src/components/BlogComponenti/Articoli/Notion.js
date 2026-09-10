@@ -66,14 +66,14 @@ const Notion = () => {
 
 
 
-            <div class="cardt cardt--featured">
-              <div class="cardt__side-by-side--m">
-                <div class="cardt__image">
+            <div className="cardt cardt--featured">
+              <div className="cardt__side-by-side--m">
+                <div className="cardt__image">
                   <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={notion1} onClick={toggleZoom}  alt=""/>
 
                 </div>
 
-                <div class="cardt__content paddingt-large--l">
+                <div className="cardt__content paddingt-large--l">
 
                   <div className="timeline-container">
                     <div className="timeline">
@@ -84,14 +84,12 @@ const Notion = () => {
                             <p>Essendo disponibile sia come web app, sia come desktop app e sia come mobile app permette di accedere
                               ai propri progetti ovunque in maniera molto semplice.</p>
                               <p> È ideale per chi desidera organizzare i propri progetti, personali o lavorativi, in modo schematico ma al tempo stesso efficiente.</p>
-<p>
-                              <h3>A chi è utile Notion?</h3>
+<h3>A chi è utile Notion?</h3>
                               <ul>
                              <li> A livello personale: Ideale per studenti che vogliono prendere appunti, organizzare il materiale di studio e gestire scadenze,<br/> così come per creativi e blogger che desiderano pianificare contenuti, raccogliere idee e creare archivi digitali personalizzati.</li>
                              <br/>
                              <li> A livello lavorativo: Perfetto per freelance e professionisti che devono gestire progetti, clienti e documentazione,<br/> oltre che per aziende e team che necessitano di collaborare su documenti condivisi, centralizzare informazioni e ottimizzare il lavoro di squadra.</li>
 </ul>
-                            </p>
                           
                         </div>
                       </div>
@@ -107,14 +105,14 @@ const Notion = () => {
 
             <p className="titoloBlog">PERSONAL TEMPLATE</p>
 
-            <div class="cardt cardt--featured">
-              <div class="cardt__side-by-side--m">
-                <div class="cardt__image">
+            <div className="cardt cardt--featured">
+              <div className="cardt__side-by-side--m">
+                <div className="cardt__image">
                   <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={notionduplica} onClick={toggleZoom}  alt=""/>
 
                 </div>
 
-                <div class="cardt__content paddingt-large--l">
+                <div className="cardt__content paddingt-large--l">
 
                   <div className="timeline-container">
                     <div className="timeline">
@@ -135,7 +133,7 @@ const Notion = () => {
                           <h5>COME SCARICARE IL MIO TEMPLATE</h5>
                           <br/>
                           <p> 1. Clicca su questo link:<br/> 
-                            <Button className='buttonRadius' variant="btn btn-dark"><a href="https://vlecvi.notion.site/Second-Mind-de141eff678b47fd97d31fb896e3d8be"  className='buttonRadius' variant="btn btn-dark">Notion Template</a></Button>
+                            <Button className='buttonRadius' variant="btn btn-dark"><a href="https://vlecvi.notion.site/Second-Mind-de141eff678b47fd97d31fb896e3d8be"  className='buttonRadius' variant="btn btn-dark" target="_blank" rel="noopener noreferrer">Notion Template</a></Button>
                           </p>
                           <br/>
                           <p>2. Una volta cliccato sul link, ti comprarira la pagina come nella foto che trovi a testimonianza, 

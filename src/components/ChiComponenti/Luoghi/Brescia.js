@@ -38,37 +38,37 @@ const Brescia = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={fogli} alt=""/>
             </div>
           </div>
             
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={finestra} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={strettoia} alt=""/>
             </div>
           </div>
         
            
-          <div class="cardt cardt--horizontal">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal">
+            <div className="cardt__image">
               <img src={torre} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={tettochiesa} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Brescia</h2>
                 <p>Una breve escursione nella città di Brescia si è rivelata un'esperienza sorprendente, affascinante per i suoi intricati vicoli che si intrecciano come fili di una storia millenaria.</p>
                  <p>Il castello aggiunge un tocco di maestosità alla città, incorniciando un paesaggio che sprigiona storia e cultura, simili alle opere ammirate e alla presenza di antiche rovine romane.</p>
@@ -78,53 +78,53 @@ const Brescia = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={cipressi} alt=""/>
             </div>
           </div>
            
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={piovra} alt=""/>
             </div>
           </div>
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={vedetta} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={municipio} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={salita} alt=""/>
             </div>
           </div>
           
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={ponte} alt=""/>
             </div>
           </div>
         
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={panchiesa} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--horizontal">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal">
+            <div className="cardt__image">
               <img src={panorama} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={scalinata} alt=""/>
             </div>
           </div>

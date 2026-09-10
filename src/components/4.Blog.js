@@ -27,23 +27,23 @@ const Blog = () => {
          
         <Fade right>
     <div>
-        <div class="list-group justify-content-center">
-        <Link to="/excel" class="list-group-item list-group-item-action hoverBlog">
-    <div class=" d-flex1 w-100 justify-content-between">
-      <h5 class="mb-1 sopra">Tenere Traccia delle spese con un File Excel</h5>
-      <small class="text-muted1">Finanze</small>
+        <div className="list-group justify-content-center">
+        <Link to="/excel" className="list-group-item list-group-item-action hoverBlog">
+    <div className=" d-flex1 w-100 justify-content-between">
+      <h5 className="mb-1 sopra">Tenere Traccia delle spese con un File Excel</h5>
+      <small className="text-muted1">Finanze</small>
     </div>
   </Link>
-  <Link to="/lavoro" class="list-group-item list-group-item-action hoverBlog">
-    <div class="d-flex1 w-100 justify-content-between">
-      <h5 class="mb-1">I migliori siti per trovare lavoro</h5>
-      <small class="text-muted1">Liste</small>
+  <Link to="/lavoro" className="list-group-item list-group-item-action hoverBlog">
+    <div className="d-flex1 w-100 justify-content-between">
+      <h5 className="mb-1">I migliori siti per trovare lavoro</h5>
+      <small className="text-muted1">Liste</small>
     </div>
   </Link>
-  <Link to="/weblist" class="list-group-item list-group-item-action hoverBlog">
-    <div class="d-flex1 w-100 justify-content-between ">
-      <h5 class="mb-1">WebList</h5>
-          <small class="text-muted1">Liste</small>
+  <Link to="/weblist" className="list-group-item list-group-item-action hoverBlog">
+    <div className="d-flex1 w-100 justify-content-between ">
+      <h5 className="mb-1">WebList</h5>
+          <small className="text-muted1">Liste</small>
     </div>
   </Link>
 </div>

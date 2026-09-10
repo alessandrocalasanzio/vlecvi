@@ -41,37 +41,37 @@ const PortoRecanati = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={piazzacastello} alt=""/>
             </div>
           </div>
             
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={portachiesa} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={scritta1} alt=""/>
             </div>
           </div>
          
            
-          <div class="cardt cardt--horizontal">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal">
+            <div className="cardt__image">
               <img src={panoramacastello} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={fotoprincipale} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Porto Recanati</h2>
                 <p>Porto Recanti diventata ormai come una seconda casa</p>
                 <p>Unica per il tipo di paesaggi che offre come le case colorate e decorate con affreschi,
@@ -82,53 +82,53 @@ const PortoRecanati = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={miami} alt=""/>
             </div>
           </div>
            
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={mare} alt=""/>
             </div>
           </div>
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={chiesa} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={chiesa1} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={chiesa3} alt=""/>
             </div>
           </div>
          
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={panorama1} alt=""/>
             </div>
           </div>
         
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={scritta2} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--horizontal1">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal1">
+            <div className="cardt__image">
               <img src={panorama} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={mare2} alt=""/>
             </div>
           </div>

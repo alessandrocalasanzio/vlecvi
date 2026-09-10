@@ -41,26 +41,26 @@ const Barcellona = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={tubineri} alt=""/>
             </div>
           </div>
           
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={palme} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={panorama} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__content1">
+          <div className="cardt">
+            <div className="cardt__content1">
               <p><em>Barcellona, un orizzonte così incantevole,<br/>
 Barcellona come un gioiello al sole.<br/>
 Per te sarò un gabbiano<br/>
@@ -70,17 +70,17 @@ che vola sopra il tuo bel mare — (Freddie Mercury)
             </div>
           </div>
            
-          <div class="cardt cardt--horizontal">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal">
+            <div className="cardt__image">
               <img src={castello} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={sagrada} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Barcellona</h2>
                 <p>Tre giorni avvincenti,dove ho esplorato con entusiasmo i luoghi più iconici di Barcellona:</p><p> Dalla maestosa Sagrada Familia alla Casa Battlò, passeggiando lungo la vivace atmosfera della Rambla fino a giungere all'incantevole Barceloneta:</p><p>Qui, tra spiagge e  strade costiere, ho sperimentato un connubio magico tra la storia della città e la bellezza del mare, lasciandomi rapire completamente dal fascino senza tempo di questo quartiere. </p>
                
@@ -88,58 +88,58 @@ che vola sopra il tuo bel mare — (Freddie Mercury)
               </div>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={aereo} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={mappa} alt=""/>
             </div>
           </div>
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={sagrada1} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={battlo} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={battlo1} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__content">
+          <div className="cardt">
+            <div className="cardt__content">
               <p><em>Barcellona ti entra nel sangue e ti ruba l’anima
 </em></p>
               <p>— Carlos Ruiz Zafón</p>
             </div>
           </div>
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={palazzo} alt=""/>
             </div>
           </div>
           
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={opere} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--horizontal">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal">
+            <div className="cardt__image">
               <img src={gaudi} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={arco} alt=""/>
             </div>
           </div>

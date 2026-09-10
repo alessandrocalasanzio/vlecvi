@@ -32,28 +32,28 @@ const Piemonte = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={panorama1} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={panorama2} alt=""/>
             </div>
           </div>
             
        
          
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={panorama3} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Piani D'erna</h2>
                 <p>Abbiamo trascorso una giornata divertente ai Piani d'Erna, raccogliendo castagne in compagnia.</p>
                <p> Emozionante è stata la vista della valle, che ci ha regalato panorami mozzafiato.</p>

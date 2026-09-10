@@ -58,7 +58,7 @@ const Excel = () => {
             </div>
 
             <p>Ecco a te :</p>
-            <Button className='buttonRadius' variant="btn btn-dark"><a href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods" className='buttonRadius' variant="btn btn-dark">Excel Tracking</a></Button>
+            <Button className='buttonRadius' variant="btn btn-dark"><a href="https://drive.google.com/uc?export=download&id=1Hh8TRrJRiuB9kAvzVp-11onDvOZ_YCAw" download="Vlecvi Financial Tracker.ods" className='buttonRadius' variant="btn btn-dark" target="_blank" rel="noopener noreferrer">Excel Tracking</a></Button>
 
             <p>Bene ora che avete scaricato il file e lo avete aperto possiamo vedere insieme le varie sezioni:</p>
 
@@ -67,14 +67,14 @@ const Excel = () => {
 
 
 
-            <div class="cardt cardt--featured">
-              <div class="cardt__side-by-side--m">
-                <div class="cardt__image">
+            <div className="cardt cardt--featured">
+              <div className="cardt__side-by-side--m">
+                <div className="cardt__image">
                   <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={overview} onClick={toggleZoom}  alt=""/>
 
                 </div>
 
-                <div class="cardt__content paddingt-large--l">
+                <div className="cardt__content paddingt-large--l">
                   <p style={{ color: 'red' }}>N.B: I dati all'interno dell'immagine allegata sono dati casuali per far comprendere in maniera semplice come funziona la tabella.</p>
 
                   <div className="timeline-container">
@@ -129,14 +129,14 @@ const Excel = () => {
 
             <p className="titoloBlog">SEZIONE: MESI</p>
 
-            <div class="cardt cardt--featured">
-              <div class="cardt__side-by-side--m">
-                <div class="cardt__image">
+            <div className="cardt cardt--featured">
+              <div className="cardt__side-by-side--m">
+                <div className="cardt__image">
                   <img className={`fotoBlog1 ${isZoomed ? 'zoomed' : ''}`} src={mesi} onClick={toggleZoom}  alt=""/>
 
                 </div>
 
-                <div class="cardt__content paddingt-large--l">
+                <div className="cardt__content paddingt-large--l">
                   <p style={{ color: 'red' }}>N.B: I dati all'interno dell'immagine allegata sono dati casuali per far comprendere in maniera semplice come funziona la tabella.</p>
 
                   <div className="timeline-container">

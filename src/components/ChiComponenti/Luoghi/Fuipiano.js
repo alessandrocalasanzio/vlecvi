@@ -40,37 +40,37 @@ const Fuipiano = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={caminetto} alt=""/>
             </div>
           </div>
             
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={panoramanuvolo} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={gufopiccolo} alt=""/>
             </div>
           </div>
          
            
-          <div class="cardt cardt--horizontal">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal">
+            <div className="cardt__image">
               <img src={foresta} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={casaprincipale} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
               <h2>Fuipiano Valle Imagna</h2>
               <p>Giornata trascorsa a Fuipiano: un piccolo comune della Valle Imagna.</p>
               <p>un luogo ideale se ti piace lo stile rustico e sei in cerca di clima e tranquillità per farti lunghe passeggiate nei boschi.</p> 
@@ -78,53 +78,53 @@ const Fuipiano = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={poesia} alt=""/>
             </div>
           </div>
            
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={minipanorama} alt=""/>
             </div>
           </div>
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={gufo} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={valle} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={casarustica} alt=""/>
             </div>
           </div>
        
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={alberi} alt=""/>
             </div>
           </div>
         
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={casaprofilo} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--horizontal1">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal1">
+            <div className="cardt__image">
               <img src={casarustica3} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={nuvolo} alt=""/>
 
             </div>

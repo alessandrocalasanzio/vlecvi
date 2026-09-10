@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
+import LinkAdattivo from '../LinkAdattivo.js';
 
 const BlogFiltro = () => {
   const [filter, setFilter] = useState('all');
@@ -38,7 +39,7 @@ const BlogFiltro = () => {
 
   return (
     <div >
-        <div id="myBtnContainer1" className={isButtonClicked}>
+        <div id="myBtnContainer1" className={isButtonClicked || ''}>
           <button
                 onClick={() => handleFilterChange('all')}
                 className={`btnBlog ${filter === 'all' ? 'active' : ''}`}
@@ -89,9 +90,9 @@ const BlogFiltro = () => {
   {filteredItems.map((item, index) => (
     <div key={index} className="list-group-item list-group-item-action hoverBlog">
       {item.component}
-      <Link to={item.link} className="mb-1">
+      <LinkAdattivo to={item.link} className="mb-1">
         {item.title}
-      </Link>
+      </LinkAdattivo>
       <div>
       
       </div>

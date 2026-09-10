@@ -59,9 +59,9 @@ const VlecviBot = () => {
 
            <p className="titolo3Blog">VLECVIBOT - DOLCEVITA</p>
 
-             <div class="cardt cardt--featured ">
-                     <div class="cardt__side-by-side--m-vlecvi ">
-                       <div class="cardt__image ">
+             <div className="cardt cardt--featured ">
+                     <div className="cardt__side-by-side--m-vlecvi ">
+                       <div className="cardt__image ">
                        <Carousel className="vlecvi-carousel"  showThumbs={false} infiniteLoop showArrows={false} autoPlay={true} stopOnHover={true} interval={4000}>
                              
                             
@@ -78,7 +78,7 @@ const VlecviBot = () => {
                                      </div>
 
                        <p className="titoloBlog">PRESENTAZIONE PROGETTO</p>
-                       <div class="cardt__content paddingt-large--2">
+                       <div className="cardt__content paddingt-large--2">
                        <h4>VlecviBot - Dolcevita</h4>
                             <p>Ho cercato per molto tempo le parole e il momento giusto per annunciare questo progetto.</p>
 <p>È sempre difficile esporsi quando dedichi anni a qualcosa, continuando a rimandare per cercare la perfezione.</p>
@@ -108,7 +108,7 @@ const VlecviBot = () => {
     
                        </div>
                  <p className="titoloBlog">COME FUNZIONA IL SOFTWARE</p>
-<div class="cardt__content paddingt-large--2">
+<div className="cardt__content paddingt-large--2">
   <p>
     Come scritto nel paragrafo precedente, il software è automatico al 100%.
     Una volta inseriti i parametri corretti, tramite algoritmi interni sarà in grado di capire autonomamente quando aprire le posizioni, quando chiuderle e quando aprire posizioni aggiuntive, qualora lo ritenesse necessario.
@@ -118,7 +118,6 @@ const VlecviBot = () => {
     All'interno troviamo più di 80 parametri configurabili (nella foto 2 è visibile solo una parte), divisi per sezioni, tra cui:
   </p>
 
-  <p>
     <ul>
       <li>Risk Management (impostazione dei lotti e del rischio in base al capitale)</li>
       <li>Calcolo del Trailing sulla posizione e del profitto complessivo in caso di griglia attiva</li>
@@ -134,11 +133,10 @@ const VlecviBot = () => {
       <li>Possibilità di aumentare i lotti in griglia tramite 4 funzioni, ognuna con caratteristiche specifiche</li>
       <li>Funzioni per l’impostazione dell’ID, l’attivazione delle informazioni a schermo e altre opzioni avanzate</li>
     </ul>
-  </p>
 </div>
 
 <p className="titoloBlog">IL FUTURO DEL PROGETTO</p>
-<div class="cardt__content paddingt-large--2">
+<div className="cardt__content paddingt-large--2">
   <p>
     Al momento, nonostante il software sia completo e funzionante da un paio d’anni su conti personali, ho deciso di non metterlo ancora in vendita.
   </p>

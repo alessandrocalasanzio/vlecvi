@@ -81,7 +81,10 @@ function App() {
 
 
   return (
-    <Router basename="/">
+    <Router
+      basename="/"
+      future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
+    >
       <Suspense fallback={<Loading />}>
         <Switch>
           <Route path="/chisono" element={<SchedaChi />}></Route>

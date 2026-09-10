@@ -40,39 +40,39 @@ const Offagna = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={finestrino} alt=""/>
             </div>
           </div>
             
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={statualibro} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={battagliaporco} alt=""/>
             </div>
           </div>
          
            
-          <div class="cardt cardt--horizontal1">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal1">
+            <div className="cardt__image">
               <img src={panoramaoffagna} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={castello} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Offagna</h2>
                <p>Un'affascinante visita a Offagna, un borgo medievale noto per la sua Rocca e le Feste Medievali.</p>
                
@@ -83,43 +83,43 @@ const Offagna = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={statua} alt=""/>
             </div>
           </div>
            
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={finestrino2} alt=""/>
             </div>
           </div>
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={spiragliotorre} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={panoramaalberi} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={finestrino3} alt=""/>
             </div>
           </div>
          
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={battagliaminiatura} alt=""/>
             </div>
           </div>
         
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={spiragliocasa} alt=""/>
             </div>
           </div>

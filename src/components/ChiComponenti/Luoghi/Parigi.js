@@ -39,42 +39,42 @@ const Parigi = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={moulin} alt=""/>
             </div>
           </div>
             
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={boxoffice} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={graffiti} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__content">
+          <div className="cardt">
+            <div className="cardt__content">
               <p><em>Ci sono solo due posti al mondo dove possiamo vivere felicemente: a casa e a Parigi</em></p>
               <p>— Hemingway</p>
             </div>
           </div>
            
-          <div class="cardt cardt--horizontal">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal">
+            <div className="cardt__image">
               <img src={erba} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={riassunto} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Parigi, "La vie en Rose"</h2>
                 <p>La  gita a Parigi fatta con amici è stata un'avventura intensa, immortalata in questa foto che ho scelto con cura. Questo scatto rappresenta ciò che siamo riusciti a visitare, tra le meraviglie della città, nel breve lasso di tempo di 48 ore.</p>
 <p>È stata un'esperienza appagante e sfiancante allo stesso tempo. Abbiamo avuto l'opportunità di esplorare luoghi iconici come il suggestivo Moulin Rouge e di godere della magnifica vista dalla cima della Torre Eiffel.</p>
@@ -83,59 +83,59 @@ const Parigi = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={tour} alt=""/>
             </div>
           </div>
            
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={scrittaneon} alt=""/>
             </div>
           </div>
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={arco} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={lucitour} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={ponte} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__content">
+          <div className="cardt">
+            <div className="cardt__content">
               <p><em>Respirare Parigi, conserva l’anima.
 </em></p>
               <p>— Victor Hugo</p>
             </div>
           </div>
           
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={notre} alt=""/>
             </div>
           </div>
         
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={chiesa} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--horizontal">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal">
+            <div className="cardt__image">
               <img src={parlamento} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={scrittastrada} alt=""/>
             </div>
           </div>

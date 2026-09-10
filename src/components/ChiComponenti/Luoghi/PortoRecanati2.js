@@ -40,32 +40,32 @@ const PortoRecanati2 = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={alberi} alt=""/>
             </div>
           </div>
             
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={caffe} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={gattino} alt=""/>
             </div>
           </div>
          
         
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={entratagiardino} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h3>Recanati & gli Irti Colli</h3>
                 <p>Qualche scorcio di Recanati e dintorni visitata nel 2025.</p>
                 <p>Con particolare attenzione all'orto sul colle dove si presume che Leopardi qui scrisse la poesia "L'Infinito".</p>
@@ -74,40 +74,40 @@ const PortoRecanati2 = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={viti} alt=""/>
             </div>
           </div>
            
         
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={torre} alt=""/>
             </div>
           </div>
           
-           <div class="cardt cardt--2x">
-            <div class="cardt__image">
+           <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={girasoli} alt=""/>
             </div>
           </div>
          
           
-           <div class="cardt cardt--2x">
-            <div class="cardt__image">
+           <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={arco} alt=""/>
             </div>
           </div>
         
-            <div class="cardt cardt--2x">
-                      <div class="cardt__image">
+            <div className="cardt cardt--2x">
+                      <div className="cardt__image">
                         <img src={panoramairti} alt=""/>
                       </div>
                     </div>
 
-         <div class="cardt cardt--2x">
-                      <div class="cardt__image">
+         <div className="cardt cardt--2x">
+                      <div className="cardt__image">
                         <img src={viti2} alt=""/>
                       </div>
                     </div>

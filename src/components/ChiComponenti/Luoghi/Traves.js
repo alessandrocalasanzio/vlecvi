@@ -32,28 +32,28 @@ const Traves = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={valle} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={valle3} alt=""/>
             </div>
           </div>
             
        
          
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={strada} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Traves</h2>
 
                 <p>Abbiamo trascorso un Capodanno di 3/4 giorni a Traves, soggiornando in una  casa vacanze situata nelle vicinanze della Gold Cave, una suggestiva miniera d'oro abbandonata.</p>
@@ -70,14 +70,14 @@ const Traves = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={valle2} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={sfuocato} alt=""/>
             </div>
           </div>

@@ -43,41 +43,41 @@ const Grecia = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={vicolo} alt=""/>
             </div>
           </div>
 
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={occhio} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={lego} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={vetrate} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={giardino} alt=""/>
             </div>
           </div>
-          <div class="cardt cardt--horizontal">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal">
+            <div className="cardt__image">
               <img src={fontana} alt=""/>
             </div>
           </div>
-          <div class="cardt">
-            <div class="cardt__content1">
+          <div className="cardt">
+            <div className="cardt__content1">
               <p><em>Non ho mai avvertito la presenza degli dèi come qui, in Grecia.<br/>
 </em></p>
               <p>— Henry Miller</p>
@@ -85,34 +85,34 @@ const Grecia = () => {
           </div>
 
           
-          <div class="cardt">
-            <div class="cardt__image">
+          <div className="cardt">
+            <div className="cardt__image">
               <img src={souvenir} alt=""/>
             </div>
           </div>
 
          
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={notturna} alt=""/>
             </div>
           </div>
 
-           <div class="cardt cardt--2x">
-            <div class="cardt__image">
+           <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={acropoli} alt=""/>
             </div>
           </div>
 
-           <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+           <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={ristorante} alt=""/>
             </div>
           </div>
 
-            <div class="cardt">
-            <div class="cardt__image">
+            <div className="cardt">
+            <div className="cardt__image">
               <img src={gatto} alt=""/>
             </div>
           </div>
@@ -120,12 +120,12 @@ const Grecia = () => {
 
           
 
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={bandiera} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Grecia</h2>
                 <p>Tre giorni ad Atene, il mio primo viaggio in Grecia, tra il 19 e il 21 giugno.</p>
                 <p>Ho girato la città vecchia di Plaka tra vicoli, scorci sull'Acropoli tra i palazzi e chiese ortodosse, per poi passare interi pomeriggi immerso nei resti dell'Acropoli stessa: il Partenone, l'Eretteo con le sue Cariatidi e i Propilei mi hanno lasciato senza parole.</p>
@@ -134,43 +134,43 @@ const Grecia = () => {
             </div>
           </div>
 
-            <div class="cardt cardt--2x">
-            <div class="cardt__image">
+            <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={athenanike} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={partenone} alt=""/>
             </div>
           </div>
         
          
          
-          <div class="cardt">
-            <div class="cardt__content">
+          <div className="cardt">
+            <div className="cardt__content">
               <p><em>Non temo nulla, non spero in nulla, sono libero.
 </em></p>
               <p>— Nikos Kazantzakis</p>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={cipressi} alt=""/>
             </div>
           </div>
          
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={agora} alt=""/>
             </div>
           </div>
          
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={vistamuseo} alt=""/>
             </div>
           </div>

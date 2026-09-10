@@ -35,28 +35,28 @@ const Desenzano = () => {
         </Col>
         <Col>
 
-        <div class="maint-container">
-        <div class="gridt-container">
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+        <div className="maint-container">
+        <div className="gridt-container">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={vigne1} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={botte} alt=""/>
             </div>
           </div>
             
        
          
-          <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+          <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
                 <img src={vista2} alt=""/>
               </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
                 <h2>Az. Montonale - Desenzano</h2>
                <p>Gita all'azienda agricola Montonale a Desenzano del Garda per un tour e una piacevole degustazione
                 dei vini di loro produzione.
@@ -65,26 +65,26 @@ const Desenzano = () => {
             </div>
           </div>
         
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={rose} alt=""/>
             </div>
           </div>
            
-          <div class="cardt cardt--2x">
-            <div class="cardt__image">
+          <div className="cardt cardt--2x">
+            <div className="cardt__image">
               <img src={esposizione} alt=""/>
             </div>
           </div>
 
-          <div class="cardt cardt--vertical">
-            <div class="cardt__image">
+          <div className="cardt cardt--vertical">
+            <div className="cardt__image">
               <img src={gattino} alt=""/>
             </div>
           </div>
           
-          <div class="cardt cardt--horizontal1">
-            <div class="cardt__image">
+          <div className="cardt cardt--horizontal1">
+            <div className="cardt__image">
               <img src={vista} alt=""/>
             </div>
           </div>

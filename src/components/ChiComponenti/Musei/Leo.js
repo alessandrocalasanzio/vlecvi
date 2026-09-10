@@ -34,9 +34,9 @@ import { Carousel } from 'react-responsive-carousel';
 </Col>
     
     <Col>
-    <div class="cardt cardt--featured">
-            <div class="cardt__side-by-side--m">
-              <div class="cardt__image">
+    <div className="cardt cardt--featured">
+            <div className="cardt__side-by-side--m">
+              <div className="cardt__image">
               <Carousel showThumbs={false} infiniteLoop showArrows={false} autoPlay={true} stopOnHover={true} interval={4000}>
                     
                     <img src={Vinci} alt="Vinci" />
@@ -50,7 +50,7 @@ import { Carousel } from 'react-responsive-carousel';
                  
                 </Carousel>  
                             </div>
-              <div class="cardt__content paddingt-large--l">
+              <div className="cardt__content paddingt-large--l">
               <h2>Mostra Opere "Leonardo Da Vinci"</h2>
                     <p>Nel 2019 è stata allestita un'eccezionale mostra a grandezza naturale delle opere più celebri di Leonardo Da Vinci presso la struttura presente al castello a Trezzo sull'adda.<br/> Questa straordinaria esposizione ha offerto ai visitatori l'opportunità unica di immergersi<br/> nell'arte e nel genio di uno dei più grandi maestri della storia, consentendo loro di ammirare capolavori come l' "Uomo Vitruviano" e "L'Ultima Cena".</p>
                     <p>Anche se, ovviamente non sono presenti tutte le opere da lui realizzate, ho cercato di racchiudere quelle che mi hanno colpito di piu.</p>

@@ -15,7 +15,7 @@ const Bio = () => {
       <Row>
        <Col  id="ColHover" className="bordoColonna" md={1}  >
           <div>
-       <img class="resizeImg" src={me} alt="Alessandro"/>
+       <img className="resizeImg" src={me} alt="Alessandro"/>
           </div>
         
           

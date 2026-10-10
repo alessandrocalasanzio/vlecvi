@@ -10,8 +10,6 @@ import angoloGrigio from '../img/Progetti/angoloGrigio.png';
 
 import vlecvihurst from '../img/Progetti/vlecvi/sfondoVlecvi.jpg';
 
-import Fade from 'react-reveal/Fade';
-
 
 
 
@@ -48,7 +46,7 @@ const Progetti = () => {
         <Row>
 
           <Col className=" ProgettiColonna">
-          <Fade left>
+          <div data-aos="fade-right">
 
           <Carousel className="hideCarouselControls" interval={4000} pause={false} >
       
@@ -84,18 +82,18 @@ const Progetti = () => {
 
 
             </Carousel>
-            </Fade>
+            </div>
             
 
 
           </Col>
          
           <Col id="ColHover" className=' thumb1 colRight ' md={2}>
-            <Fade right>
+            <div data-aos="fade-left">
             <Link to="progetti">
               <h1 className='vertical-rl1'><small className='more'>More to</small> Progetti</h1>
             </Link>
-            </Fade>
+            </div>
           </Col>
         </Row>
       </Container>

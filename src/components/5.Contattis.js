@@ -5,9 +5,6 @@ import Col from 'react-bootstrap/Col';
 import white from '../img/Generale/white.jpg';
 import { Link } from 'react-router-dom';
 
-
-import { Fade } from 'react-reveal';
-
 const Contattis = () => {
 
     return (
@@ -15,7 +12,7 @@ const Contattis = () => {
             <Container fluid>
                 <Row>
                     <Col className=" ProgettiColonnaContatti" >
-                        <Fade>
+                        <div data-aos="fade">
 
 <div>
                         <div className="responsive">
@@ -74,17 +71,17 @@ const Contattis = () => {
 
                         </div>
 
-                        </Fade>
+                        </div>
 
 
                     </Col>
 
                     <Col id="ColHover" className=' thumbContatti colRight ' md={2}>
-                       <Fade>
+                       <div data-aos="fade">
                         <Link to="/contatti">
                             <h1 className='vertical-rl1 '><small className='more'>More to</small> Contatti</h1>
                         </Link>
-                        </Fade>
+                        </div>
                     </Col>
                 </Row>
 

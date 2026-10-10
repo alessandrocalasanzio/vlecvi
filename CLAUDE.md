@@ -105,7 +105,7 @@ Per bug di CSS/responsive/hover, **leggere il codice non basta** — la cascata 
 ## Convenzioni di lavoro con l'utente
 
 - Utente: sviluppatore autodidatta, italiano, ha scritto tutto il sito da solo. Preferisce spiegazioni sintetiche.
-- Workflow git: commit diretti su `master` per il lavoro di Alessandro; le proposte di Janay arrivano come pull request da rami `janay/*` (vedi sezione dedicata). L'utente a volte fa lui stesso commit/push/deploy dopo aver rivisto le modifiche in locale, altre volte chiede esplicitamente di procedere in autonomia fino al deploy — chiedere se non è specificato, non dare per scontato il permesso di pushare/deployare.
+- Workflow git: `master` è protetto da un ruleset GitHub ("Changes must be made through a pull request"), quindi niente push diretti. Ogni modifica, di Alessandro o di Janay, passa da un ramo + pull request (i rami di Janay sono `janay/*`, vedi sezione dedicata). L'utente a volte fa lui stesso commit/push/deploy dopo aver rivisto le modifiche in locale, altre volte chiede esplicitamente di procedere in autonomia fino al deploy — chiedere se non è specificato, non dare per scontato il permesso di pushare/deployare.
 - Preferisce che modifiche di design mantengano il carattere "grande/con personalità" delle etichette verticali, non micro-label anonime.
 - Per bug visivi complessi (responsive, hover, allineamento), aspettarsi che serva ispezione browser reale, non solo lettura del codice — vedi sezione Debug/QA sopra.
 

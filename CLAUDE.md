@@ -105,6 +105,14 @@ Per bug di CSS/responsive/hover, **leggere il codice non basta** — la cascata 
 ## Convenzioni di lavoro con l'utente
 
 - Utente: sviluppatore autodidatta, italiano, ha scritto tutto il sito da solo. Preferisce spiegazioni sintetiche.
-- Workflow git: singolo branch `master`, commit diretti (no PR). L'utente a volte fa lui stesso commit/push/deploy dopo aver rivisto le modifiche in locale, altre volte chiede esplicitamente di procedere in autonomia fino al deploy — chiedere se non è specificato, non dare per scontato il permesso di pushare/deployare.
+- Workflow git: commit diretti su `master` per il lavoro di Alessandro; le proposte di Janay arrivano come pull request da rami `janay/*` (vedi sezione dedicata). L'utente a volte fa lui stesso commit/push/deploy dopo aver rivisto le modifiche in locale, altre volte chiede esplicitamente di procedere in autonomia fino al deploy — chiedere se non è specificato, non dare per scontato il permesso di pushare/deployare.
 - Preferisce che modifiche di design mantengano il carattere "grande/con personalità" delle etichette verticali, non micro-label anonime.
 - Per bug visivi complessi (responsive, hover, allineamento), aspettarsi che serva ispezione browser reale, non solo lettura del codice — vedi sezione Debug/QA sopra.
+
+## Janay e sincronizzazione con il remoto
+
+- All'inizio di ogni sessione: esegui `git fetch` e guarda i rami `janay/*` e le pull request aperte. Janay è l'assistente AI di Alessandro: propone modifiche (bio, articoli del blog) solo in un ramo `janay/...` con una pull request, e non scrive mai su `master`.
+- Riassumi cosa ha fatto (rami, commit, pull request) e segnala se il `master` locale è indietro rispetto a `origin/master`.
+- Se il `master` locale non ha modifiche e il remoto è avanti: proponi `git pull --ff-only` e aspetta il sì prima di eseguirlo.
+- Se ci sono modifiche locali non salvate, o i rami sono divergenti: non allineare da solo. Spiega la situazione e le opzioni.
+- Non unire mai una pull request di Janay senza il sì di Alessandro: la rivede lui su GitHub.

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.89e36840.css",
-    "main.js": "/static/js/main.06fbcb8e.js",
-    "static/js/460.25341cf6.chunk.js": "/static/js/460.25341cf6.chunk.js",
+    "main.js": "/static/js/main.723323a4.js",
+    "static/js/460.663897c4.chunk.js": "/static/js/460.663897c4.chunk.js",
     "static/js/599.21698251.chunk.js": "/static/js/599.21698251.chunk.js",
     "static/js/830.d1d38bf8.chunk.js": "/static/js/830.d1d38bf8.chunk.js",
     "static/js/102.88bdf3c4.chunk.js": "/static/js/102.88bdf3c4.chunk.js",
@@ -262,8 +262,8 @@
     "static/media/Notionwall.png": "/static/media/Notionwall.13715945653f8411d7db.png",
     "index.html": "/index.html",
     "main.89e36840.css.map": "/static/css/main.89e36840.css.map",
-    "main.06fbcb8e.js.map": "/static/js/main.06fbcb8e.js.map",
-    "460.25341cf6.chunk.js.map": "/static/js/460.25341cf6.chunk.js.map",
+    "main.723323a4.js.map": "/static/js/main.723323a4.js.map",
+    "460.663897c4.chunk.js.map": "/static/js/460.663897c4.chunk.js.map",
     "599.21698251.chunk.js.map": "/static/js/599.21698251.chunk.js.map",
     "830.d1d38bf8.chunk.js.map": "/static/js/830.d1d38bf8.chunk.js.map",
     "102.88bdf3c4.chunk.js.map": "/static/js/102.88bdf3c4.chunk.js.map",
@@ -303,6 +303,6 @@
   },
   "entrypoints": [
     "static/css/main.89e36840.css",
-    "static/js/main.06fbcb8e.js"
+    "static/js/main.723323a4.js"
   ]
 }

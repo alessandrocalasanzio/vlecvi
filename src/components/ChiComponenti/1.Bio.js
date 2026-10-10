@@ -40,10 +40,11 @@ const Bio = () => {
 
 <p>Cosa dire di me? Sono un (ormai) trentenne con una, non ancora quantificata, passione per la matematica e l'informatica. Appassionato di numeri e tutto ciò che è “informatico” fin da giovane, tanto da conseguire sia il diploma in ragioneria sia quello in ambito informatico.</p>
 
-<p>Attualmente, la mia vita si articola in tre sfere distintive:</p>
+<p>Attualmente, la mia vita si articola in quattro sfere distintive:</p>
 
   <ul className='testoSezione__elenco'>
-    <li>Lavoro a tempo pieno sul mio progetto VlecviBot.</li>
+    <li>Sviluppo VlecviBot, il mio software di trading automatico sull'oro.</li>
+    <li>Sto creando Janay, il mio assistente AI personale.</li>
     <li>Sono il social media manager del ristorante “Da Giannino - L'Angolo d'Abruzzo”.</li>
     <li>Studio e rimango aggiornato su tutto quello che ruota intorno all'intelligenza artificiale.</li>
   </ul>

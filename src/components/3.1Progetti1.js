@@ -12,8 +12,6 @@ import notionwall from '../img/Progetti/Notionwall.png';
 
 import vlecvihurst from '../img/Progetti/vlecvi/sfondoVlecvi.jpg';
 
-import Fade from 'react-reveal/Fade';
-
 
 import leftArrow from '../img/Progetti/next.png'; 
 import rightArrow from '../img/Progetti/back.png';
@@ -53,7 +51,7 @@ const Progetti = () => {
         <Row>
 
           <Col className=" ProgettiColonna">
-          <Fade left>
+          <div data-aos="fade-right">
 
           <Carousel prevIcon={<img  src={rightArrow} alt="Previous" style={{ width: '30px', height: '30px' }} />}
       nextIcon={<img  src={leftArrow} alt="Next" style={{ width: '40px', height: '30px' }} />}>
@@ -126,7 +124,7 @@ const Progetti = () => {
 
 
             </Carousel>
-            </Fade>
+            </div>
             
 
 

@@ -2323,3 +2323,21 @@ div.gallery img {
   border-left: 1.5px solid black;
 }
 /*------------------------------- FINE RIGHE DOPPIE --------------------------------*/
+
+/*------------------------------- ANIMAZIONI AOS -----------------------------------*/
+/* AOS ha preso il posto di react-reveal (Fade). Queste regole replicano il vecchio effetto:
+   AOS sposta di soli 100px, react-reveal spostava del 100% della larghezza dell'elemento.
+   La regola .aos-animate di AOS ha specificità maggiore, quindi l'arrivo resta quello di AOS. */
+[data-aos][data-aos="fade-right"] {
+  transform: translate3d(-100%, 0, 0);
+}
+
+[data-aos][data-aos="fade-left"] {
+  transform: translate3d(100%, 0, 0);
+}
+
+/* Splash iniziale (0.Loading.js): dissolvenza di 9s, AOS di serie arriva solo a 3s */
+[data-aos][data-aos][data-aos-duration="9000"] {
+  transition-duration: 9000ms;
+}
+/*------------------------------- FINE ANIMAZIONI AOS ------------------------------*/

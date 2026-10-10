@@ -6,8 +6,6 @@ import {Link} from 'react-router-dom';
 
 import w1 from '../img/Generale/w1.jpg';
 
-import Fade from 'react-reveal/Fade';
-
 
 const Chi = ({ toRotate, period }) => {
   const [index, setIndex] = useState(0);
@@ -63,11 +61,11 @@ const Chi = ({ toRotate, period }) => {
     <Row>
        <Col   className="bordoColonna" md={2} >
           <div className='sticky-top'>
-          <Fade left>
+          <div data-aos="fade-right">
         <Link to="/chisono">
          <h1 className='vertical-rl sticky-top '><small className='more'>More to</small> Chi Sono</h1>
          </Link>
-         </Fade>
+         </div>
           </div>
         
           
@@ -75,7 +73,7 @@ const Chi = ({ toRotate, period }) => {
         
         
         <Col className=' thumb'>
-          <Fade right>
+          <div data-aos="fade-left">
           <div>
         <img className="foldImg" src={w1} alt=""/>
         <div className='ml11 ml11-posizione'>
@@ -84,7 +82,7 @@ const Chi = ({ toRotate, period }) => {
       ))}
     </div>
     </div>
-    </Fade>
+    </div>
        </Col>
        
       </Row>

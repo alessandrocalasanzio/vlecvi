@@ -4,8 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {Link} from 'react-router-dom';
 
-import { Fade } from 'react-reveal';
-
 
 const Blog = () => {
 
@@ -14,18 +12,18 @@ const Blog = () => {
 <Container fluid className="bordiContainerBlog">
     <Row>
         <Col id="ColHover" className="bordoColonna" md={2} >
-          <Fade left>
+          <div data-aos="fade-right">
           <Link to="/blog">
           <h1 className='vertical-rl'><small className='more'>More to</small> Blog</h1>
           </Link>
-          </Fade>
+          </div>
         </Col>
 
        
 
         <Col className=' thumb'>
          
-        <Fade right>
+        <div data-aos="fade-left">
     <div>
         <div className="list-group justify-content-center">
         <Link to="/excel" className="list-group-item list-group-item-action hoverBlog">
@@ -48,7 +46,7 @@ const Blog = () => {
   </Link>
 </div>
 </div>
-</Fade>
+</div>
 
 
        </Col>

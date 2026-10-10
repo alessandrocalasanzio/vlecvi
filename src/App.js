@@ -75,7 +75,8 @@ function App() {
   }, []);
 
   useEffect(() => {
-    AOS.init();
+    // Stessi parametri del vecchio react-reveal Fade: 1s, curva ease, una sola volta
+    AOS.init({ duration: 1000, easing: 'ease', once: true });
     AOS.refresh();
   }, []);
 

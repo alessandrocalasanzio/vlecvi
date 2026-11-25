@@ -6,18 +6,18 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import Carous
 import { Carousel } from 'react-responsive-carousel';
 
 import Navbar from "../../1.Navbar";
+import AltriProgetti from "../../AltriProgetti";
 
 
 
 
-import vlecvihurst from '../../../img/Progetti/vlecvi/VlecviLogo1.png';
-import vlecvidescrizione from '../../../img/Progetti/vlecvi/VlecviBotDescrizione.png';
-import inputvlecvi from '../../../img/Progetti/vlecvi/InputVlecviBot.png';
-import vlecvipercentuali from '../../../img/Progetti/vlecvi/Perc.png';
-import vlecvigain from '../../../img/Progetti/vlecvi/Myfixbook.png';
-import profitti1 from '../../../img/Progetti/vlecvi/profitti1.jpg';
-import profitti2 from '../../../img/Progetti/vlecvi/profitti2.jpg';
-import profitti3 from '../../../img/Progetti/vlecvi/profitti3.jpg';
+import slideCopertina from '../../../img/Progetti/vlecvi/slides/slide1-copertina.jpg';
+import slideDescrizione from '../../../img/Progetti/vlecvi/slides/slide2-descrizione.png';
+import slideStatistiche from '../../../img/Progetti/vlecvi/slides/slide4-statistiche.png';
+import slidePeriodi from '../../../img/Progetti/vlecvi/slides/slide5-periodi.png';
+import slideOperazioni1 from '../../../img/Progetti/vlecvi/slides/slide6-operazioni1.png';
+import slideOperazioni2 from '../../../img/Progetti/vlecvi/slides/slide7-operazioni2.png';
+import slideOperazioni3 from '../../../img/Progetti/vlecvi/slides/slide8-operazioni3.png';
 import forex from  '../../../img/Progetti/vlecvi/forex.jpg';
 
 
@@ -65,14 +65,13 @@ const VlecviBot = () => {
                        <Carousel className="vlecvi-carousel"  showThumbs={false} infiniteLoop showArrows={false} autoPlay={true} stopOnHover={true} interval={4000}>
                              
                             
-                            <img src={vlecvihurst} style={{ backgroundColor: "black" }} alt="VlecviLogo" />
-                            <img src={vlecvidescrizione} alt="VlecviDescrizione" />
-                             <img src={inputvlecvi} alt="InputVlecvi" />
-                             <img src={vlecvipercentuali} alt="Vlecvipercentuali" />
-                             <img src={vlecvigain} alt="VlecviGain" />
-                             <img src={profitti1} alt="profitti" />
-                             <img src={profitti2} alt="profitti1" />
-                             <img src={profitti3} alt="profitti2" />
+                            <img src={slideCopertina} alt="VlecviBot - Dolcevita, copertina con logo" />
+                            <img src={slideDescrizione} alt="Descrizione del software VlecviBot - Dolcevita 3.33" />
+                             <img src={slideStatistiche} alt="Statistiche Myfxbook: gain totale +442,40%, drawdown 36,68%" />
+                             <img src={slidePeriodi} alt="Confronto annuale: 2024 +4,03%, 2025 +73,63%, 2026 +200,64%" />
+                             <img src={slideOperazioni1} alt="Operazioni chiuse in profitto, parte 1" />
+                             <img src={slideOperazioni2} alt="Operazioni chiuse in profitto, parte 2" />
+                             <img src={slideOperazioni3} alt="Operazioni chiuse in profitto, parte 3" />
          
                          </Carousel>  
                                      </div>
@@ -94,7 +93,8 @@ const VlecviBot = () => {
 <p>È completamente automatico, con oltre 80 parametri personalizzabili, operatività dedicata esclusivamente al mercato dell’oro e una strategia unica basata sull’analisi di ogni singola barra per intercettare gli aumenti di volume, seguendo i principi di ciclicità naturale descritti da Hurst.</p>
 <p>Un approccio che non ho riscontrato in nessun altro software attualmente sul mercato.</p>
 <p>Il software, dopo uno sviluppo iniziale, è stato testato in conti reali negli ultimi due anni, apportando costanti miglioramenti.</p>
-<p>Solo quest’anno è riuscito a registrare un +75%, mantenendo un drawdown massimo sotto il 10% e una flessione complessiva vicino al 17%.</p>
+<p>Nel 2025 è riuscito a registrare un +74%, mantenendo un drawdown massimo sotto il 10% e una flessione complessiva vicino al 17%.</p>
+<p>Nel 2026, invece, ha registrato un +200% con un drawdown complessivo intorno al 36%, frutto dei movimenti bruschi dell’oro in un anno segnato da guerre e tensioni geopolitiche.</p>
 <p>So che sono solo percentuali e, senza un capitale di riferimento, restano numeri relativi.</p>
 <p>Ma non è questo il punto che mi interessava mettere in evidenza.</p>
 <p>Ciò che conta davvero è credere in un processo e vedere che ciò che costruisci, grande o piccolo che sia, funziona grazie alle tue forze.</p>
@@ -115,7 +115,7 @@ const VlecviBot = () => {
   </p>
 
   <p>
-    All'interno troviamo più di 80 parametri configurabili (nella foto 2 è visibile solo una parte), divisi per sezioni, tra cui:
+    All'interno troviamo più di 80 parametri configurabili, divisi per sezioni, tra cui:
   </p>
 
     <ul>
@@ -201,7 +201,9 @@ const VlecviBot = () => {
       
   
 </Row>
-     
+
+      <AltriProgetti />
+
     </div>
 
 

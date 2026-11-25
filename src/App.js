@@ -46,6 +46,7 @@ const WebList = lazy(() => import('./components/BlogComponenti/Articoli/WebList.
 const Excel = lazy(() => import('./components/BlogComponenti/Articoli/Excel.js'));
 const Notion = lazy(() => import('./components/BlogComponenti/Articoli/Notion.js'));
 const VlecviBot = lazy(() => import('./components/BlogComponenti/Articoli/VlecviBot.js'));
+const Janay = lazy(() => import('./components/BlogComponenti/Articoli/Janay.js'));
 const Musica = lazy(() => import('./components/ChiComponenti/Musica.js'));
 const LavoroLista = lazy(() => import('./components/BlogComponenti/Articoli/LavoroLista.js'));
 
@@ -122,6 +123,7 @@ function App() {
           <Route path="/musica" element={<Musica />}></Route>
           <Route path="/notion" element={<Notion />}></Route>
           <Route path="/vlecvibot" element={<VlecviBot />}></Route>
+          <Route path="/janay" element={<Janay />}></Route>
 
           <Route path="/" element={
 

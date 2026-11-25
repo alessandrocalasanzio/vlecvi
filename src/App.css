@@ -2348,6 +2348,12 @@ div.gallery img {
 }
 /*------------------------------- FINE ANIMAZIONI AOS ------------------------------*/
 
+/* Janay: copertina verticale nella card dei caroselli, ritagliata al centro invece che deformata.
+   Due classi per battere il "object-fit: fill !important" di .imgBordi2, solo su questa card. */
+.imgBordi2.imgCopertina {
+  object-fit: cover !important;
+}
+
 /* ---------- Tessera MAIL (TesseraMail.js, homepage e Contatti) ----------
    È un <button> invece del vecchio <a href="mailto:">: tolgo l'aspetto da pulsante
    così resta identica alle tessere LinkedIn e IG. */
@@ -2393,4 +2399,70 @@ div.gallery img {
 .mailInLinea:focus-visible {
   outline: 2px solid black;
   outline-offset: 2px;
+}
+
+/* ---------- Pagina Janay (Janay.js): tabelle, riquadro nota e sottotitoli ----------
+   Tutto dentro .paginaJanay, così non tocca le altre pagine. Stile B/N del sito:
+   bordi neri, angoli vivi, intestazioni con lo stesso verde dei titoli .titoloBlog. */
+.paginaJanay .tabellaJanay {
+  border: 2px solid black;
+  margin: 1rem 0 1.5rem;
+  font-size: 14px;
+}
+.paginaJanay .tabellaJanay th,
+.paginaJanay .tabellaJanay td {
+  border: 1px solid black;
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+.paginaJanay .tabellaJanay thead th {
+  background-color: rgb(186, 230, 216);
+  font-weight: 600;
+}
+.paginaJanay .tabellaJanay tbody th {
+  font-weight: 600;
+  min-width: 140px;
+}
+.paginaJanay .notaJanay {
+  border-left: 4px solid black;
+  background-color: #f4f4f4;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.paginaJanay .cardt__content h5 {
+  margin-top: 1.4rem;
+  font-weight: 600;
+}
+.paginaJanay .didascaliaJanay {
+  font-size: 13px;
+  text-align: center;
+  margin: 0.4rem 0 0;
+  color: #555;
+}
+/* Link nel testo (es. mini-progetto Notion): neri e sottolineati, come il resto del sito B/N */
+.paginaJanay .cardt__content a:not(.btn) {
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
+}
+/* La colonna del contenuto deve poter stringersi: senza min-width:0 le tabelle
+   la allargano e su telefono va a capo SOTTO l'etichetta verticale ("Jana" tagliato). */
+.paginaJanay > .row > .col {
+  min-width: 0;
+}
+@media (max-width: 600px) {
+  .paginaJanay .tabellaJanay {
+    font-size: 12.5px;
+  }
+  .paginaJanay .tabellaJanay th,
+  .paginaJanay .tabellaJanay td {
+    padding: 0.4rem 0.45rem;
+  }
+  .paginaJanay .tabellaJanay tbody th {
+    min-width: 0;
+  }
+  /* .paddingt-large--2 dà 3.2rem per lato: su telefono lascia troppo poco spazio alle tabelle */
+  .paginaJanay .cardt__content.paddingt-large--2 {
+    padding: 1.6rem 0.9rem;
+  }
 }

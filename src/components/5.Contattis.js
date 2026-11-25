@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import white from '../img/Generale/white.jpg';
 import { Link } from 'react-router-dom';
+import TesseraMail from './TesseraMail.js';
 
 const Contattis = () => {
 
@@ -15,20 +16,8 @@ const Contattis = () => {
                         <div data-aos="fade">
 
 <div>
-                        <div className="responsive">
-                            <div className="gallery">
-                                <div className="content">
-                                    <div className="content-overlay"></div>
-
-                                    <a href="mailto:acalasanzio@outlook.com" className="content-link">
-                                        <img src={white} width="80%" height="280px" alt="Mail Icon" />
-                                        <div className="content-details fadeIn-bottom">
-                                            <h3 className="content-title buttone">MAIL</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        {/* Al clic mostra e copia l'indirizzo, invece di aprire il programma di posta */}
+                        <TesseraMail />
 
 
 

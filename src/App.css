@@ -2341,3 +2341,50 @@ div.gallery img {
   transition-duration: 9000ms;
 }
 /*------------------------------- FINE ANIMAZIONI AOS ------------------------------*/
+
+/* ---------- Tessera MAIL (TesseraMail.js, homepage e Contatti) ----------
+   È un <button> invece del vecchio <a href="mailto:">: tolgo l'aspetto da pulsante
+   così resta identica alle tessere LinkedIn e IG. */
+.tesseraMail {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+.tesseraMail:focus-visible {
+  outline: 2px solid black;
+  outline-offset: -4px;
+}
+/* L'indirizzo in minuscolo e libero di andare a capo, anche nelle tessere strette del telefono */
+.content-details h3.tesseraMail__indirizzo {
+  text-transform: none;
+  letter-spacing: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere; /* ultima risorsa: il punto preferito per andare a capo è il <wbr> prima della @ */
+}
+@media only screen and (max-width: 700px) {
+  .content-details h3.tesseraMail__indirizzo {
+    font-size: 10px;
+    padding: 8% 6%;
+  }
+}
+
+/* Mail dentro una frase (MailInLinea.js): pulsante con l'aspetto di un link nero sottolineato */
+.mailInLinea {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.mailInLinea:focus-visible {
+  outline: 2px solid black;
+  outline-offset: 2px;
+}

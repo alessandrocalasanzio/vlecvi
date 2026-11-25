@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 import BlogFiltro from "../BlogFiltro";
 import Navbar from "../../1.Navbar";
+import AltriProgetti from "../../AltriProgetti";
 
 import graphs from '../../../img/Blog/graphs.jpg';
 import overview from '../../../img/Blog/OVERVIEW.png';
@@ -257,6 +258,8 @@ const Excel = () => {
       
   
 </Row>
+      <AltriProgetti />
+
       <p className="titolo1Blog">ALTRI ARTICOLI DEL BLOG:</p>
 
       <BlogFiltro />

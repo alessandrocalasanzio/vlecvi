@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 import BlogFiltro from "../BlogFiltro";
 import Navbar from "../../1.Navbar";
+import AltriProgetti from "../../AltriProgetti";
 
 
 import notion from '../../../img/Blog/notion.jpg';
@@ -210,6 +211,8 @@ const Notion = () => {
       
   
 </Row>
+      <AltriProgetti />
+
       <p className="titolo1Blog">ALTRI ARTICOLI DEL BLOG:</p>
 
       <BlogFiltro />

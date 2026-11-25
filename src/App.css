@@ -1778,6 +1778,12 @@ span{
   width: 40px;
   height: 40px;
 }
+/* L'icona (size="1.4em" con la barra a 2rem, circa 45px) era più grande del pulsante da 40px
+   e toccava il bordo della barra: resta dentro il pulsante, su tutte le pagine. */
+.paypal-button svg {
+  max-width: 100%;
+  max-height: 100%;
+}
 @media (max-width: 780px) {
   .paypal-button {
     width: 30px;

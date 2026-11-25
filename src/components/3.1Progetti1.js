@@ -11,6 +11,8 @@ import excel4 from '../img/Progetti/excel4.jpg';
 import notionwall from '../img/Progetti/Notionwall.png';
 
 import vlecvihurst from '../img/Progetti/vlecvi/sfondoVlecvi.jpg';
+import fotoJanay from '../img/Progetti/Janay/Presentazione IG Janay/Img Instagram/1.Janay.png';
+import fotoJanayOrizzontale from '../img/Progetti/Janay/sito-1-janay.png';
 
 
 import leftArrow from '../img/Progetti/next.png'; 
@@ -55,9 +57,25 @@ const Progetti = () => {
 
           <Carousel prevIcon={<img  src={rightArrow} alt="Previous" style={{ width: '30px', height: '30px' }} />}
       nextIcon={<img  src={leftArrow} alt="Next" style={{ width: '40px', height: '30px' }} />}>
-      
-      
-      
+
+      <Carousel.Item>
+        <Card className='marginiCard' style={{ textAlign: "center" }}>
+          {/* Copertina: orizzontale da tablet in su, verticale su telefono (card stretta e alta) */}
+          <picture>
+            <source media="(min-width: 768px)" srcSet={fotoJanayOrizzontale} />
+            <Card.Img variant="top" src={fotoJanay} className='imgBordi2 imgCopertina' alt="Janay, copertina" />
+          </picture>
+          <span className="badge bg-light text-dark ms-auto"> Progetto</span>
+          <Card.Body className='posizioneTesto'>
+            <Card.Title>Janay - Segretario AI personale</Card.Title>
+            <Card.Text>
+           Un segretario AI personale con un cruscotto privato e regole decise da me.
+           </Card.Text>
+           <Link to="/janay" className='buttonRadius btn btn-dark buttonSpacing'>Apri il Progetto</Link>
+          </Card.Body>
+        </Card>
+      </Carousel.Item>
+
       <Carousel.Item>
             <Card className='marginiCard' style={{ textAlign: "center" }}>
               <Card.Img variant="top" src={angolo} className='imgBordi1' />

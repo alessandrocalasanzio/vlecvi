@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b9e4c34.css",
+    "main.css": "/static/css/main.8ebd5289.css",
     "main.js": "/static/js/main.b7dcf686.js",
     "static/js/460.0c4aa21a.chunk.js": "/static/js/460.0c4aa21a.chunk.js",
     "static/js/599.29625254.chunk.js": "/static/js/599.29625254.chunk.js",
@@ -271,7 +271,7 @@
     "static/media/sito-0-banner.svg": "/static/media/sito-0-banner.6e4736cd89618ca554f1975a799ebc78.svg",
     "static/media/Notionwall.png": "/static/media/Notionwall.13715945653f8411d7db.png",
     "index.html": "/index.html",
-    "main.7b9e4c34.css.map": "/static/css/main.7b9e4c34.css.map",
+    "main.8ebd5289.css.map": "/static/css/main.8ebd5289.css.map",
     "main.b7dcf686.js.map": "/static/js/main.b7dcf686.js.map",
     "460.0c4aa21a.chunk.js.map": "/static/js/460.0c4aa21a.chunk.js.map",
     "599.29625254.chunk.js.map": "/static/js/599.29625254.chunk.js.map",
@@ -314,7 +314,7 @@
     "896.dae12465.chunk.js.map": "/static/js/896.dae12465.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b9e4c34.css",
+    "static/css/main.8ebd5289.css",
     "static/js/main.b7dcf686.js"
   ]
 }

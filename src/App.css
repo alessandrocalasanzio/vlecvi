@@ -503,6 +503,11 @@ span {
   background-color: black;
   color: white !important;
 }
+/* L'etichetta verticale è un h1 (nero per la regola generale dei titoli): senza questa
+   regola, con il mouse sulla colonna ma non sulla scritta, diventava nero su nero. */
+.bordoColonnaExcel:hover h1 {
+  color: white !important;
+}
 
 
 .bordoColonna {
